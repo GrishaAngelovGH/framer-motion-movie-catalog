@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render App component 1`] = `
+exports[`should render Layout component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -11,20 +11,16 @@ exports[`should render App component 1`] = `
         <div
           class="h-[50px]"
         >
-          <div
-            class="bg-blue-500 h-full"
-          >
+          <h1>
             Header
-          </div>
+          </h1>
         </div>
         <div
           class="h-full"
         >
-          <div
-            class="bg-blue-300 h-full"
-          >
+          <h1>
             Content
-          </div>
+          </h1>
         </div>
       </div>
     </div>
@@ -36,20 +32,16 @@ exports[`should render App component 1`] = `
       <div
         class="h-[50px]"
       >
-        <div
-          class="bg-blue-500 h-full"
-        >
+        <h1>
           Header
-        </div>
+        </h1>
       </div>
       <div
         class="h-full"
       >
-        <div
-          class="bg-blue-300 h-full"
-        >
+        <h1>
           Content
-        </div>
+        </h1>
       </div>
     </div>
   </div>,

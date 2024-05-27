@@ -5,15 +5,53 @@ exports[`should render pages/Home component 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <h1>
-        Home Page
-      </h1>
+      <div
+        class="flex flex-col h-screen"
+      >
+        <div
+          class="h-[50px]"
+        >
+          <div
+            class="bg-blue-500 h-full"
+          >
+            Header
+          </div>
+        </div>
+        <div
+          class="h-full"
+        >
+          <div
+            class="bg-blue-300 h-full"
+          >
+            Content
+          </div>
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <h1>
-      Home Page
-    </h1>
+    <div
+      class="flex flex-col h-screen"
+    >
+      <div
+        class="h-[50px]"
+      >
+        <div
+          class="bg-blue-500 h-full"
+        >
+          Header
+        </div>
+      </div>
+      <div
+        class="h-full"
+      >
+        <div
+          class="bg-blue-300 h-full"
+        >
+          Content
+        </div>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
