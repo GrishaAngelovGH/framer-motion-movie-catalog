@@ -3,12 +3,12 @@ import { motion } from "framer-motion"
 function App() {
   return (
     <>
-      <div style={{ margin: 200 }}>
+      <div className="m-20">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 2 }}
-          style={{ width: 100, height: 100, background: "dodgerblue", borderRadius: "50%" }}
+          className="w-[100px] h-[100px] bg-blue-500 rounded-full"
         />
       </div>
 
