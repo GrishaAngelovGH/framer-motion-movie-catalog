@@ -1,13 +1,13 @@
 import { render } from "@testing-library/react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
-import Home from "./Home"
+import Header from "./Header"
 
-test("should render pages/Home component", () => {
+test("should render Header component", () => {
   const view = render(
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Header />} />
       </Routes>
     </Router>
   )

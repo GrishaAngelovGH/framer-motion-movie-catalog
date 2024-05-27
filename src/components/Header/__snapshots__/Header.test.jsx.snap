@@ -1,47 +1,67 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render Layout component 1`] = `
+exports[`should render Header component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="flex flex-col h-screen"
+        class="flex justify-between items-center bg-blue-500 h-full"
       >
         <div
-          class="h-[60px]"
+          class="ms-5 w-[200px] flex justify-between items-center"
+          style="opacity: 0; transform: scale(0.5) translateZ(0);"
         >
-          <h1>
-            Header
+          <img
+            class="w-[40px]"
+            src="/images/film-roll.png"
+          />
+          <h1
+            class="text-4xl font-bold text-white"
+          >
+            Cinema
           </h1>
         </div>
         <div
-          class="h-full"
+          class="me-5"
         >
-          <h1>
-            Content
-          </h1>
+          <a
+            class="text-white hover:text-white hover:underline"
+            href="/"
+          >
+            Home
+          </a>
         </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="flex flex-col h-screen"
+      class="flex justify-between items-center bg-blue-500 h-full"
     >
       <div
-        class="h-[60px]"
+        class="ms-5 w-[200px] flex justify-between items-center"
+        style="opacity: 0; transform: scale(0.5) translateZ(0);"
       >
-        <h1>
-          Header
+        <img
+          class="w-[40px]"
+          src="/images/film-roll.png"
+        />
+        <h1
+          class="text-4xl font-bold text-white"
+        >
+          Cinema
         </h1>
       </div>
       <div
-        class="h-full"
+        class="me-5"
       >
-        <h1>
-          Content
-        </h1>
+        <a
+          class="text-white hover:text-white hover:underline"
+          href="/"
+        >
+          Home
+        </a>
       </div>
     </div>
   </div>,
