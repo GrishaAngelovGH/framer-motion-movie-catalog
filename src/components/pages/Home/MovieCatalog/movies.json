@@ -1,0 +1,374 @@
+[
+  {
+    "id": 1,
+    "title": "The Garfield Movie",
+    "cast": [
+      "Ving Rhames",
+      "Harvey Guillén",
+      "Hannah Waddingham",
+      "Bowen Yang",
+      "Brett Goldstein",
+      " Cecily Strong",
+      "Samuel L. Jackson",
+      "Chris Pratt",
+      "Nicholas Hoult"
+    ],
+    "description": "Garfield (voiced by Chris Pratt), the world-famous, Monday-hating, lasagna-loving indoor cat, is about to have a wild outdoor adventure! After an unexpected reunion with his long-lost father – scruffy street cat Vic (voiced by Samuel L. Jackson) – Garfield and his canine friend Odie are forced from their perfectly pampered life into joining Vic in a hilarious, high-stakes heist.",
+    "runtime": "1h 41m",
+    "releaseDate": "24 May 2024",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "image": "the-garfield-movie.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Fly Me to the Moon",
+    "cast": [
+      "Scarlett Johansson",
+      "Channing Tatum",
+      "Woody Harrelson",
+      "Jim Rash",
+      "Ray Romano",
+      "Peter Jacobson",
+      "Christian Clemenson",
+      "Colin Woodell",
+      "Kylee Nicole Peck",
+      "Greg Kriek",
+      "Anna Garcia",
+      "Joe Chrest",
+      "Noah Robbins",
+      "Bill Barrett",
+      " Art Newkirk",
+      "Alex Veadov",
+      "Kelsi Macaluso",
+      "Nick Dillenburg"
+    ],
+    "description": "Starring Scarlett Johansson and Channing Tatum, FLY ME TO THE MOON is a sharp, stylish comedy-drama set against the high-stakes backdrop of NASA’s historic Apollo 11 moon landing. Brought in to fix NASA’s public image, sparks fly in all directions as marketing maven Kelly Jones (Johansson) wreaks havoc on launch director Cole Davis’s (Tatum) already difficult task. When the White House deems the mission too important to fail, Jones is directed to stage a fake moon landing as back-up and the countdown truly begins…",
+    "runtime": "2h 12m",
+    "releaseDate": "11 July 2024",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "image": "fly-me-to-the-moon.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Kung Fu Panda 4",
+    "cast": [
+      "Lucy Liu",
+      "Ian McShane",
+      "Jackie Chan",
+      "Dustin Hoffman",
+      "David Cross",
+      "James Hong",
+      "Awkwafina",
+      "Angelina Jolie",
+      "Jack Black",
+      "Bryan Cranston",
+      "Ke Huy Quan",
+      "Viola Davis"
+    ],
+    "description": "This spring, for the first time in almost a decade, comedy icon Jack Black returns to his role as Po, the world’s most unlikely kung fu master, with a hilarious, butt-kicking new chapter in DreamWorks Animation’s beloved action-comedy franchise: Kung Fu Panda 4.",
+    "runtime": "1h 34m",
+    "releaseDate": "28 March 2024",
+    "genres": [
+      "Action",
+      "Animation",
+      "Family"
+    ],
+    "image": "kung-fu-panda-4.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Kingdom of the Planet of the Apes",
+    "cast": [
+      "Owen Teague",
+      "Freya Allan",
+      "Kevin Durand",
+      "Peter Macon",
+      "William H. Macy",
+      "Eka Darville",
+      "Travis Jeffery",
+      "Lydia Peckham",
+      "Neil Sandilands",
+      "Ras-Samuel"
+    ],
+    "description": "Many years after the reign of Caesar, a young ape goes on a journey that will lead him to question everything he's been taught about the past and make choices that will define a future for apes and humans alike.",
+    "runtime": "2h 25m",
+    "releaseDate": "9 May 2024",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "image": "kingdom-of-the-planet-of-the-apes.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Transformers One",
+    "cast": [
+      "Chris Hemsworth",
+      "Brian Tyree Henry",
+      "Scarlett Johansson",
+      "Keegan-Michael Key",
+      "Jon Hamm",
+      "Laurence Fishburne",
+      "Steve Buscemi"
+    ],
+    "description": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.",
+    "runtime": "1h 30m",
+    "releaseDate": "20 September 2024",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "image": "transformers-one.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Mufasa: The Lion King",
+    "cast": [
+      "Aaron Pierre",
+      "Kelvin Harrison Jr.",
+      "Seth Rogen",
+      "Billy Eichner",
+      "John Kani",
+      "Mads Mikkelsen",
+      "Thandiwe Newton",
+      "Blue Ivy Carter"
+    ],
+    "description": "Simba, having become king of the Pride Lands, is determined for his cub to follow in his paw prints while the origins of his late father Mufasa are explored.",
+    "runtime": "1h 50m",
+    "releaseDate": "20 September 2024",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "image": "mufasa-the-lion-king.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Indiana Jones and the Dial of Destiny",
+    "cast": [
+      "Harrison Ford",
+      "Phoebe Waller-Bridge",
+      "Antonio Banderas",
+      "Karen Allen",
+      "John Rhys-Davies",
+      "Shaunette Renée Wilson",
+      "Thomas Kretschmann",
+      "Toby Jones",
+      "Boyd Holbrook"
+    ],
+    "description": "Archaeologist Indiana Jones races against time to retrieve a legendary artifact that can change the course of history.",
+    "runtime": "2h 22m",
+    "releaseDate": "30 June 2023",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "image": "indiana-jones-and-the-dial-of-destiny.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Gran Turismo",
+    "cast": [
+      "David Harbour",
+      "Orlando Bloom",
+      "Archie Madekwe",
+      "Takehiro Hira",
+      "Darren Barnet",
+      "Geri Horner",
+      "Djimon Hounsou",
+      "Josha Stradowski",
+      "Daniel Puig"
+    ],
+    "description": "Based on the unbelievable, inspiring true story of a team of underdogs - a struggling, working-class gamer, a failed former race car driver, and an idealistic motorsport exec - who risk it all to take on the most elite sport in the world.",
+    "runtime": "2h 14m",
+    "releaseDate": "25 August 2023",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "image": "gran-turismo.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Aquaman and the Lost Kingdom",
+    "cast": [
+      "Jason Momoa",
+      "Patrick Wilson",
+      "Yahya Abdul-Mateen II",
+      "Amber Heard",
+      "Nicole Kidman",
+      "Randall Park",
+      "Temuera Morrison",
+      "Dolph Lundgren",
+      "Martin Short",
+      "Jani Zhao"
+    ],
+    "description": "Black Manta seeks revenge on Aquaman for his father's death. Wielding the Black Trident's power, he becomes a formidable foe. To defend Atlantis, Aquaman forges an alliance with his imprisoned brother. They must protect the kingdom.",
+    "runtime": "1h 55m",
+    "releaseDate": "22 December 2023",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "image": "aquaman-and-the-lost-kingdom.jpg"
+  },
+  {
+    "id": 10,
+    "title": "The Super Mario Bros. Movie",
+    "cast": [
+      "Kevin Michael Richardson",
+      "Jack Black",
+      "Khary Payton",
+      "Chris Pratt",
+      "Charlie Day",
+      "Charles Martinet",
+      "Sebastian Maniscalco",
+      "Rino Romano",
+      "John DiMaggio",
+      "Jessica DiCicco",
+      "Keegan-Michael Key"
+    ],
+    "description": "A plumber named Mario travels through an underground labyrinth with his brother Luigi, trying to save a captured princess.",
+    "runtime": "1h 32m",
+    "releaseDate": "5 April 2023",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "image": "the-super-mario-bros-movie.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Spider-Man: Across the Spider-Verse",
+    "cast": [
+      "Shameik Moore",
+      "Hailee Steinfeld",
+      "Brian Tyree Henry",
+      "Luna Lauren Velez",
+      "Jake Johnson",
+      "Oscar Isaac",
+      "Jason Schwartzman",
+      "Issa Rae",
+      "Daniel Kaluuya"
+    ],
+    "description": "Miles Morales catapults across the multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, Miles must redefine what it means to be a hero.",
+    "runtime": "2h 20m",
+    "releaseDate": "2 June 2023",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "image": "spider-man-across-the-spider-verse.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Shooting Stars",
+    "cast": [
+      "Marquis Mookie Cook",
+      "Wood Harris",
+      "Caleb McLaughlin",
+      "Avery Serell Wills Jr.",
+      "Sterling Henderson",
+      "Dermot Mulroney",
+      "Katlyn Nichol",
+      "Natalie Paul",
+      "Algee Smith",
+      "Sam Hubbard",
+      "Diane Howard"
+    ],
+    "description": "A look at the young life of basketball star LeBron James. Feature film adaptation of LeBron James and Buzz Bissinger's book 'Shooting Stars'.",
+    "runtime": "1h 56m",
+    "releaseDate": "2 June 2023",
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "image": "shooting-stars.png"
+  },
+  {
+    "id": 13,
+    "title": "Sweetwater",
+    "cast": [
+      "Everett Osborne",
+      "Cary Elwes",
+      "Jeremy Piven",
+      "Kevin Pollak",
+      "Richard Dreyfuss",
+      "Jim Caviezel",
+      "Emmaline",
+      "Eric Roberts",
+      "Ernest Harden Jr."
+    ],
+    "description": "In the fall of 1950, Nat 'Sweetwater' Clifton makes history in his journey to become the first African American to sign an NBA contract, forever changing the game of basketball.",
+    "runtime": "1h 58m",
+    "releaseDate": "14 April 2023",
+    "genres": [
+      "Biography",
+      "Drama",
+      "Sport"
+    ],
+    "image": "sweetwater.jpg"
+  },
+  {
+    "id": 14,
+    "title": "A Million Miles Away",
+    "cast": [
+      "Michael Peña",
+      "Rosa Salazar",
+      "Julio Cesar Cedillo",
+      "Veronica Falcón",
+      "Juan Pablo Monterrubio",
+      "Garret Dillahunt",
+      "Sarayu Blue",
+      "Bobby Soto",
+      "Ashley Ciarra"
+    ],
+    "description": "A biopic about Jose Hernandez and his path from a farm worker to becoming an engineer and an astronaut. A tale of perseverance, community and sacrifice to accomplish a seemingly impossible dream.",
+    "runtime": "2h 1m",
+    "releaseDate": "15 September 2023",
+    "genres": [
+      "Biography",
+      "Drama"
+    ],
+    "image": "a-million-miles-away.png"
+  },
+  {
+    "id": 15,
+    "title": "The Marvels",
+    "cast": [
+      "Brie Larson",
+      "Teyonah Parris",
+      "Iman Vellani",
+      "Samuel L. Jackson",
+      "Zawe Ashton",
+      "Gary Lewis",
+      "Park Seo-joon",
+      "Zenobia Shroff"
+    ],
+    "description": "Carol Danvers gets her powers entangled with those of Kamala Khan and Monica Rambeau, forcing them to work together to save the universe.",
+    "runtime": "1h 45m",
+    "releaseDate": "10 November 2023",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "image": "the-marvels.jpg"
+  }
+]
