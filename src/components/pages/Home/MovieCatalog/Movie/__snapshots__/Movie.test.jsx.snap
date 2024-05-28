@@ -12,7 +12,7 @@ exports[`should render Movie component 1`] = `
           class="text-center"
         >
           <div
-            class="relative m-8 mb-0 md:w-[160px] lg:w-[220px]"
+            class="relative m-8 mb-0 w-[220px]"
           >
             <img
               class="rounded-lg h-[350px]"
@@ -52,7 +52,7 @@ exports[`should render Movie component 1`] = `
         class="text-center"
       >
         <div
-          class="relative m-8 mb-0 md:w-[160px] lg:w-[220px]"
+          class="relative m-8 mb-0 w-[220px]"
         >
           <img
             class="rounded-lg h-[350px]"

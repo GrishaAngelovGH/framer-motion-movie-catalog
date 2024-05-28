@@ -5,25 +5,29 @@ import Movie from "./Movie"
 import movies from "./movies.json"
 
 const MovieCatalog = () => {
-  const cols = []
-  const allMovies = [...movies]
-
-  while (allMovies.length) {
-    const col = allMovies.splice(0, 4)
-    cols.push(col)
-  }
+  const values = [
+    -100, -200, -300, -400,
+    -100, -200, -300, -400,
+    -100, -200, -300, -400,
+    -100, -200, -300, -400,
+  ]
 
   return (
-    <div className="bg-blue-800 min-h-full flex flex-col md:flex-row justify-center items-center">
-      {
-        cols.map((items, i) => (
-          <motion.div key={i} className="flex flex-col" initial={{ x: `-${i + 1}00%` }} animate={{ x: "0%" }} transition={{ duration: 3, delay: 1 }}>
-            {
-              items.map(v => (<Movie key={v.id} movie={v} />))
-            }
-          </motion.div>
-        ))
-      }
+    <div className="bg-blue-800 min-h-full grid place-items-center lg:p-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+        {
+          movies.map((v, i) => (
+            <motion.div
+              key={v.id}
+              initial={{ x: `${values[i]}%` }}
+              animate={{ x: "0%" }}
+              transition={{ duration: 3, delay: 1 }}
+            >
+              <Movie movie={v} />
+            </motion.div>
+          ))
+        }
+      </div>
     </div>
   )
 }

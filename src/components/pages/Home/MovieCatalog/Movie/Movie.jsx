@@ -25,7 +25,7 @@ const Movie = ({ movie: { id, image, title } }) => {
       <div className="text-center">
         <motion.div
           whileHover={{ scale: 1.1 }}
-          className="relative m-8 mb-0 md:w-[160px] lg:w-[220px]"
+          className="relative m-8 mb-0 w-[220px]"
         >
           {
             isFavorite && (
