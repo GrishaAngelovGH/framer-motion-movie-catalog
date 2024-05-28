@@ -8,24 +8,28 @@ exports[`should render Movie component 1`] = `
       <div
         class="flex"
       >
-        <div
-          class="text-center"
+        <a
+          href="/movies/undefined"
         >
           <div
-            class="relative m-8 mb-0 w-[220px]"
+            class="text-center"
           >
-            <img
-              class="rounded-lg h-[350px]"
-              src="images/poster.jpg"
-            />
-            <p
-              class="text-xl text-white h-[90px] mt-2"
-              style="opacity: 0;"
+            <div
+              class="relative m-8 mb-0 w-[220px]"
             >
-              Movie Title
-            </p>
+              <img
+                class="rounded-lg h-[350px]"
+                src="images/poster.jpg"
+              />
+              <p
+                class="text-xl text-white h-[90px] mt-2"
+                style="opacity: 0;"
+              >
+                Movie Title
+              </p>
+            </div>
           </div>
-        </div>
+        </a>
         <svg
           class="size-6 text-white mt-8 cursor-pointer"
           fill="none"
@@ -48,24 +52,28 @@ exports[`should render Movie component 1`] = `
     <div
       class="flex"
     >
-      <div
-        class="text-center"
+      <a
+        href="/movies/undefined"
       >
         <div
-          class="relative m-8 mb-0 w-[220px]"
+          class="text-center"
         >
-          <img
-            class="rounded-lg h-[350px]"
-            src="images/poster.jpg"
-          />
-          <p
-            class="text-xl text-white h-[90px] mt-2"
-            style="opacity: 0;"
+          <div
+            class="relative m-8 mb-0 w-[220px]"
           >
-            Movie Title
-          </p>
+            <img
+              class="rounded-lg h-[350px]"
+              src="images/poster.jpg"
+            />
+            <p
+              class="text-xl text-white h-[90px] mt-2"
+              style="opacity: 0;"
+            >
+              Movie Title
+            </p>
+          </div>
         </div>
-      </div>
+      </a>
       <svg
         class="size-6 text-white mt-8 cursor-pointer"
         fill="none"

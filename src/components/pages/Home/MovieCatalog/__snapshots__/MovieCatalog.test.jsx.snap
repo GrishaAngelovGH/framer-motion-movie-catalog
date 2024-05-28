@@ -17,24 +17,28 @@ exports[`should render MovieCatalog component 1`] = `
             <div
               class="flex"
             >
-              <div
-                class="text-center"
+              <a
+                href="/movies/1"
               >
                 <div
-                  class="relative m-8 mb-0 w-[220px]"
+                  class="text-center"
                 >
-                  <img
-                    class="rounded-lg h-[350px]"
-                    src="images/the-garfield-movie.jpg"
-                  />
-                  <p
-                    class="text-xl text-white h-[90px] mt-2"
-                    style="opacity: 0;"
+                  <div
+                    class="relative m-8 mb-0 w-[220px]"
                   >
-                    The Garfield Movie
-                  </p>
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="images/the-garfield-movie.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
+                    >
+                      The Garfield Movie
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <svg
                 class="size-6 text-white mt-8 cursor-pointer"
                 fill="none"
@@ -58,24 +62,28 @@ exports[`should render MovieCatalog component 1`] = `
             <div
               class="flex"
             >
-              <div
-                class="text-center"
+              <a
+                href="/movies/2"
               >
                 <div
-                  class="relative m-8 mb-0 w-[220px]"
+                  class="text-center"
                 >
-                  <img
-                    class="rounded-lg h-[350px]"
-                    src="images/fly-me-to-the-moon.jpg"
-                  />
-                  <p
-                    class="text-xl text-white h-[90px] mt-2"
-                    style="opacity: 0;"
+                  <div
+                    class="relative m-8 mb-0 w-[220px]"
                   >
-                    Fly Me to the Moon
-                  </p>
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="images/fly-me-to-the-moon.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
+                    >
+                      Fly Me to the Moon
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <svg
                 class="size-6 text-white mt-8 cursor-pointer"
                 fill="none"
@@ -99,24 +107,28 @@ exports[`should render MovieCatalog component 1`] = `
             <div
               class="flex"
             >
-              <div
-                class="text-center"
+              <a
+                href="/movies/3"
               >
                 <div
-                  class="relative m-8 mb-0 w-[220px]"
+                  class="text-center"
                 >
-                  <img
-                    class="rounded-lg h-[350px]"
-                    src="images/kung-fu-panda-4.jpg"
-                  />
-                  <p
-                    class="text-xl text-white h-[90px] mt-2"
-                    style="opacity: 0;"
+                  <div
+                    class="relative m-8 mb-0 w-[220px]"
                   >
-                    Kung Fu Panda 4
-                  </p>
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="images/kung-fu-panda-4.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
+                    >
+                      Kung Fu Panda 4
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <svg
                 class="size-6 text-white mt-8 cursor-pointer"
                 fill="none"
@@ -140,24 +152,28 @@ exports[`should render MovieCatalog component 1`] = `
             <div
               class="flex"
             >
-              <div
-                class="text-center"
+              <a
+                href="/movies/4"
               >
                 <div
-                  class="relative m-8 mb-0 w-[220px]"
+                  class="text-center"
                 >
-                  <img
-                    class="rounded-lg h-[350px]"
-                    src="images/kingdom-of-the-planet-of-the-apes.jpg"
-                  />
-                  <p
-                    class="text-xl text-white h-[90px] mt-2"
-                    style="opacity: 0;"
+                  <div
+                    class="relative m-8 mb-0 w-[220px]"
                   >
-                    Kingdom of the Planet of the Apes
-                  </p>
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="images/kingdom-of-the-planet-of-the-apes.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
+                    >
+                      Kingdom of the Planet of the Apes
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <svg
                 class="size-6 text-white mt-8 cursor-pointer"
                 fill="none"
@@ -181,24 +197,28 @@ exports[`should render MovieCatalog component 1`] = `
             <div
               class="flex"
             >
-              <div
-                class="text-center"
+              <a
+                href="/movies/5"
               >
                 <div
-                  class="relative m-8 mb-0 w-[220px]"
+                  class="text-center"
                 >
-                  <img
-                    class="rounded-lg h-[350px]"
-                    src="images/transformers-one.jpg"
-                  />
-                  <p
-                    class="text-xl text-white h-[90px] mt-2"
-                    style="opacity: 0;"
+                  <div
+                    class="relative m-8 mb-0 w-[220px]"
                   >
-                    Transformers One
-                  </p>
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="images/transformers-one.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
+                    >
+                      Transformers One
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <svg
                 class="size-6 text-white mt-8 cursor-pointer"
                 fill="none"
@@ -222,24 +242,28 @@ exports[`should render MovieCatalog component 1`] = `
             <div
               class="flex"
             >
-              <div
-                class="text-center"
+              <a
+                href="/movies/6"
               >
                 <div
-                  class="relative m-8 mb-0 w-[220px]"
+                  class="text-center"
                 >
-                  <img
-                    class="rounded-lg h-[350px]"
-                    src="images/mufasa-the-lion-king.jpg"
-                  />
-                  <p
-                    class="text-xl text-white h-[90px] mt-2"
-                    style="opacity: 0;"
+                  <div
+                    class="relative m-8 mb-0 w-[220px]"
                   >
-                    Mufasa: The Lion King
-                  </p>
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="images/mufasa-the-lion-king.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
+                    >
+                      Mufasa: The Lion King
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <svg
                 class="size-6 text-white mt-8 cursor-pointer"
                 fill="none"
@@ -263,24 +287,28 @@ exports[`should render MovieCatalog component 1`] = `
             <div
               class="flex"
             >
-              <div
-                class="text-center"
+              <a
+                href="/movies/7"
               >
                 <div
-                  class="relative m-8 mb-0 w-[220px]"
+                  class="text-center"
                 >
-                  <img
-                    class="rounded-lg h-[350px]"
-                    src="images/beverly-hills-cop-axel-f.jpg"
-                  />
-                  <p
-                    class="text-xl text-white h-[90px] mt-2"
-                    style="opacity: 0;"
+                  <div
+                    class="relative m-8 mb-0 w-[220px]"
                   >
-                    Beverly Hills Cop: Axel F
-                  </p>
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="images/beverly-hills-cop-axel-f.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
+                    >
+                      Beverly Hills Cop: Axel F
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <svg
                 class="size-6 text-white mt-8 cursor-pointer"
                 fill="none"
@@ -304,24 +332,28 @@ exports[`should render MovieCatalog component 1`] = `
             <div
               class="flex"
             >
-              <div
-                class="text-center"
+              <a
+                href="/movies/8"
               >
                 <div
-                  class="relative m-8 mb-0 w-[220px]"
+                  class="text-center"
                 >
-                  <img
-                    class="rounded-lg h-[350px]"
-                    src="images/indiana-jones-and-the-dial-of-destiny.jpg"
-                  />
-                  <p
-                    class="text-xl text-white h-[90px] mt-2"
-                    style="opacity: 0;"
+                  <div
+                    class="relative m-8 mb-0 w-[220px]"
                   >
-                    Indiana Jones and the Dial of Destiny
-                  </p>
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="images/indiana-jones-and-the-dial-of-destiny.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
+                    >
+                      Indiana Jones and the Dial of Destiny
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <svg
                 class="size-6 text-white mt-8 cursor-pointer"
                 fill="none"
@@ -345,24 +377,28 @@ exports[`should render MovieCatalog component 1`] = `
             <div
               class="flex"
             >
-              <div
-                class="text-center"
+              <a
+                href="/movies/9"
               >
                 <div
-                  class="relative m-8 mb-0 w-[220px]"
+                  class="text-center"
                 >
-                  <img
-                    class="rounded-lg h-[350px]"
-                    src="images/gran-turismo.jpg"
-                  />
-                  <p
-                    class="text-xl text-white h-[90px] mt-2"
-                    style="opacity: 0;"
+                  <div
+                    class="relative m-8 mb-0 w-[220px]"
                   >
-                    Gran Turismo
-                  </p>
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="images/gran-turismo.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
+                    >
+                      Gran Turismo
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <svg
                 class="size-6 text-white mt-8 cursor-pointer"
                 fill="none"
@@ -386,24 +422,28 @@ exports[`should render MovieCatalog component 1`] = `
             <div
               class="flex"
             >
-              <div
-                class="text-center"
+              <a
+                href="/movies/10"
               >
                 <div
-                  class="relative m-8 mb-0 w-[220px]"
+                  class="text-center"
                 >
-                  <img
-                    class="rounded-lg h-[350px]"
-                    src="images/aquaman-and-the-lost-kingdom.jpg"
-                  />
-                  <p
-                    class="text-xl text-white h-[90px] mt-2"
-                    style="opacity: 0;"
+                  <div
+                    class="relative m-8 mb-0 w-[220px]"
                   >
-                    Aquaman and the Lost Kingdom
-                  </p>
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="images/aquaman-and-the-lost-kingdom.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
+                    >
+                      Aquaman and the Lost Kingdom
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <svg
                 class="size-6 text-white mt-8 cursor-pointer"
                 fill="none"
@@ -427,24 +467,28 @@ exports[`should render MovieCatalog component 1`] = `
             <div
               class="flex"
             >
-              <div
-                class="text-center"
+              <a
+                href="/movies/11"
               >
                 <div
-                  class="relative m-8 mb-0 w-[220px]"
+                  class="text-center"
                 >
-                  <img
-                    class="rounded-lg h-[350px]"
-                    src="images/the-super-mario-bros-movie.jpg"
-                  />
-                  <p
-                    class="text-xl text-white h-[90px] mt-2"
-                    style="opacity: 0;"
+                  <div
+                    class="relative m-8 mb-0 w-[220px]"
                   >
-                    The Super Mario Bros. Movie
-                  </p>
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="images/the-super-mario-bros-movie.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
+                    >
+                      The Super Mario Bros. Movie
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <svg
                 class="size-6 text-white mt-8 cursor-pointer"
                 fill="none"
@@ -468,24 +512,28 @@ exports[`should render MovieCatalog component 1`] = `
             <div
               class="flex"
             >
-              <div
-                class="text-center"
+              <a
+                href="/movies/12"
               >
                 <div
-                  class="relative m-8 mb-0 w-[220px]"
+                  class="text-center"
                 >
-                  <img
-                    class="rounded-lg h-[350px]"
-                    src="images/spider-man-across-the-spider-verse.jpg"
-                  />
-                  <p
-                    class="text-xl text-white h-[90px] mt-2"
-                    style="opacity: 0;"
+                  <div
+                    class="relative m-8 mb-0 w-[220px]"
                   >
-                    Spider-Man: Across the Spider-Verse
-                  </p>
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="images/spider-man-across-the-spider-verse.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
+                    >
+                      Spider-Man: Across the Spider-Verse
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <svg
                 class="size-6 text-white mt-8 cursor-pointer"
                 fill="none"
@@ -509,24 +557,28 @@ exports[`should render MovieCatalog component 1`] = `
             <div
               class="flex"
             >
-              <div
-                class="text-center"
+              <a
+                href="/movies/13"
               >
                 <div
-                  class="relative m-8 mb-0 w-[220px]"
+                  class="text-center"
                 >
-                  <img
-                    class="rounded-lg h-[350px]"
-                    src="images/shooting-stars.png"
-                  />
-                  <p
-                    class="text-xl text-white h-[90px] mt-2"
-                    style="opacity: 0;"
+                  <div
+                    class="relative m-8 mb-0 w-[220px]"
                   >
-                    Shooting Stars
-                  </p>
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="images/shooting-stars.png"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
+                    >
+                      Shooting Stars
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <svg
                 class="size-6 text-white mt-8 cursor-pointer"
                 fill="none"
@@ -550,24 +602,28 @@ exports[`should render MovieCatalog component 1`] = `
             <div
               class="flex"
             >
-              <div
-                class="text-center"
+              <a
+                href="/movies/14"
               >
                 <div
-                  class="relative m-8 mb-0 w-[220px]"
+                  class="text-center"
                 >
-                  <img
-                    class="rounded-lg h-[350px]"
-                    src="images/sweetwater.jpg"
-                  />
-                  <p
-                    class="text-xl text-white h-[90px] mt-2"
-                    style="opacity: 0;"
+                  <div
+                    class="relative m-8 mb-0 w-[220px]"
                   >
-                    Sweetwater
-                  </p>
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="images/sweetwater.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
+                    >
+                      Sweetwater
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <svg
                 class="size-6 text-white mt-8 cursor-pointer"
                 fill="none"
@@ -591,24 +647,28 @@ exports[`should render MovieCatalog component 1`] = `
             <div
               class="flex"
             >
-              <div
-                class="text-center"
+              <a
+                href="/movies/15"
               >
                 <div
-                  class="relative m-8 mb-0 w-[220px]"
+                  class="text-center"
                 >
-                  <img
-                    class="rounded-lg h-[350px]"
-                    src="images/a-million-miles-away.png"
-                  />
-                  <p
-                    class="text-xl text-white h-[90px] mt-2"
-                    style="opacity: 0;"
+                  <div
+                    class="relative m-8 mb-0 w-[220px]"
                   >
-                    A Million Miles Away
-                  </p>
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="images/a-million-miles-away.png"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
+                    >
+                      A Million Miles Away
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <svg
                 class="size-6 text-white mt-8 cursor-pointer"
                 fill="none"
@@ -632,24 +692,28 @@ exports[`should render MovieCatalog component 1`] = `
             <div
               class="flex"
             >
-              <div
-                class="text-center"
+              <a
+                href="/movies/16"
               >
                 <div
-                  class="relative m-8 mb-0 w-[220px]"
+                  class="text-center"
                 >
-                  <img
-                    class="rounded-lg h-[350px]"
-                    src="images/the-marvels.jpg"
-                  />
-                  <p
-                    class="text-xl text-white h-[90px] mt-2"
-                    style="opacity: 0;"
+                  <div
+                    class="relative m-8 mb-0 w-[220px]"
                   >
-                    The Marvels
-                  </p>
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="images/the-marvels.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
+                    >
+                      The Marvels
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <svg
                 class="size-6 text-white mt-8 cursor-pointer"
                 fill="none"
@@ -684,24 +748,28 @@ exports[`should render MovieCatalog component 1`] = `
           <div
             class="flex"
           >
-            <div
-              class="text-center"
+            <a
+              href="/movies/1"
             >
               <div
-                class="relative m-8 mb-0 w-[220px]"
+                class="text-center"
               >
-                <img
-                  class="rounded-lg h-[350px]"
-                  src="images/the-garfield-movie.jpg"
-                />
-                <p
-                  class="text-xl text-white h-[90px] mt-2"
-                  style="opacity: 0;"
+                <div
+                  class="relative m-8 mb-0 w-[220px]"
                 >
-                  The Garfield Movie
-                </p>
+                  <img
+                    class="rounded-lg h-[350px]"
+                    src="images/the-garfield-movie.jpg"
+                  />
+                  <p
+                    class="text-xl text-white h-[90px] mt-2"
+                    style="opacity: 0;"
+                  >
+                    The Garfield Movie
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
             <svg
               class="size-6 text-white mt-8 cursor-pointer"
               fill="none"
@@ -725,24 +793,28 @@ exports[`should render MovieCatalog component 1`] = `
           <div
             class="flex"
           >
-            <div
-              class="text-center"
+            <a
+              href="/movies/2"
             >
               <div
-                class="relative m-8 mb-0 w-[220px]"
+                class="text-center"
               >
-                <img
-                  class="rounded-lg h-[350px]"
-                  src="images/fly-me-to-the-moon.jpg"
-                />
-                <p
-                  class="text-xl text-white h-[90px] mt-2"
-                  style="opacity: 0;"
+                <div
+                  class="relative m-8 mb-0 w-[220px]"
                 >
-                  Fly Me to the Moon
-                </p>
+                  <img
+                    class="rounded-lg h-[350px]"
+                    src="images/fly-me-to-the-moon.jpg"
+                  />
+                  <p
+                    class="text-xl text-white h-[90px] mt-2"
+                    style="opacity: 0;"
+                  >
+                    Fly Me to the Moon
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
             <svg
               class="size-6 text-white mt-8 cursor-pointer"
               fill="none"
@@ -766,24 +838,28 @@ exports[`should render MovieCatalog component 1`] = `
           <div
             class="flex"
           >
-            <div
-              class="text-center"
+            <a
+              href="/movies/3"
             >
               <div
-                class="relative m-8 mb-0 w-[220px]"
+                class="text-center"
               >
-                <img
-                  class="rounded-lg h-[350px]"
-                  src="images/kung-fu-panda-4.jpg"
-                />
-                <p
-                  class="text-xl text-white h-[90px] mt-2"
-                  style="opacity: 0;"
+                <div
+                  class="relative m-8 mb-0 w-[220px]"
                 >
-                  Kung Fu Panda 4
-                </p>
+                  <img
+                    class="rounded-lg h-[350px]"
+                    src="images/kung-fu-panda-4.jpg"
+                  />
+                  <p
+                    class="text-xl text-white h-[90px] mt-2"
+                    style="opacity: 0;"
+                  >
+                    Kung Fu Panda 4
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
             <svg
               class="size-6 text-white mt-8 cursor-pointer"
               fill="none"
@@ -807,24 +883,28 @@ exports[`should render MovieCatalog component 1`] = `
           <div
             class="flex"
           >
-            <div
-              class="text-center"
+            <a
+              href="/movies/4"
             >
               <div
-                class="relative m-8 mb-0 w-[220px]"
+                class="text-center"
               >
-                <img
-                  class="rounded-lg h-[350px]"
-                  src="images/kingdom-of-the-planet-of-the-apes.jpg"
-                />
-                <p
-                  class="text-xl text-white h-[90px] mt-2"
-                  style="opacity: 0;"
+                <div
+                  class="relative m-8 mb-0 w-[220px]"
                 >
-                  Kingdom of the Planet of the Apes
-                </p>
+                  <img
+                    class="rounded-lg h-[350px]"
+                    src="images/kingdom-of-the-planet-of-the-apes.jpg"
+                  />
+                  <p
+                    class="text-xl text-white h-[90px] mt-2"
+                    style="opacity: 0;"
+                  >
+                    Kingdom of the Planet of the Apes
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
             <svg
               class="size-6 text-white mt-8 cursor-pointer"
               fill="none"
@@ -848,24 +928,28 @@ exports[`should render MovieCatalog component 1`] = `
           <div
             class="flex"
           >
-            <div
-              class="text-center"
+            <a
+              href="/movies/5"
             >
               <div
-                class="relative m-8 mb-0 w-[220px]"
+                class="text-center"
               >
-                <img
-                  class="rounded-lg h-[350px]"
-                  src="images/transformers-one.jpg"
-                />
-                <p
-                  class="text-xl text-white h-[90px] mt-2"
-                  style="opacity: 0;"
+                <div
+                  class="relative m-8 mb-0 w-[220px]"
                 >
-                  Transformers One
-                </p>
+                  <img
+                    class="rounded-lg h-[350px]"
+                    src="images/transformers-one.jpg"
+                  />
+                  <p
+                    class="text-xl text-white h-[90px] mt-2"
+                    style="opacity: 0;"
+                  >
+                    Transformers One
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
             <svg
               class="size-6 text-white mt-8 cursor-pointer"
               fill="none"
@@ -889,24 +973,28 @@ exports[`should render MovieCatalog component 1`] = `
           <div
             class="flex"
           >
-            <div
-              class="text-center"
+            <a
+              href="/movies/6"
             >
               <div
-                class="relative m-8 mb-0 w-[220px]"
+                class="text-center"
               >
-                <img
-                  class="rounded-lg h-[350px]"
-                  src="images/mufasa-the-lion-king.jpg"
-                />
-                <p
-                  class="text-xl text-white h-[90px] mt-2"
-                  style="opacity: 0;"
+                <div
+                  class="relative m-8 mb-0 w-[220px]"
                 >
-                  Mufasa: The Lion King
-                </p>
+                  <img
+                    class="rounded-lg h-[350px]"
+                    src="images/mufasa-the-lion-king.jpg"
+                  />
+                  <p
+                    class="text-xl text-white h-[90px] mt-2"
+                    style="opacity: 0;"
+                  >
+                    Mufasa: The Lion King
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
             <svg
               class="size-6 text-white mt-8 cursor-pointer"
               fill="none"
@@ -930,24 +1018,28 @@ exports[`should render MovieCatalog component 1`] = `
           <div
             class="flex"
           >
-            <div
-              class="text-center"
+            <a
+              href="/movies/7"
             >
               <div
-                class="relative m-8 mb-0 w-[220px]"
+                class="text-center"
               >
-                <img
-                  class="rounded-lg h-[350px]"
-                  src="images/beverly-hills-cop-axel-f.jpg"
-                />
-                <p
-                  class="text-xl text-white h-[90px] mt-2"
-                  style="opacity: 0;"
+                <div
+                  class="relative m-8 mb-0 w-[220px]"
                 >
-                  Beverly Hills Cop: Axel F
-                </p>
+                  <img
+                    class="rounded-lg h-[350px]"
+                    src="images/beverly-hills-cop-axel-f.jpg"
+                  />
+                  <p
+                    class="text-xl text-white h-[90px] mt-2"
+                    style="opacity: 0;"
+                  >
+                    Beverly Hills Cop: Axel F
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
             <svg
               class="size-6 text-white mt-8 cursor-pointer"
               fill="none"
@@ -971,24 +1063,28 @@ exports[`should render MovieCatalog component 1`] = `
           <div
             class="flex"
           >
-            <div
-              class="text-center"
+            <a
+              href="/movies/8"
             >
               <div
-                class="relative m-8 mb-0 w-[220px]"
+                class="text-center"
               >
-                <img
-                  class="rounded-lg h-[350px]"
-                  src="images/indiana-jones-and-the-dial-of-destiny.jpg"
-                />
-                <p
-                  class="text-xl text-white h-[90px] mt-2"
-                  style="opacity: 0;"
+                <div
+                  class="relative m-8 mb-0 w-[220px]"
                 >
-                  Indiana Jones and the Dial of Destiny
-                </p>
+                  <img
+                    class="rounded-lg h-[350px]"
+                    src="images/indiana-jones-and-the-dial-of-destiny.jpg"
+                  />
+                  <p
+                    class="text-xl text-white h-[90px] mt-2"
+                    style="opacity: 0;"
+                  >
+                    Indiana Jones and the Dial of Destiny
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
             <svg
               class="size-6 text-white mt-8 cursor-pointer"
               fill="none"
@@ -1012,24 +1108,28 @@ exports[`should render MovieCatalog component 1`] = `
           <div
             class="flex"
           >
-            <div
-              class="text-center"
+            <a
+              href="/movies/9"
             >
               <div
-                class="relative m-8 mb-0 w-[220px]"
+                class="text-center"
               >
-                <img
-                  class="rounded-lg h-[350px]"
-                  src="images/gran-turismo.jpg"
-                />
-                <p
-                  class="text-xl text-white h-[90px] mt-2"
-                  style="opacity: 0;"
+                <div
+                  class="relative m-8 mb-0 w-[220px]"
                 >
-                  Gran Turismo
-                </p>
+                  <img
+                    class="rounded-lg h-[350px]"
+                    src="images/gran-turismo.jpg"
+                  />
+                  <p
+                    class="text-xl text-white h-[90px] mt-2"
+                    style="opacity: 0;"
+                  >
+                    Gran Turismo
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
             <svg
               class="size-6 text-white mt-8 cursor-pointer"
               fill="none"
@@ -1053,24 +1153,28 @@ exports[`should render MovieCatalog component 1`] = `
           <div
             class="flex"
           >
-            <div
-              class="text-center"
+            <a
+              href="/movies/10"
             >
               <div
-                class="relative m-8 mb-0 w-[220px]"
+                class="text-center"
               >
-                <img
-                  class="rounded-lg h-[350px]"
-                  src="images/aquaman-and-the-lost-kingdom.jpg"
-                />
-                <p
-                  class="text-xl text-white h-[90px] mt-2"
-                  style="opacity: 0;"
+                <div
+                  class="relative m-8 mb-0 w-[220px]"
                 >
-                  Aquaman and the Lost Kingdom
-                </p>
+                  <img
+                    class="rounded-lg h-[350px]"
+                    src="images/aquaman-and-the-lost-kingdom.jpg"
+                  />
+                  <p
+                    class="text-xl text-white h-[90px] mt-2"
+                    style="opacity: 0;"
+                  >
+                    Aquaman and the Lost Kingdom
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
             <svg
               class="size-6 text-white mt-8 cursor-pointer"
               fill="none"
@@ -1094,24 +1198,28 @@ exports[`should render MovieCatalog component 1`] = `
           <div
             class="flex"
           >
-            <div
-              class="text-center"
+            <a
+              href="/movies/11"
             >
               <div
-                class="relative m-8 mb-0 w-[220px]"
+                class="text-center"
               >
-                <img
-                  class="rounded-lg h-[350px]"
-                  src="images/the-super-mario-bros-movie.jpg"
-                />
-                <p
-                  class="text-xl text-white h-[90px] mt-2"
-                  style="opacity: 0;"
+                <div
+                  class="relative m-8 mb-0 w-[220px]"
                 >
-                  The Super Mario Bros. Movie
-                </p>
+                  <img
+                    class="rounded-lg h-[350px]"
+                    src="images/the-super-mario-bros-movie.jpg"
+                  />
+                  <p
+                    class="text-xl text-white h-[90px] mt-2"
+                    style="opacity: 0;"
+                  >
+                    The Super Mario Bros. Movie
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
             <svg
               class="size-6 text-white mt-8 cursor-pointer"
               fill="none"
@@ -1135,24 +1243,28 @@ exports[`should render MovieCatalog component 1`] = `
           <div
             class="flex"
           >
-            <div
-              class="text-center"
+            <a
+              href="/movies/12"
             >
               <div
-                class="relative m-8 mb-0 w-[220px]"
+                class="text-center"
               >
-                <img
-                  class="rounded-lg h-[350px]"
-                  src="images/spider-man-across-the-spider-verse.jpg"
-                />
-                <p
-                  class="text-xl text-white h-[90px] mt-2"
-                  style="opacity: 0;"
+                <div
+                  class="relative m-8 mb-0 w-[220px]"
                 >
-                  Spider-Man: Across the Spider-Verse
-                </p>
+                  <img
+                    class="rounded-lg h-[350px]"
+                    src="images/spider-man-across-the-spider-verse.jpg"
+                  />
+                  <p
+                    class="text-xl text-white h-[90px] mt-2"
+                    style="opacity: 0;"
+                  >
+                    Spider-Man: Across the Spider-Verse
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
             <svg
               class="size-6 text-white mt-8 cursor-pointer"
               fill="none"
@@ -1176,24 +1288,28 @@ exports[`should render MovieCatalog component 1`] = `
           <div
             class="flex"
           >
-            <div
-              class="text-center"
+            <a
+              href="/movies/13"
             >
               <div
-                class="relative m-8 mb-0 w-[220px]"
+                class="text-center"
               >
-                <img
-                  class="rounded-lg h-[350px]"
-                  src="images/shooting-stars.png"
-                />
-                <p
-                  class="text-xl text-white h-[90px] mt-2"
-                  style="opacity: 0;"
+                <div
+                  class="relative m-8 mb-0 w-[220px]"
                 >
-                  Shooting Stars
-                </p>
+                  <img
+                    class="rounded-lg h-[350px]"
+                    src="images/shooting-stars.png"
+                  />
+                  <p
+                    class="text-xl text-white h-[90px] mt-2"
+                    style="opacity: 0;"
+                  >
+                    Shooting Stars
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
             <svg
               class="size-6 text-white mt-8 cursor-pointer"
               fill="none"
@@ -1217,24 +1333,28 @@ exports[`should render MovieCatalog component 1`] = `
           <div
             class="flex"
           >
-            <div
-              class="text-center"
+            <a
+              href="/movies/14"
             >
               <div
-                class="relative m-8 mb-0 w-[220px]"
+                class="text-center"
               >
-                <img
-                  class="rounded-lg h-[350px]"
-                  src="images/sweetwater.jpg"
-                />
-                <p
-                  class="text-xl text-white h-[90px] mt-2"
-                  style="opacity: 0;"
+                <div
+                  class="relative m-8 mb-0 w-[220px]"
                 >
-                  Sweetwater
-                </p>
+                  <img
+                    class="rounded-lg h-[350px]"
+                    src="images/sweetwater.jpg"
+                  />
+                  <p
+                    class="text-xl text-white h-[90px] mt-2"
+                    style="opacity: 0;"
+                  >
+                    Sweetwater
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
             <svg
               class="size-6 text-white mt-8 cursor-pointer"
               fill="none"
@@ -1258,24 +1378,28 @@ exports[`should render MovieCatalog component 1`] = `
           <div
             class="flex"
           >
-            <div
-              class="text-center"
+            <a
+              href="/movies/15"
             >
               <div
-                class="relative m-8 mb-0 w-[220px]"
+                class="text-center"
               >
-                <img
-                  class="rounded-lg h-[350px]"
-                  src="images/a-million-miles-away.png"
-                />
-                <p
-                  class="text-xl text-white h-[90px] mt-2"
-                  style="opacity: 0;"
+                <div
+                  class="relative m-8 mb-0 w-[220px]"
                 >
-                  A Million Miles Away
-                </p>
+                  <img
+                    class="rounded-lg h-[350px]"
+                    src="images/a-million-miles-away.png"
+                  />
+                  <p
+                    class="text-xl text-white h-[90px] mt-2"
+                    style="opacity: 0;"
+                  >
+                    A Million Miles Away
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
             <svg
               class="size-6 text-white mt-8 cursor-pointer"
               fill="none"
@@ -1299,24 +1423,28 @@ exports[`should render MovieCatalog component 1`] = `
           <div
             class="flex"
           >
-            <div
-              class="text-center"
+            <a
+              href="/movies/16"
             >
               <div
-                class="relative m-8 mb-0 w-[220px]"
+                class="text-center"
               >
-                <img
-                  class="rounded-lg h-[350px]"
-                  src="images/the-marvels.jpg"
-                />
-                <p
-                  class="text-xl text-white h-[90px] mt-2"
-                  style="opacity: 0;"
+                <div
+                  class="relative m-8 mb-0 w-[220px]"
                 >
-                  The Marvels
-                </p>
+                  <img
+                    class="rounded-lg h-[350px]"
+                    src="images/the-marvels.jpg"
+                  />
+                  <p
+                    class="text-xl text-white h-[90px] mt-2"
+                    style="opacity: 0;"
+                  >
+                    The Marvels
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
             <svg
               class="size-6 text-white mt-8 cursor-pointer"
               fill="none"
