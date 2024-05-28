@@ -13,60 +13,92 @@ exports[`should render MovieCatalog component 1`] = `
           style="transform: translateX(-100%) translateZ(0);"
         >
           <div
-            class="text-center m-8 md:w-[160px] lg:w-[220px]"
+            class="flex"
           >
-            <img
-              class="rounded-lg min-h-[350px]"
-              src="images/the-garfield-movie.jpg"
-            />
-            <p
-              class="text-xl text-white  h-[55px] mt-2"
-              style="opacity: 0;"
+            <div
+              class="text-center"
             >
-              The Garfield Movie
-            </p>
+              <div
+                class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+              >
+                <img
+                  class="rounded-lg min-h-[350px]"
+                  src="images/the-garfield-movie.jpg"
+                />
+                <p
+                  class="text-xl text-white h-[90px] mt-2"
+                  style="opacity: 0;"
+                >
+                  The Garfield Movie
+                </p>
+              </div>
+            </div>
           </div>
           <div
-            class="text-center m-8 md:w-[160px] lg:w-[220px]"
+            class="flex"
           >
-            <img
-              class="rounded-lg min-h-[350px]"
-              src="images/fly-me-to-the-moon.jpg"
-            />
-            <p
-              class="text-xl text-white  h-[55px] mt-2"
-              style="opacity: 0;"
+            <div
+              class="text-center"
             >
-              Fly Me to the Moon
-            </p>
+              <div
+                class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+              >
+                <img
+                  class="rounded-lg min-h-[350px]"
+                  src="images/fly-me-to-the-moon.jpg"
+                />
+                <p
+                  class="text-xl text-white h-[90px] mt-2"
+                  style="opacity: 0;"
+                >
+                  Fly Me to the Moon
+                </p>
+              </div>
+            </div>
           </div>
           <div
-            class="text-center m-8 md:w-[160px] lg:w-[220px]"
+            class="flex"
           >
-            <img
-              class="rounded-lg min-h-[350px]"
-              src="images/kung-fu-panda-4.jpg"
-            />
-            <p
-              class="text-xl text-white  h-[55px] mt-2"
-              style="opacity: 0;"
+            <div
+              class="text-center"
             >
-              Kung Fu Panda 4
-            </p>
+              <div
+                class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+              >
+                <img
+                  class="rounded-lg min-h-[350px]"
+                  src="images/kung-fu-panda-4.jpg"
+                />
+                <p
+                  class="text-xl text-white h-[90px] mt-2"
+                  style="opacity: 0;"
+                >
+                  Kung Fu Panda 4
+                </p>
+              </div>
+            </div>
           </div>
           <div
-            class="text-center m-8 md:w-[160px] lg:w-[220px]"
+            class="flex"
           >
-            <img
-              class="rounded-lg min-h-[350px]"
-              src="images/kingdom-of-the-planet-of-the-apes.jpg"
-            />
-            <p
-              class="text-xl text-white  h-[55px] mt-2"
-              style="opacity: 0;"
+            <div
+              class="text-center"
             >
-              Kingdom of the Planet of the Apes
-            </p>
+              <div
+                class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+              >
+                <img
+                  class="rounded-lg min-h-[350px]"
+                  src="images/kingdom-of-the-planet-of-the-apes.jpg"
+                />
+                <p
+                  class="text-xl text-white h-[90px] mt-2"
+                  style="opacity: 0;"
+                >
+                  Kingdom of the Planet of the Apes
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div
@@ -74,60 +106,92 @@ exports[`should render MovieCatalog component 1`] = `
           style="transform: translateX(-200%) translateZ(0);"
         >
           <div
-            class="text-center m-8 md:w-[160px] lg:w-[220px]"
+            class="flex"
           >
-            <img
-              class="rounded-lg min-h-[350px]"
-              src="images/transformers-one.jpg"
-            />
-            <p
-              class="text-xl text-white  h-[55px] mt-2"
-              style="opacity: 0;"
+            <div
+              class="text-center"
             >
-              Transformers One
-            </p>
+              <div
+                class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+              >
+                <img
+                  class="rounded-lg min-h-[350px]"
+                  src="images/transformers-one.jpg"
+                />
+                <p
+                  class="text-xl text-white h-[90px] mt-2"
+                  style="opacity: 0;"
+                >
+                  Transformers One
+                </p>
+              </div>
+            </div>
           </div>
           <div
-            class="text-center m-8 md:w-[160px] lg:w-[220px]"
+            class="flex"
           >
-            <img
-              class="rounded-lg min-h-[350px]"
-              src="images/mufasa-the-lion-king.jpg"
-            />
-            <p
-              class="text-xl text-white  h-[55px] mt-2"
-              style="opacity: 0;"
+            <div
+              class="text-center"
             >
-              Mufasa: The Lion King
-            </p>
+              <div
+                class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+              >
+                <img
+                  class="rounded-lg min-h-[350px]"
+                  src="images/mufasa-the-lion-king.jpg"
+                />
+                <p
+                  class="text-xl text-white h-[90px] mt-2"
+                  style="opacity: 0;"
+                >
+                  Mufasa: The Lion King
+                </p>
+              </div>
+            </div>
           </div>
           <div
-            class="text-center m-8 md:w-[160px] lg:w-[220px]"
+            class="flex"
           >
-            <img
-              class="rounded-lg min-h-[350px]"
-              src="images/beverly-hills-cop-axel-f.jpg"
-            />
-            <p
-              class="text-xl text-white  h-[55px] mt-2"
-              style="opacity: 0;"
+            <div
+              class="text-center"
             >
-              Beverly Hills Cop: Axel F
-            </p>
+              <div
+                class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+              >
+                <img
+                  class="rounded-lg min-h-[350px]"
+                  src="images/beverly-hills-cop-axel-f.jpg"
+                />
+                <p
+                  class="text-xl text-white h-[90px] mt-2"
+                  style="opacity: 0;"
+                >
+                  Beverly Hills Cop: Axel F
+                </p>
+              </div>
+            </div>
           </div>
           <div
-            class="text-center m-8 md:w-[160px] lg:w-[220px]"
+            class="flex"
           >
-            <img
-              class="rounded-lg min-h-[350px]"
-              src="images/indiana-jones-and-the-dial-of-destiny.jpg"
-            />
-            <p
-              class="text-xl text-white  h-[55px] mt-2"
-              style="opacity: 0;"
+            <div
+              class="text-center"
             >
-              Indiana Jones and the Dial of Destiny
-            </p>
+              <div
+                class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+              >
+                <img
+                  class="rounded-lg min-h-[350px]"
+                  src="images/indiana-jones-and-the-dial-of-destiny.jpg"
+                />
+                <p
+                  class="text-xl text-white h-[90px] mt-2"
+                  style="opacity: 0;"
+                >
+                  Indiana Jones and the Dial of Destiny
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div
@@ -135,60 +199,92 @@ exports[`should render MovieCatalog component 1`] = `
           style="transform: translateX(-300%) translateZ(0);"
         >
           <div
-            class="text-center m-8 md:w-[160px] lg:w-[220px]"
+            class="flex"
           >
-            <img
-              class="rounded-lg min-h-[350px]"
-              src="images/gran-turismo.jpg"
-            />
-            <p
-              class="text-xl text-white  h-[55px] mt-2"
-              style="opacity: 0;"
+            <div
+              class="text-center"
             >
-              Gran Turismo
-            </p>
+              <div
+                class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+              >
+                <img
+                  class="rounded-lg min-h-[350px]"
+                  src="images/gran-turismo.jpg"
+                />
+                <p
+                  class="text-xl text-white h-[90px] mt-2"
+                  style="opacity: 0;"
+                >
+                  Gran Turismo
+                </p>
+              </div>
+            </div>
           </div>
           <div
-            class="text-center m-8 md:w-[160px] lg:w-[220px]"
+            class="flex"
           >
-            <img
-              class="rounded-lg min-h-[350px]"
-              src="images/aquaman-and-the-lost-kingdom.jpg"
-            />
-            <p
-              class="text-xl text-white  h-[55px] mt-2"
-              style="opacity: 0;"
+            <div
+              class="text-center"
             >
-              Aquaman and the Lost Kingdom
-            </p>
+              <div
+                class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+              >
+                <img
+                  class="rounded-lg min-h-[350px]"
+                  src="images/aquaman-and-the-lost-kingdom.jpg"
+                />
+                <p
+                  class="text-xl text-white h-[90px] mt-2"
+                  style="opacity: 0;"
+                >
+                  Aquaman and the Lost Kingdom
+                </p>
+              </div>
+            </div>
           </div>
           <div
-            class="text-center m-8 md:w-[160px] lg:w-[220px]"
+            class="flex"
           >
-            <img
-              class="rounded-lg min-h-[350px]"
-              src="images/the-super-mario-bros-movie.jpg"
-            />
-            <p
-              class="text-xl text-white  h-[55px] mt-2"
-              style="opacity: 0;"
+            <div
+              class="text-center"
             >
-              The Super Mario Bros. Movie
-            </p>
+              <div
+                class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+              >
+                <img
+                  class="rounded-lg min-h-[350px]"
+                  src="images/the-super-mario-bros-movie.jpg"
+                />
+                <p
+                  class="text-xl text-white h-[90px] mt-2"
+                  style="opacity: 0;"
+                >
+                  The Super Mario Bros. Movie
+                </p>
+              </div>
+            </div>
           </div>
           <div
-            class="text-center m-8 md:w-[160px] lg:w-[220px]"
+            class="flex"
           >
-            <img
-              class="rounded-lg min-h-[350px]"
-              src="images/spider-man-across-the-spider-verse.jpg"
-            />
-            <p
-              class="text-xl text-white  h-[55px] mt-2"
-              style="opacity: 0;"
+            <div
+              class="text-center"
             >
-              Spider-Man: Across the Spider-Verse
-            </p>
+              <div
+                class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+              >
+                <img
+                  class="rounded-lg min-h-[350px]"
+                  src="images/spider-man-across-the-spider-verse.jpg"
+                />
+                <p
+                  class="text-xl text-white h-[90px] mt-2"
+                  style="opacity: 0;"
+                >
+                  Spider-Man: Across the Spider-Verse
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div
@@ -196,60 +292,92 @@ exports[`should render MovieCatalog component 1`] = `
           style="transform: translateX(-400%) translateZ(0);"
         >
           <div
-            class="text-center m-8 md:w-[160px] lg:w-[220px]"
+            class="flex"
           >
-            <img
-              class="rounded-lg min-h-[350px]"
-              src="images/shooting-stars.png"
-            />
-            <p
-              class="text-xl text-white  h-[55px] mt-2"
-              style="opacity: 0;"
+            <div
+              class="text-center"
             >
-              Shooting Stars
-            </p>
+              <div
+                class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+              >
+                <img
+                  class="rounded-lg min-h-[350px]"
+                  src="images/shooting-stars.png"
+                />
+                <p
+                  class="text-xl text-white h-[90px] mt-2"
+                  style="opacity: 0;"
+                >
+                  Shooting Stars
+                </p>
+              </div>
+            </div>
           </div>
           <div
-            class="text-center m-8 md:w-[160px] lg:w-[220px]"
+            class="flex"
           >
-            <img
-              class="rounded-lg min-h-[350px]"
-              src="images/sweetwater.jpg"
-            />
-            <p
-              class="text-xl text-white  h-[55px] mt-2"
-              style="opacity: 0;"
+            <div
+              class="text-center"
             >
-              Sweetwater
-            </p>
+              <div
+                class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+              >
+                <img
+                  class="rounded-lg min-h-[350px]"
+                  src="images/sweetwater.jpg"
+                />
+                <p
+                  class="text-xl text-white h-[90px] mt-2"
+                  style="opacity: 0;"
+                >
+                  Sweetwater
+                </p>
+              </div>
+            </div>
           </div>
           <div
-            class="text-center m-8 md:w-[160px] lg:w-[220px]"
+            class="flex"
           >
-            <img
-              class="rounded-lg min-h-[350px]"
-              src="images/a-million-miles-away.png"
-            />
-            <p
-              class="text-xl text-white  h-[55px] mt-2"
-              style="opacity: 0;"
+            <div
+              class="text-center"
             >
-              A Million Miles Away
-            </p>
+              <div
+                class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+              >
+                <img
+                  class="rounded-lg min-h-[350px]"
+                  src="images/a-million-miles-away.png"
+                />
+                <p
+                  class="text-xl text-white h-[90px] mt-2"
+                  style="opacity: 0;"
+                >
+                  A Million Miles Away
+                </p>
+              </div>
+            </div>
           </div>
           <div
-            class="text-center m-8 md:w-[160px] lg:w-[220px]"
+            class="flex"
           >
-            <img
-              class="rounded-lg min-h-[350px]"
-              src="images/the-marvels.jpg"
-            />
-            <p
-              class="text-xl text-white  h-[55px] mt-2"
-              style="opacity: 0;"
+            <div
+              class="text-center"
             >
-              The Marvels
-            </p>
+              <div
+                class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+              >
+                <img
+                  class="rounded-lg min-h-[350px]"
+                  src="images/the-marvels.jpg"
+                />
+                <p
+                  class="text-xl text-white h-[90px] mt-2"
+                  style="opacity: 0;"
+                >
+                  The Marvels
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -264,60 +392,92 @@ exports[`should render MovieCatalog component 1`] = `
         style="transform: translateX(-100%) translateZ(0);"
       >
         <div
-          class="text-center m-8 md:w-[160px] lg:w-[220px]"
+          class="flex"
         >
-          <img
-            class="rounded-lg min-h-[350px]"
-            src="images/the-garfield-movie.jpg"
-          />
-          <p
-            class="text-xl text-white  h-[55px] mt-2"
-            style="opacity: 0;"
+          <div
+            class="text-center"
           >
-            The Garfield Movie
-          </p>
+            <div
+              class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+            >
+              <img
+                class="rounded-lg min-h-[350px]"
+                src="images/the-garfield-movie.jpg"
+              />
+              <p
+                class="text-xl text-white h-[90px] mt-2"
+                style="opacity: 0;"
+              >
+                The Garfield Movie
+              </p>
+            </div>
+          </div>
         </div>
         <div
-          class="text-center m-8 md:w-[160px] lg:w-[220px]"
+          class="flex"
         >
-          <img
-            class="rounded-lg min-h-[350px]"
-            src="images/fly-me-to-the-moon.jpg"
-          />
-          <p
-            class="text-xl text-white  h-[55px] mt-2"
-            style="opacity: 0;"
+          <div
+            class="text-center"
           >
-            Fly Me to the Moon
-          </p>
+            <div
+              class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+            >
+              <img
+                class="rounded-lg min-h-[350px]"
+                src="images/fly-me-to-the-moon.jpg"
+              />
+              <p
+                class="text-xl text-white h-[90px] mt-2"
+                style="opacity: 0;"
+              >
+                Fly Me to the Moon
+              </p>
+            </div>
+          </div>
         </div>
         <div
-          class="text-center m-8 md:w-[160px] lg:w-[220px]"
+          class="flex"
         >
-          <img
-            class="rounded-lg min-h-[350px]"
-            src="images/kung-fu-panda-4.jpg"
-          />
-          <p
-            class="text-xl text-white  h-[55px] mt-2"
-            style="opacity: 0;"
+          <div
+            class="text-center"
           >
-            Kung Fu Panda 4
-          </p>
+            <div
+              class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+            >
+              <img
+                class="rounded-lg min-h-[350px]"
+                src="images/kung-fu-panda-4.jpg"
+              />
+              <p
+                class="text-xl text-white h-[90px] mt-2"
+                style="opacity: 0;"
+              >
+                Kung Fu Panda 4
+              </p>
+            </div>
+          </div>
         </div>
         <div
-          class="text-center m-8 md:w-[160px] lg:w-[220px]"
+          class="flex"
         >
-          <img
-            class="rounded-lg min-h-[350px]"
-            src="images/kingdom-of-the-planet-of-the-apes.jpg"
-          />
-          <p
-            class="text-xl text-white  h-[55px] mt-2"
-            style="opacity: 0;"
+          <div
+            class="text-center"
           >
-            Kingdom of the Planet of the Apes
-          </p>
+            <div
+              class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+            >
+              <img
+                class="rounded-lg min-h-[350px]"
+                src="images/kingdom-of-the-planet-of-the-apes.jpg"
+              />
+              <p
+                class="text-xl text-white h-[90px] mt-2"
+                style="opacity: 0;"
+              >
+                Kingdom of the Planet of the Apes
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div
@@ -325,60 +485,92 @@ exports[`should render MovieCatalog component 1`] = `
         style="transform: translateX(-200%) translateZ(0);"
       >
         <div
-          class="text-center m-8 md:w-[160px] lg:w-[220px]"
+          class="flex"
         >
-          <img
-            class="rounded-lg min-h-[350px]"
-            src="images/transformers-one.jpg"
-          />
-          <p
-            class="text-xl text-white  h-[55px] mt-2"
-            style="opacity: 0;"
+          <div
+            class="text-center"
           >
-            Transformers One
-          </p>
+            <div
+              class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+            >
+              <img
+                class="rounded-lg min-h-[350px]"
+                src="images/transformers-one.jpg"
+              />
+              <p
+                class="text-xl text-white h-[90px] mt-2"
+                style="opacity: 0;"
+              >
+                Transformers One
+              </p>
+            </div>
+          </div>
         </div>
         <div
-          class="text-center m-8 md:w-[160px] lg:w-[220px]"
+          class="flex"
         >
-          <img
-            class="rounded-lg min-h-[350px]"
-            src="images/mufasa-the-lion-king.jpg"
-          />
-          <p
-            class="text-xl text-white  h-[55px] mt-2"
-            style="opacity: 0;"
+          <div
+            class="text-center"
           >
-            Mufasa: The Lion King
-          </p>
+            <div
+              class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+            >
+              <img
+                class="rounded-lg min-h-[350px]"
+                src="images/mufasa-the-lion-king.jpg"
+              />
+              <p
+                class="text-xl text-white h-[90px] mt-2"
+                style="opacity: 0;"
+              >
+                Mufasa: The Lion King
+              </p>
+            </div>
+          </div>
         </div>
         <div
-          class="text-center m-8 md:w-[160px] lg:w-[220px]"
+          class="flex"
         >
-          <img
-            class="rounded-lg min-h-[350px]"
-            src="images/beverly-hills-cop-axel-f.jpg"
-          />
-          <p
-            class="text-xl text-white  h-[55px] mt-2"
-            style="opacity: 0;"
+          <div
+            class="text-center"
           >
-            Beverly Hills Cop: Axel F
-          </p>
+            <div
+              class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+            >
+              <img
+                class="rounded-lg min-h-[350px]"
+                src="images/beverly-hills-cop-axel-f.jpg"
+              />
+              <p
+                class="text-xl text-white h-[90px] mt-2"
+                style="opacity: 0;"
+              >
+                Beverly Hills Cop: Axel F
+              </p>
+            </div>
+          </div>
         </div>
         <div
-          class="text-center m-8 md:w-[160px] lg:w-[220px]"
+          class="flex"
         >
-          <img
-            class="rounded-lg min-h-[350px]"
-            src="images/indiana-jones-and-the-dial-of-destiny.jpg"
-          />
-          <p
-            class="text-xl text-white  h-[55px] mt-2"
-            style="opacity: 0;"
+          <div
+            class="text-center"
           >
-            Indiana Jones and the Dial of Destiny
-          </p>
+            <div
+              class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+            >
+              <img
+                class="rounded-lg min-h-[350px]"
+                src="images/indiana-jones-and-the-dial-of-destiny.jpg"
+              />
+              <p
+                class="text-xl text-white h-[90px] mt-2"
+                style="opacity: 0;"
+              >
+                Indiana Jones and the Dial of Destiny
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div
@@ -386,60 +578,92 @@ exports[`should render MovieCatalog component 1`] = `
         style="transform: translateX(-300%) translateZ(0);"
       >
         <div
-          class="text-center m-8 md:w-[160px] lg:w-[220px]"
+          class="flex"
         >
-          <img
-            class="rounded-lg min-h-[350px]"
-            src="images/gran-turismo.jpg"
-          />
-          <p
-            class="text-xl text-white  h-[55px] mt-2"
-            style="opacity: 0;"
+          <div
+            class="text-center"
           >
-            Gran Turismo
-          </p>
+            <div
+              class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+            >
+              <img
+                class="rounded-lg min-h-[350px]"
+                src="images/gran-turismo.jpg"
+              />
+              <p
+                class="text-xl text-white h-[90px] mt-2"
+                style="opacity: 0;"
+              >
+                Gran Turismo
+              </p>
+            </div>
+          </div>
         </div>
         <div
-          class="text-center m-8 md:w-[160px] lg:w-[220px]"
+          class="flex"
         >
-          <img
-            class="rounded-lg min-h-[350px]"
-            src="images/aquaman-and-the-lost-kingdom.jpg"
-          />
-          <p
-            class="text-xl text-white  h-[55px] mt-2"
-            style="opacity: 0;"
+          <div
+            class="text-center"
           >
-            Aquaman and the Lost Kingdom
-          </p>
+            <div
+              class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+            >
+              <img
+                class="rounded-lg min-h-[350px]"
+                src="images/aquaman-and-the-lost-kingdom.jpg"
+              />
+              <p
+                class="text-xl text-white h-[90px] mt-2"
+                style="opacity: 0;"
+              >
+                Aquaman and the Lost Kingdom
+              </p>
+            </div>
+          </div>
         </div>
         <div
-          class="text-center m-8 md:w-[160px] lg:w-[220px]"
+          class="flex"
         >
-          <img
-            class="rounded-lg min-h-[350px]"
-            src="images/the-super-mario-bros-movie.jpg"
-          />
-          <p
-            class="text-xl text-white  h-[55px] mt-2"
-            style="opacity: 0;"
+          <div
+            class="text-center"
           >
-            The Super Mario Bros. Movie
-          </p>
+            <div
+              class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+            >
+              <img
+                class="rounded-lg min-h-[350px]"
+                src="images/the-super-mario-bros-movie.jpg"
+              />
+              <p
+                class="text-xl text-white h-[90px] mt-2"
+                style="opacity: 0;"
+              >
+                The Super Mario Bros. Movie
+              </p>
+            </div>
+          </div>
         </div>
         <div
-          class="text-center m-8 md:w-[160px] lg:w-[220px]"
+          class="flex"
         >
-          <img
-            class="rounded-lg min-h-[350px]"
-            src="images/spider-man-across-the-spider-verse.jpg"
-          />
-          <p
-            class="text-xl text-white  h-[55px] mt-2"
-            style="opacity: 0;"
+          <div
+            class="text-center"
           >
-            Spider-Man: Across the Spider-Verse
-          </p>
+            <div
+              class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+            >
+              <img
+                class="rounded-lg min-h-[350px]"
+                src="images/spider-man-across-the-spider-verse.jpg"
+              />
+              <p
+                class="text-xl text-white h-[90px] mt-2"
+                style="opacity: 0;"
+              >
+                Spider-Man: Across the Spider-Verse
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div
@@ -447,60 +671,92 @@ exports[`should render MovieCatalog component 1`] = `
         style="transform: translateX(-400%) translateZ(0);"
       >
         <div
-          class="text-center m-8 md:w-[160px] lg:w-[220px]"
+          class="flex"
         >
-          <img
-            class="rounded-lg min-h-[350px]"
-            src="images/shooting-stars.png"
-          />
-          <p
-            class="text-xl text-white  h-[55px] mt-2"
-            style="opacity: 0;"
+          <div
+            class="text-center"
           >
-            Shooting Stars
-          </p>
+            <div
+              class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+            >
+              <img
+                class="rounded-lg min-h-[350px]"
+                src="images/shooting-stars.png"
+              />
+              <p
+                class="text-xl text-white h-[90px] mt-2"
+                style="opacity: 0;"
+              >
+                Shooting Stars
+              </p>
+            </div>
+          </div>
         </div>
         <div
-          class="text-center m-8 md:w-[160px] lg:w-[220px]"
+          class="flex"
         >
-          <img
-            class="rounded-lg min-h-[350px]"
-            src="images/sweetwater.jpg"
-          />
-          <p
-            class="text-xl text-white  h-[55px] mt-2"
-            style="opacity: 0;"
+          <div
+            class="text-center"
           >
-            Sweetwater
-          </p>
+            <div
+              class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+            >
+              <img
+                class="rounded-lg min-h-[350px]"
+                src="images/sweetwater.jpg"
+              />
+              <p
+                class="text-xl text-white h-[90px] mt-2"
+                style="opacity: 0;"
+              >
+                Sweetwater
+              </p>
+            </div>
+          </div>
         </div>
         <div
-          class="text-center m-8 md:w-[160px] lg:w-[220px]"
+          class="flex"
         >
-          <img
-            class="rounded-lg min-h-[350px]"
-            src="images/a-million-miles-away.png"
-          />
-          <p
-            class="text-xl text-white  h-[55px] mt-2"
-            style="opacity: 0;"
+          <div
+            class="text-center"
           >
-            A Million Miles Away
-          </p>
+            <div
+              class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+            >
+              <img
+                class="rounded-lg min-h-[350px]"
+                src="images/a-million-miles-away.png"
+              />
+              <p
+                class="text-xl text-white h-[90px] mt-2"
+                style="opacity: 0;"
+              >
+                A Million Miles Away
+              </p>
+            </div>
+          </div>
         </div>
         <div
-          class="text-center m-8 md:w-[160px] lg:w-[220px]"
+          class="flex"
         >
-          <img
-            class="rounded-lg min-h-[350px]"
-            src="images/the-marvels.jpg"
-          />
-          <p
-            class="text-xl text-white  h-[55px] mt-2"
-            style="opacity: 0;"
+          <div
+            class="text-center"
           >
-            The Marvels
-          </p>
+            <div
+              class="m-8 mb-0 md:w-[160px] lg:w-[220px]"
+            >
+              <img
+                class="rounded-lg min-h-[350px]"
+                src="images/the-marvels.jpg"
+              />
+              <p
+                class="text-xl text-white h-[90px] mt-2"
+                style="opacity: 0;"
+              >
+                The Marvels
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

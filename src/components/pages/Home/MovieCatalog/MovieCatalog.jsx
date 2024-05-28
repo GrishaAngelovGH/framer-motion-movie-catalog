@@ -1,5 +1,7 @@
 import { motion } from "framer-motion"
 
+import Movie from "./Movie"
+
 import movies from "./movies.json"
 
 const MovieCatalog = () => {
@@ -17,17 +19,7 @@ const MovieCatalog = () => {
         cols.map((items, i) => (
           <motion.div key={i} className="flex flex-col" initial={{ x: `-${i + 1}00%` }} animate={{ x: "0%" }} transition={{ duration: 3, delay: 1 }}>
             {
-              items.map(v => (
-                <motion.div key={v.id} whileHover={{ scale: 1.1 }} className="text-center m-8 md:w-[160px] lg:w-[220px]">
-                  <img src={`images/${v.image}`} className="rounded-lg min-h-[350px]" />
-                  <motion.p
-                    className="text-xl text-white  h-[55px] mt-2"
-                    initial={{ opacity: 0 }} animate={{ opacity: "100%" }} transition={{ duration: 1, delay: 4 }}
-                  >
-                    {v.title}
-                  </motion.p>
-                </motion.div>
-              ))
+              items.map(v => (<Movie key={v.id} movie={v} />))
             }
           </motion.div>
         ))
