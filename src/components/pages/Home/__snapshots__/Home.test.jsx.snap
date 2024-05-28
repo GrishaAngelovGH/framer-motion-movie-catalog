@@ -51,7 +51,7 @@ exports[`should render pages/Home component 1`] = `
               style="transform: translateX(-100%) translateZ(0);"
             >
               <div
-                class="text-center m-5 md:w-[160px] lg:w-[220px]"
+                class="text-center m-8 md:w-[160px] lg:w-[220px]"
               >
                 <img
                   class="rounded-lg min-h-[350px]"
@@ -65,7 +65,7 @@ exports[`should render pages/Home component 1`] = `
                 </p>
               </div>
               <div
-                class="text-center m-5 md:w-[160px] lg:w-[220px]"
+                class="text-center m-8 md:w-[160px] lg:w-[220px]"
               >
                 <img
                   class="rounded-lg min-h-[350px]"
@@ -79,7 +79,7 @@ exports[`should render pages/Home component 1`] = `
                 </p>
               </div>
               <div
-                class="text-center m-5 md:w-[160px] lg:w-[220px]"
+                class="text-center m-8 md:w-[160px] lg:w-[220px]"
               >
                 <img
                   class="rounded-lg min-h-[350px]"
@@ -93,7 +93,7 @@ exports[`should render pages/Home component 1`] = `
                 </p>
               </div>
               <div
-                class="text-center m-5 md:w-[160px] lg:w-[220px]"
+                class="text-center m-8 md:w-[160px] lg:w-[220px]"
               >
                 <img
                   class="rounded-lg min-h-[350px]"
@@ -112,7 +112,7 @@ exports[`should render pages/Home component 1`] = `
               style="transform: translateX(-200%) translateZ(0);"
             >
               <div
-                class="text-center m-5 md:w-[160px] lg:w-[220px]"
+                class="text-center m-8 md:w-[160px] lg:w-[220px]"
               >
                 <img
                   class="rounded-lg min-h-[350px]"
@@ -126,7 +126,7 @@ exports[`should render pages/Home component 1`] = `
                 </p>
               </div>
               <div
-                class="text-center m-5 md:w-[160px] lg:w-[220px]"
+                class="text-center m-8 md:w-[160px] lg:w-[220px]"
               >
                 <img
                   class="rounded-lg min-h-[350px]"
@@ -140,7 +140,7 @@ exports[`should render pages/Home component 1`] = `
                 </p>
               </div>
               <div
-                class="text-center m-5 md:w-[160px] lg:w-[220px]"
+                class="text-center m-8 md:w-[160px] lg:w-[220px]"
               >
                 <img
                   class="rounded-lg min-h-[350px]"
@@ -154,7 +154,7 @@ exports[`should render pages/Home component 1`] = `
                 </p>
               </div>
               <div
-                class="text-center m-5 md:w-[160px] lg:w-[220px]"
+                class="text-center m-8 md:w-[160px] lg:w-[220px]"
               >
                 <img
                   class="rounded-lg min-h-[350px]"
@@ -173,7 +173,7 @@ exports[`should render pages/Home component 1`] = `
               style="transform: translateX(-300%) translateZ(0);"
             >
               <div
-                class="text-center m-5 md:w-[160px] lg:w-[220px]"
+                class="text-center m-8 md:w-[160px] lg:w-[220px]"
               >
                 <img
                   class="rounded-lg min-h-[350px]"
@@ -187,7 +187,7 @@ exports[`should render pages/Home component 1`] = `
                 </p>
               </div>
               <div
-                class="text-center m-5 md:w-[160px] lg:w-[220px]"
+                class="text-center m-8 md:w-[160px] lg:w-[220px]"
               >
                 <img
                   class="rounded-lg min-h-[350px]"
@@ -201,7 +201,7 @@ exports[`should render pages/Home component 1`] = `
                 </p>
               </div>
               <div
-                class="text-center m-5 md:w-[160px] lg:w-[220px]"
+                class="text-center m-8 md:w-[160px] lg:w-[220px]"
               >
                 <img
                   class="rounded-lg min-h-[350px]"
@@ -215,7 +215,7 @@ exports[`should render pages/Home component 1`] = `
                 </p>
               </div>
               <div
-                class="text-center m-5 md:w-[160px] lg:w-[220px]"
+                class="text-center m-8 md:w-[160px] lg:w-[220px]"
               >
                 <img
                   class="rounded-lg min-h-[350px]"
@@ -234,7 +234,7 @@ exports[`should render pages/Home component 1`] = `
               style="transform: translateX(-400%) translateZ(0);"
             >
               <div
-                class="text-center m-5 md:w-[160px] lg:w-[220px]"
+                class="text-center m-8 md:w-[160px] lg:w-[220px]"
               >
                 <img
                   class="rounded-lg min-h-[350px]"
@@ -248,7 +248,7 @@ exports[`should render pages/Home component 1`] = `
                 </p>
               </div>
               <div
-                class="text-center m-5 md:w-[160px] lg:w-[220px]"
+                class="text-center m-8 md:w-[160px] lg:w-[220px]"
               >
                 <img
                   class="rounded-lg min-h-[350px]"
@@ -262,7 +262,7 @@ exports[`should render pages/Home component 1`] = `
                 </p>
               </div>
               <div
-                class="text-center m-5 md:w-[160px] lg:w-[220px]"
+                class="text-center m-8 md:w-[160px] lg:w-[220px]"
               >
                 <img
                   class="rounded-lg min-h-[350px]"
@@ -276,7 +276,7 @@ exports[`should render pages/Home component 1`] = `
                 </p>
               </div>
               <div
-                class="text-center m-5 md:w-[160px] lg:w-[220px]"
+                class="text-center m-8 md:w-[160px] lg:w-[220px]"
               >
                 <img
                   class="rounded-lg min-h-[350px]"
@@ -342,7 +342,7 @@ exports[`should render pages/Home component 1`] = `
             style="transform: translateX(-100%) translateZ(0);"
           >
             <div
-              class="text-center m-5 md:w-[160px] lg:w-[220px]"
+              class="text-center m-8 md:w-[160px] lg:w-[220px]"
             >
               <img
                 class="rounded-lg min-h-[350px]"
@@ -356,7 +356,7 @@ exports[`should render pages/Home component 1`] = `
               </p>
             </div>
             <div
-              class="text-center m-5 md:w-[160px] lg:w-[220px]"
+              class="text-center m-8 md:w-[160px] lg:w-[220px]"
             >
               <img
                 class="rounded-lg min-h-[350px]"
@@ -370,7 +370,7 @@ exports[`should render pages/Home component 1`] = `
               </p>
             </div>
             <div
-              class="text-center m-5 md:w-[160px] lg:w-[220px]"
+              class="text-center m-8 md:w-[160px] lg:w-[220px]"
             >
               <img
                 class="rounded-lg min-h-[350px]"
@@ -384,7 +384,7 @@ exports[`should render pages/Home component 1`] = `
               </p>
             </div>
             <div
-              class="text-center m-5 md:w-[160px] lg:w-[220px]"
+              class="text-center m-8 md:w-[160px] lg:w-[220px]"
             >
               <img
                 class="rounded-lg min-h-[350px]"
@@ -403,7 +403,7 @@ exports[`should render pages/Home component 1`] = `
             style="transform: translateX(-200%) translateZ(0);"
           >
             <div
-              class="text-center m-5 md:w-[160px] lg:w-[220px]"
+              class="text-center m-8 md:w-[160px] lg:w-[220px]"
             >
               <img
                 class="rounded-lg min-h-[350px]"
@@ -417,7 +417,7 @@ exports[`should render pages/Home component 1`] = `
               </p>
             </div>
             <div
-              class="text-center m-5 md:w-[160px] lg:w-[220px]"
+              class="text-center m-8 md:w-[160px] lg:w-[220px]"
             >
               <img
                 class="rounded-lg min-h-[350px]"
@@ -431,7 +431,7 @@ exports[`should render pages/Home component 1`] = `
               </p>
             </div>
             <div
-              class="text-center m-5 md:w-[160px] lg:w-[220px]"
+              class="text-center m-8 md:w-[160px] lg:w-[220px]"
             >
               <img
                 class="rounded-lg min-h-[350px]"
@@ -445,7 +445,7 @@ exports[`should render pages/Home component 1`] = `
               </p>
             </div>
             <div
-              class="text-center m-5 md:w-[160px] lg:w-[220px]"
+              class="text-center m-8 md:w-[160px] lg:w-[220px]"
             >
               <img
                 class="rounded-lg min-h-[350px]"
@@ -464,7 +464,7 @@ exports[`should render pages/Home component 1`] = `
             style="transform: translateX(-300%) translateZ(0);"
           >
             <div
-              class="text-center m-5 md:w-[160px] lg:w-[220px]"
+              class="text-center m-8 md:w-[160px] lg:w-[220px]"
             >
               <img
                 class="rounded-lg min-h-[350px]"
@@ -478,7 +478,7 @@ exports[`should render pages/Home component 1`] = `
               </p>
             </div>
             <div
-              class="text-center m-5 md:w-[160px] lg:w-[220px]"
+              class="text-center m-8 md:w-[160px] lg:w-[220px]"
             >
               <img
                 class="rounded-lg min-h-[350px]"
@@ -492,7 +492,7 @@ exports[`should render pages/Home component 1`] = `
               </p>
             </div>
             <div
-              class="text-center m-5 md:w-[160px] lg:w-[220px]"
+              class="text-center m-8 md:w-[160px] lg:w-[220px]"
             >
               <img
                 class="rounded-lg min-h-[350px]"
@@ -506,7 +506,7 @@ exports[`should render pages/Home component 1`] = `
               </p>
             </div>
             <div
-              class="text-center m-5 md:w-[160px] lg:w-[220px]"
+              class="text-center m-8 md:w-[160px] lg:w-[220px]"
             >
               <img
                 class="rounded-lg min-h-[350px]"
@@ -525,7 +525,7 @@ exports[`should render pages/Home component 1`] = `
             style="transform: translateX(-400%) translateZ(0);"
           >
             <div
-              class="text-center m-5 md:w-[160px] lg:w-[220px]"
+              class="text-center m-8 md:w-[160px] lg:w-[220px]"
             >
               <img
                 class="rounded-lg min-h-[350px]"
@@ -539,7 +539,7 @@ exports[`should render pages/Home component 1`] = `
               </p>
             </div>
             <div
-              class="text-center m-5 md:w-[160px] lg:w-[220px]"
+              class="text-center m-8 md:w-[160px] lg:w-[220px]"
             >
               <img
                 class="rounded-lg min-h-[350px]"
@@ -553,7 +553,7 @@ exports[`should render pages/Home component 1`] = `
               </p>
             </div>
             <div
-              class="text-center m-5 md:w-[160px] lg:w-[220px]"
+              class="text-center m-8 md:w-[160px] lg:w-[220px]"
             >
               <img
                 class="rounded-lg min-h-[350px]"
@@ -567,7 +567,7 @@ exports[`should render pages/Home component 1`] = `
               </p>
             </div>
             <div
-              class="text-center m-5 md:w-[160px] lg:w-[220px]"
+              class="text-center m-8 md:w-[160px] lg:w-[220px]"
             >
               <img
                 class="rounded-lg min-h-[350px]"
