@@ -18,7 +18,15 @@ const MovieCatalog = () => {
           <motion.div key={i} className="flex flex-col" initial={{ x: `-${i + 1}00%` }} animate={{ x: "0%" }} transition={{ duration: 3, delay: 1 }}>
             {
               items.map(v => (
-                <img key={v.id} src={`images/${v.image}`} className="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5" />
+                <div key={v.id} className="text-center m-5 md:w-[160px] lg:w-[220px]">
+                  <img src={`images/${v.image}`} className="rounded-lg min-h-[350px]" />
+                  <motion.p
+                    className="text-xl text-white  h-[55px] mt-2"
+                    initial={{ opacity: 0 }} animate={{ opacity: "100%" }} transition={{ duration: 1, delay: 4 }}
+                  >
+                    {v.title}
+                  </motion.p>
+                </div>
               ))
             }
           </motion.div>
