@@ -44,9 +44,92 @@ exports[`should render App component 1`] = `
           class="h-full"
         >
           <div
-            class="bg-blue-300 h-full"
+            class="bg-blue-800 min-h-full flex flex-col md:flex-row justify-center items-center"
           >
-            Content
+            <div
+              class="flex flex-col"
+              style="transform: translateX(-100%) translateZ(0);"
+            >
+              <img
+                class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+                src="images/the-garfield-movie.jpg"
+              />
+              <img
+                class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+                src="images/fly-me-to-the-moon.jpg"
+              />
+              <img
+                class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+                src="images/kung-fu-panda-4.jpg"
+              />
+              <img
+                class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+                src="images/kingdom-of-the-planet-of-the-apes.jpg"
+              />
+            </div>
+            <div
+              class="flex flex-col"
+              style="transform: translateX(-200%) translateZ(0);"
+            >
+              <img
+                class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+                src="images/transformers-one.jpg"
+              />
+              <img
+                class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+                src="images/mufasa-the-lion-king.jpg"
+              />
+              <img
+                class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+                src="images/beverly-hills-cop-axel-f.jpg"
+              />
+              <img
+                class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+                src="images/indiana-jones-and-the-dial-of-destiny.jpg"
+              />
+            </div>
+            <div
+              class="flex flex-col"
+              style="transform: translateX(-300%) translateZ(0);"
+            >
+              <img
+                class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+                src="images/gran-turismo.jpg"
+              />
+              <img
+                class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+                src="images/aquaman-and-the-lost-kingdom.jpg"
+              />
+              <img
+                class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+                src="images/the-super-mario-bros-movie.jpg"
+              />
+              <img
+                class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+                src="images/spider-man-across-the-spider-verse.jpg"
+              />
+            </div>
+            <div
+              class="flex flex-col"
+              style="transform: translateX(-400%) translateZ(0);"
+            >
+              <img
+                class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+                src="images/shooting-stars.png"
+              />
+              <img
+                class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+                src="images/sweetwater.jpg"
+              />
+              <img
+                class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+                src="images/a-million-miles-away.png"
+              />
+              <img
+                class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+                src="images/the-marvels.jpg"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -92,9 +175,92 @@ exports[`should render App component 1`] = `
         class="h-full"
       >
         <div
-          class="bg-blue-300 h-full"
+          class="bg-blue-800 min-h-full flex flex-col md:flex-row justify-center items-center"
         >
-          Content
+          <div
+            class="flex flex-col"
+            style="transform: translateX(-100%) translateZ(0);"
+          >
+            <img
+              class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+              src="images/the-garfield-movie.jpg"
+            />
+            <img
+              class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+              src="images/fly-me-to-the-moon.jpg"
+            />
+            <img
+              class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+              src="images/kung-fu-panda-4.jpg"
+            />
+            <img
+              class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+              src="images/kingdom-of-the-planet-of-the-apes.jpg"
+            />
+          </div>
+          <div
+            class="flex flex-col"
+            style="transform: translateX(-200%) translateZ(0);"
+          >
+            <img
+              class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+              src="images/transformers-one.jpg"
+            />
+            <img
+              class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+              src="images/mufasa-the-lion-king.jpg"
+            />
+            <img
+              class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+              src="images/beverly-hills-cop-axel-f.jpg"
+            />
+            <img
+              class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+              src="images/indiana-jones-and-the-dial-of-destiny.jpg"
+            />
+          </div>
+          <div
+            class="flex flex-col"
+            style="transform: translateX(-300%) translateZ(0);"
+          >
+            <img
+              class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+              src="images/gran-turismo.jpg"
+            />
+            <img
+              class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+              src="images/aquaman-and-the-lost-kingdom.jpg"
+            />
+            <img
+              class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+              src="images/the-super-mario-bros-movie.jpg"
+            />
+            <img
+              class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+              src="images/spider-man-across-the-spider-verse.jpg"
+            />
+          </div>
+          <div
+            class="flex flex-col"
+            style="transform: translateX(-400%) translateZ(0);"
+          >
+            <img
+              class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+              src="images/shooting-stars.png"
+            />
+            <img
+              class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+              src="images/sweetwater.jpg"
+            />
+            <img
+              class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+              src="images/a-million-miles-away.png"
+            />
+            <img
+              class="rounded-lg md:w-[160px] lg:w-[220px] min-h-[350px] m-5"
+              src="images/the-marvels.jpg"
+            />
+          </div>
         </div>
       </div>
     </div>
