@@ -44,7 +44,7 @@ exports[`should render pages/Movie component 1`] = `
           class="h-full"
         >
           <div
-            class="bg-blue-800 text-white min-h-full"
+            class="text-white min-h-full"
           >
             <h1
               class="text-center bg-blue-900 w-full mb-5 p-5"
@@ -156,7 +156,7 @@ exports[`should render pages/Movie component 1`] = `
         class="h-full"
       >
         <div
-          class="bg-blue-800 text-white min-h-full"
+          class="text-white min-h-full"
         >
           <h1
             class="text-center bg-blue-900 w-full mb-5 p-5"

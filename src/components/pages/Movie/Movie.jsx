@@ -1,14 +1,32 @@
+import { useState, useEffect, useRef } from "react";
+import { motion } from "framer-motion"
+import { FastAverageColor } from "fast-average-color"
+
 import Layout from "components/Layout"
 import Header from "components/Header"
 
-import { motion } from "framer-motion"
+const color = new FastAverageColor()
 
 const Movie = ({ id, movies }) => {
+  const [bgColor, setBgColor] = useState("")
+
+  const imgRef = useRef()
+
   const movie = movies.find(v => v.id === Number(id))
+
+  useEffect(() => {
+    color.getColorAsync(imgRef.current)
+      .then(color => {
+        setBgColor(color.hex)
+      })
+      .catch(e => {
+        console.log(e)
+      })
+  }, [])
 
   return (
     <Layout header={<Header />}>
-      <div className="bg-blue-800 text-white min-h-full">
+      <div className="text-white min-h-full" style={{ background: bgColor }}>
         <motion.h1
           initial={{ y: "-100%" }}
           animate={{ y: "0%" }}
@@ -24,7 +42,7 @@ const Movie = ({ id, movies }) => {
             animate={{ x: "0%", display: "block" }}
             transition={{ duration: 2, delay: 1 }}
           >
-            <img src={`/images/${movie.image}`} className="rounded-lg w-[220px] h-[350px]" />
+            <img ref={imgRef} src={`/images/${movie.image}`} className="rounded-lg w-[220px] h-[350px]" />
             <p className="m-2">Runtime: {movie.runtime}</p>
             <p className="m-2">Release Date: {movie.releaseDate}</p>
           </motion.div>
