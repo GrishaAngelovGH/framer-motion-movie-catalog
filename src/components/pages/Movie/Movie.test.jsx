@@ -1,21 +1,26 @@
 import { render } from "@testing-library/react"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+
+import {
+  RouterProvider,
+  createMemoryRouter,
+} from "react-router-dom"
 
 import Movie from "./Movie"
-import MovieProvider from "components/MovieProvider"
 
 test("should render pages/Movie component", () => {
+  const routes = [
+    {
+      path: "/movies/:id",
+      element: <Movie />
+    }
+  ]
+
+  const router = createMemoryRouter(routes, {
+    initialEntries: ["/movies/1"]
+  })
+
   const view = render(
-    <Router>
-      <Routes>
-        <Route path="/" element={
-          <MovieProvider>
-            <Movie id={1} />
-          </MovieProvider>
-        }
-        />
-      </Routes>
-    </Router>
+    <RouterProvider router={router} />
   )
 
   expect(view).toMatchSnapshot()
