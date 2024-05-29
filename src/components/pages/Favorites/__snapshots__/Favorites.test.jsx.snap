@@ -5,14 +5,44 @@ exports[`should render pages/Favorites component 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
-        Favorites
+      <div
+        class="h-screen p-10"
+      >
+        <div
+          class="m-8 flex justify-center items-center rounded-md w-[200px] h-[200px] bg-white"
+          draggable="false"
+          style="transform: none; user-select: none;"
+        >
+          A
+        </div>
+        <div
+          class="m-8 flex justify-center items-center rounded-md w-[200px] h-[200px] bg-white"
+          draggable="false"
+          style="transform: none; user-select: none;"
+        >
+          B
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
-    <div>
-      Favorites
+    <div
+      class="h-screen p-10"
+    >
+      <div
+        class="m-8 flex justify-center items-center rounded-md w-[200px] h-[200px] bg-white"
+        draggable="false"
+        style="transform: none; user-select: none;"
+      >
+        A
+      </div>
+      <div
+        class="m-8 flex justify-center items-center rounded-md w-[200px] h-[200px] bg-white"
+        draggable="false"
+        style="transform: none; user-select: none;"
+      >
+        B
+      </div>
     </div>
   </div>,
   "debug": [Function],
