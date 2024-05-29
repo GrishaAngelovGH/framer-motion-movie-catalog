@@ -1,14 +1,13 @@
-import Layout from "components/Layout"
-import Header from "components/Header"
+import LayoutPage from "components/pages/LayoutPage"
 import MovieProvider from "components/MovieProvider"
 import MovieCatalog from "components/pages/Home/MovieCatalog"
 
 const Home = () => (
-  <Layout header={<Header />}>
+  <LayoutPage>
     <MovieProvider>
       <MovieCatalog />
     </MovieProvider>
-  </Layout>
+  </LayoutPage>
 )
 
 export default Home

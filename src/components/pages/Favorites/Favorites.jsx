@@ -1,14 +1,13 @@
-import Header from "components/Header"
-import Layout from "components/Layout"
+import LayoutPage from "components/pages/LayoutPage"
 import MovieProvider from "components/MovieProvider"
 import FavoriteMovies from "./FavoriteMovies"
 
 const Favorites = () => (
-  <Layout header={<Header />}>
+  <LayoutPage>
     <MovieProvider>
       <FavoriteMovies />
     </MovieProvider>
-  </Layout>
+  </LayoutPage>
 )
 
 export default Favorites
