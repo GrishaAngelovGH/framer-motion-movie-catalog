@@ -1,6 +1,8 @@
-import { useState } from "react";
+import { useState } from "react"
 
 import { motion, useMotionValue, useTransform } from "framer-motion"
+
+import persistentMovieCatalog from "persistent/persistentMovieCatalog"
 
 const DraggableBox = ({ title, onBackgroundChange }) => {
   // The component calculates the current background color 
@@ -47,16 +49,20 @@ const DraggableBox = ({ title, onBackgroundChange }) => {
   )
 }
 
-const Favorites = () => {
+const Favorites = ({ movies }) => {
   const [background, setBackground] = useState(
     "linear-gradient(180deg, #1e40af 0%, rgb(30, 64, 175) 100%)"
   )
 
-  return (
-    <motion.div className="h-screen p-10" style={{ background }}>
-      <DraggableBox title="A" onBackgroundChange={setBackground} />
+  const favoriteMoviesIds = persistentMovieCatalog.getFavoriteMovies().map(Number)
 
-      <DraggableBox title="B" onBackgroundChange={setBackground} />
+  const favoriteMovies = movies.filter(v => favoriteMoviesIds.includes(v.id))
+
+  return (
+    <motion.div className="min-h-screen p-10" style={{ background }}>
+      {
+        favoriteMovies.map(v => <DraggableBox key={v.id} title={v.title} onBackgroundChange={setBackground} />)
+      }
     </motion.div>
   )
 }

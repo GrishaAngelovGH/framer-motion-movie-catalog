@@ -6,44 +6,14 @@ exports[`should render pages/Favorites component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="h-screen p-10"
-      >
-        <div
-          class="m-8 flex justify-center items-center rounded-md w-[200px] h-[200px] bg-white"
-          draggable="false"
-          style="transform: none; user-select: none;"
-        >
-          A
-        </div>
-        <div
-          class="m-8 flex justify-center items-center rounded-md w-[200px] h-[200px] bg-white"
-          draggable="false"
-          style="transform: none; user-select: none;"
-        >
-          B
-        </div>
-      </div>
+        class="min-h-screen p-10"
+      />
     </div>
   </body>,
   "container": <div>
     <div
-      class="h-screen p-10"
-    >
-      <div
-        class="m-8 flex justify-center items-center rounded-md w-[200px] h-[200px] bg-white"
-        draggable="false"
-        style="transform: none; user-select: none;"
-      >
-        A
-      </div>
-      <div
-        class="m-8 flex justify-center items-center rounded-md w-[200px] h-[200px] bg-white"
-        draggable="false"
-        style="transform: none; user-select: none;"
-      >
-        B
-      </div>
-    </div>
+      class="min-h-screen p-10"
+    />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
