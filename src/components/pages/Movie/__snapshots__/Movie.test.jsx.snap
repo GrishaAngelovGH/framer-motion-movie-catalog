@@ -32,10 +32,16 @@ exports[`should render pages/Movie component 1`] = `
               class="me-5"
             >
               <a
-                class="text-white hover:text-white hover:underline"
+                class="text-white hover:text-white hover:underline me-5"
                 href="/"
               >
                 Home
+              </a>
+              <a
+                class="text-white hover:text-white hover:underline me-5"
+                href="/favorites"
+              >
+                Favorites
               </a>
             </div>
           </div>
@@ -144,10 +150,16 @@ exports[`should render pages/Movie component 1`] = `
             class="me-5"
           >
             <a
-              class="text-white hover:text-white hover:underline"
+              class="text-white hover:text-white hover:underline me-5"
               href="/"
             >
               Home
+            </a>
+            <a
+              class="text-white hover:text-white hover:underline me-5"
+              href="/favorites"
+            >
+              Favorites
             </a>
           </div>
         </div>

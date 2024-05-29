@@ -1,80 +1,18 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render Header component 1`] = `
+exports[`should render pages/Favorites component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="flex justify-between items-center bg-blue-500 h-full"
-      >
-        <div
-          class="ms-5 w-[200px] flex justify-between items-center"
-          style="opacity: 0; transform: scale(0.5) translateZ(0);"
-        >
-          <img
-            class="w-[40px]"
-            src="/images/film-roll.png"
-          />
-          <h1
-            class="text-4xl font-bold text-white"
-          >
-            Cinema
-          </h1>
-        </div>
-        <div
-          class="me-5"
-        >
-          <a
-            class="text-white hover:text-white hover:underline me-5"
-            href="/"
-          >
-            Home
-          </a>
-          <a
-            class="text-white hover:text-white hover:underline me-5"
-            href="/favorites"
-          >
-            Favorites
-          </a>
-        </div>
+      <div>
+        Favorites
       </div>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="flex justify-between items-center bg-blue-500 h-full"
-    >
-      <div
-        class="ms-5 w-[200px] flex justify-between items-center"
-        style="opacity: 0; transform: scale(0.5) translateZ(0);"
-      >
-        <img
-          class="w-[40px]"
-          src="/images/film-roll.png"
-        />
-        <h1
-          class="text-4xl font-bold text-white"
-        >
-          Cinema
-        </h1>
-      </div>
-      <div
-        class="me-5"
-      >
-        <a
-          class="text-white hover:text-white hover:underline me-5"
-          href="/"
-        >
-          Home
-        </a>
-        <a
-          class="text-white hover:text-white hover:underline me-5"
-          href="/favorites"
-        >
-          Favorites
-        </a>
-      </div>
+    <div>
+      Favorites
     </div>
   </div>,
   "debug": [Function],

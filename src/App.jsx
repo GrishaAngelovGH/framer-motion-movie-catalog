@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route, useParams } from "react-router-
 
 import Home from "components/pages/Home"
 import Movie from "components/pages/Movie"
+import Favorites from "components/pages/Favorites"
+
 import MovieProvider from "components/MovieProvider"
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/movies/:id" element={<MovieRoute />} />
+        <Route path="/favorites" element={<Favorites />} />
       </Routes>
     </Router>
   )

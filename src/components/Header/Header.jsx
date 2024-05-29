@@ -16,7 +16,8 @@ const Header = () => (
     </motion.div>
 
     <div className="me-5">
-      <Link to="/" className="text-white hover:text-white hover:underline">Home</Link>
+      <Link to="/" className="text-white hover:text-white hover:underline me-5">Home</Link>
+      <Link to="/favorites" className="text-white hover:text-white hover:underline me-5">Favorites</Link>
     </div>
   </div>
 )
