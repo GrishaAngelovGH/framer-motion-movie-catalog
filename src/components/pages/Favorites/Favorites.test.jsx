@@ -1,14 +1,15 @@
 import { render } from "@testing-library/react"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 import Favorites from "./Favorites"
 
-import MovieProvider from "components/MovieProvider"
-
 test("should render pages/Favorites component", () => {
   const view = render(
-    <MovieProvider>
-      <Favorites />
-    </MovieProvider>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Favorites />} />
+      </Routes>
+    </Router>
   )
 
   expect(view).toMatchSnapshot()
