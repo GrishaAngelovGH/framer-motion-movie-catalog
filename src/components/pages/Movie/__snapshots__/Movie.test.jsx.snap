@@ -44,11 +44,73 @@ exports[`should render pages/Movie component 1`] = `
           class="h-full"
         >
           <div
-            class="bg-blue-800 min-h-full"
+            class="bg-blue-800 text-white min-h-full"
           >
-            <h1>
-              Movie: 
+            <h1
+              class="text-center bg-blue-900 w-full mb-5 p-5"
+              style="transform: translateY(-100%) translateZ(0);"
+            >
+              The Garfield Movie
             </h1>
+            <div
+              class="flex justify-around pb-6 overflow-hidden"
+            >
+              <div
+                style="display: none; transform: translateX(-100%) translateZ(0);"
+              >
+                <img
+                  class="rounded-lg w-[220px] h-[350px]"
+                  src="/images/the-garfield-movie.jpg"
+                />
+                <p
+                  class="m-2"
+                >
+                  Runtime: 
+                  1h 41m
+                </p>
+                <p
+                  class="m-2"
+                >
+                  Release Date: 
+                  24 May 2024
+                </p>
+              </div>
+              <div
+                class="w-1/2"
+                style="display: none; transform: translateX(100%) translateZ(0);"
+              >
+                <p
+                  class="text-2xl"
+                >
+                  Description
+                </p>
+                <p
+                  class="text-xl mt-5"
+                >
+                  Garfield (voiced by Chris Pratt), the world-famous, Monday-hating, lasagna-loving indoor cat, is about to have a wild outdoor adventure! After an unexpected reunion with his long-lost father – scruffy street cat Vic (voiced by Samuel L. Jackson) – Garfield and his canine friend Odie are forced from their perfectly pampered life into joining Vic in a hilarious, high-stakes heist.
+                </p>
+                <p
+                  class="text-2xl mt-5"
+                >
+                  Cast
+                </p>
+                <p
+                  class="text-xl mt-5"
+                >
+                  Ving Rhames,Harvey Guillén,Hannah Waddingham,Bowen Yang,Brett Goldstein, Cecily Strong,Samuel L. Jackson,Chris Pratt,Nicholas Hoult
+                </p>
+                <p
+                  class="text-2xl mt-5"
+                >
+                  Genres
+                </p>
+                <p
+                  class="text-xl mt-5"
+                >
+                  Animation,Comedy,Family
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -94,11 +156,73 @@ exports[`should render pages/Movie component 1`] = `
         class="h-full"
       >
         <div
-          class="bg-blue-800 min-h-full"
+          class="bg-blue-800 text-white min-h-full"
         >
-          <h1>
-            Movie: 
+          <h1
+            class="text-center bg-blue-900 w-full mb-5 p-5"
+            style="transform: translateY(-100%) translateZ(0);"
+          >
+            The Garfield Movie
           </h1>
+          <div
+            class="flex justify-around pb-6 overflow-hidden"
+          >
+            <div
+              style="display: none; transform: translateX(-100%) translateZ(0);"
+            >
+              <img
+                class="rounded-lg w-[220px] h-[350px]"
+                src="/images/the-garfield-movie.jpg"
+              />
+              <p
+                class="m-2"
+              >
+                Runtime: 
+                1h 41m
+              </p>
+              <p
+                class="m-2"
+              >
+                Release Date: 
+                24 May 2024
+              </p>
+            </div>
+            <div
+              class="w-1/2"
+              style="display: none; transform: translateX(100%) translateZ(0);"
+            >
+              <p
+                class="text-2xl"
+              >
+                Description
+              </p>
+              <p
+                class="text-xl mt-5"
+              >
+                Garfield (voiced by Chris Pratt), the world-famous, Monday-hating, lasagna-loving indoor cat, is about to have a wild outdoor adventure! After an unexpected reunion with his long-lost father – scruffy street cat Vic (voiced by Samuel L. Jackson) – Garfield and his canine friend Odie are forced from their perfectly pampered life into joining Vic in a hilarious, high-stakes heist.
+              </p>
+              <p
+                class="text-2xl mt-5"
+              >
+                Cast
+              </p>
+              <p
+                class="text-xl mt-5"
+              >
+                Ving Rhames,Harvey Guillén,Hannah Waddingham,Bowen Yang,Brett Goldstein, Cecily Strong,Samuel L. Jackson,Chris Pratt,Nicholas Hoult
+              </p>
+              <p
+                class="text-2xl mt-5"
+              >
+                Genres
+              </p>
+              <p
+                class="text-xl mt-5"
+              >
+                Animation,Comedy,Family
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

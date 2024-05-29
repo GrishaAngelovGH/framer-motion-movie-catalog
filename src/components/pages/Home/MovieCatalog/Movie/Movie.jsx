@@ -71,7 +71,7 @@ const Movie = ({ movie: { id, image, title } }) => {
                 </motion.div>
               )
             }
-            <img src={`images/${image}`} className="rounded-lg h-[350px]" />
+            <img src={`/images/${image}`} className="rounded-lg h-[350px]" />
             <motion.p
               className="text-xl text-white h-[90px] mt-2"
               initial={{ opacity: 0 }}

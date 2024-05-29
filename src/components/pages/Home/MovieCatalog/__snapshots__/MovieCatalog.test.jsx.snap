@@ -28,7 +28,7 @@ exports[`should render MovieCatalog component 1`] = `
                   >
                     <img
                       class="rounded-lg h-[350px]"
-                      src="images/the-garfield-movie.jpg"
+                      src="/images/the-garfield-movie.jpg"
                     />
                     <p
                       class="text-xl text-white h-[90px] mt-2"
@@ -73,7 +73,7 @@ exports[`should render MovieCatalog component 1`] = `
                   >
                     <img
                       class="rounded-lg h-[350px]"
-                      src="images/fly-me-to-the-moon.jpg"
+                      src="/images/fly-me-to-the-moon.jpg"
                     />
                     <p
                       class="text-xl text-white h-[90px] mt-2"
@@ -118,7 +118,7 @@ exports[`should render MovieCatalog component 1`] = `
                   >
                     <img
                       class="rounded-lg h-[350px]"
-                      src="images/kung-fu-panda-4.jpg"
+                      src="/images/kung-fu-panda-4.jpg"
                     />
                     <p
                       class="text-xl text-white h-[90px] mt-2"
@@ -163,7 +163,7 @@ exports[`should render MovieCatalog component 1`] = `
                   >
                     <img
                       class="rounded-lg h-[350px]"
-                      src="images/kingdom-of-the-planet-of-the-apes.jpg"
+                      src="/images/kingdom-of-the-planet-of-the-apes.jpg"
                     />
                     <p
                       class="text-xl text-white h-[90px] mt-2"
@@ -208,7 +208,7 @@ exports[`should render MovieCatalog component 1`] = `
                   >
                     <img
                       class="rounded-lg h-[350px]"
-                      src="images/transformers-one.jpg"
+                      src="/images/transformers-one.jpg"
                     />
                     <p
                       class="text-xl text-white h-[90px] mt-2"
@@ -253,7 +253,7 @@ exports[`should render MovieCatalog component 1`] = `
                   >
                     <img
                       class="rounded-lg h-[350px]"
-                      src="images/mufasa-the-lion-king.jpg"
+                      src="/images/mufasa-the-lion-king.jpg"
                     />
                     <p
                       class="text-xl text-white h-[90px] mt-2"
@@ -298,7 +298,7 @@ exports[`should render MovieCatalog component 1`] = `
                   >
                     <img
                       class="rounded-lg h-[350px]"
-                      src="images/beverly-hills-cop-axel-f.jpg"
+                      src="/images/beverly-hills-cop-axel-f.jpg"
                     />
                     <p
                       class="text-xl text-white h-[90px] mt-2"
@@ -343,7 +343,7 @@ exports[`should render MovieCatalog component 1`] = `
                   >
                     <img
                       class="rounded-lg h-[350px]"
-                      src="images/indiana-jones-and-the-dial-of-destiny.jpg"
+                      src="/images/indiana-jones-and-the-dial-of-destiny.jpg"
                     />
                     <p
                       class="text-xl text-white h-[90px] mt-2"
@@ -388,7 +388,7 @@ exports[`should render MovieCatalog component 1`] = `
                   >
                     <img
                       class="rounded-lg h-[350px]"
-                      src="images/gran-turismo.jpg"
+                      src="/images/gran-turismo.jpg"
                     />
                     <p
                       class="text-xl text-white h-[90px] mt-2"
@@ -433,7 +433,7 @@ exports[`should render MovieCatalog component 1`] = `
                   >
                     <img
                       class="rounded-lg h-[350px]"
-                      src="images/aquaman-and-the-lost-kingdom.jpg"
+                      src="/images/aquaman-and-the-lost-kingdom.jpg"
                     />
                     <p
                       class="text-xl text-white h-[90px] mt-2"
@@ -478,7 +478,7 @@ exports[`should render MovieCatalog component 1`] = `
                   >
                     <img
                       class="rounded-lg h-[350px]"
-                      src="images/the-super-mario-bros-movie.jpg"
+                      src="/images/the-super-mario-bros-movie.jpg"
                     />
                     <p
                       class="text-xl text-white h-[90px] mt-2"
@@ -523,7 +523,7 @@ exports[`should render MovieCatalog component 1`] = `
                   >
                     <img
                       class="rounded-lg h-[350px]"
-                      src="images/spider-man-across-the-spider-verse.jpg"
+                      src="/images/spider-man-across-the-spider-verse.jpg"
                     />
                     <p
                       class="text-xl text-white h-[90px] mt-2"
@@ -568,7 +568,7 @@ exports[`should render MovieCatalog component 1`] = `
                   >
                     <img
                       class="rounded-lg h-[350px]"
-                      src="images/shooting-stars.png"
+                      src="/images/shooting-stars.png"
                     />
                     <p
                       class="text-xl text-white h-[90px] mt-2"
@@ -613,7 +613,7 @@ exports[`should render MovieCatalog component 1`] = `
                   >
                     <img
                       class="rounded-lg h-[350px]"
-                      src="images/sweetwater.jpg"
+                      src="/images/sweetwater.jpg"
                     />
                     <p
                       class="text-xl text-white h-[90px] mt-2"
@@ -658,7 +658,7 @@ exports[`should render MovieCatalog component 1`] = `
                   >
                     <img
                       class="rounded-lg h-[350px]"
-                      src="images/a-million-miles-away.png"
+                      src="/images/a-million-miles-away.png"
                     />
                     <p
                       class="text-xl text-white h-[90px] mt-2"
@@ -703,7 +703,7 @@ exports[`should render MovieCatalog component 1`] = `
                   >
                     <img
                       class="rounded-lg h-[350px]"
-                      src="images/the-marvels.jpg"
+                      src="/images/the-marvels.jpg"
                     />
                     <p
                       class="text-xl text-white h-[90px] mt-2"
@@ -759,7 +759,7 @@ exports[`should render MovieCatalog component 1`] = `
                 >
                   <img
                     class="rounded-lg h-[350px]"
-                    src="images/the-garfield-movie.jpg"
+                    src="/images/the-garfield-movie.jpg"
                   />
                   <p
                     class="text-xl text-white h-[90px] mt-2"
@@ -804,7 +804,7 @@ exports[`should render MovieCatalog component 1`] = `
                 >
                   <img
                     class="rounded-lg h-[350px]"
-                    src="images/fly-me-to-the-moon.jpg"
+                    src="/images/fly-me-to-the-moon.jpg"
                   />
                   <p
                     class="text-xl text-white h-[90px] mt-2"
@@ -849,7 +849,7 @@ exports[`should render MovieCatalog component 1`] = `
                 >
                   <img
                     class="rounded-lg h-[350px]"
-                    src="images/kung-fu-panda-4.jpg"
+                    src="/images/kung-fu-panda-4.jpg"
                   />
                   <p
                     class="text-xl text-white h-[90px] mt-2"
@@ -894,7 +894,7 @@ exports[`should render MovieCatalog component 1`] = `
                 >
                   <img
                     class="rounded-lg h-[350px]"
-                    src="images/kingdom-of-the-planet-of-the-apes.jpg"
+                    src="/images/kingdom-of-the-planet-of-the-apes.jpg"
                   />
                   <p
                     class="text-xl text-white h-[90px] mt-2"
@@ -939,7 +939,7 @@ exports[`should render MovieCatalog component 1`] = `
                 >
                   <img
                     class="rounded-lg h-[350px]"
-                    src="images/transformers-one.jpg"
+                    src="/images/transformers-one.jpg"
                   />
                   <p
                     class="text-xl text-white h-[90px] mt-2"
@@ -984,7 +984,7 @@ exports[`should render MovieCatalog component 1`] = `
                 >
                   <img
                     class="rounded-lg h-[350px]"
-                    src="images/mufasa-the-lion-king.jpg"
+                    src="/images/mufasa-the-lion-king.jpg"
                   />
                   <p
                     class="text-xl text-white h-[90px] mt-2"
@@ -1029,7 +1029,7 @@ exports[`should render MovieCatalog component 1`] = `
                 >
                   <img
                     class="rounded-lg h-[350px]"
-                    src="images/beverly-hills-cop-axel-f.jpg"
+                    src="/images/beverly-hills-cop-axel-f.jpg"
                   />
                   <p
                     class="text-xl text-white h-[90px] mt-2"
@@ -1074,7 +1074,7 @@ exports[`should render MovieCatalog component 1`] = `
                 >
                   <img
                     class="rounded-lg h-[350px]"
-                    src="images/indiana-jones-and-the-dial-of-destiny.jpg"
+                    src="/images/indiana-jones-and-the-dial-of-destiny.jpg"
                   />
                   <p
                     class="text-xl text-white h-[90px] mt-2"
@@ -1119,7 +1119,7 @@ exports[`should render MovieCatalog component 1`] = `
                 >
                   <img
                     class="rounded-lg h-[350px]"
-                    src="images/gran-turismo.jpg"
+                    src="/images/gran-turismo.jpg"
                   />
                   <p
                     class="text-xl text-white h-[90px] mt-2"
@@ -1164,7 +1164,7 @@ exports[`should render MovieCatalog component 1`] = `
                 >
                   <img
                     class="rounded-lg h-[350px]"
-                    src="images/aquaman-and-the-lost-kingdom.jpg"
+                    src="/images/aquaman-and-the-lost-kingdom.jpg"
                   />
                   <p
                     class="text-xl text-white h-[90px] mt-2"
@@ -1209,7 +1209,7 @@ exports[`should render MovieCatalog component 1`] = `
                 >
                   <img
                     class="rounded-lg h-[350px]"
-                    src="images/the-super-mario-bros-movie.jpg"
+                    src="/images/the-super-mario-bros-movie.jpg"
                   />
                   <p
                     class="text-xl text-white h-[90px] mt-2"
@@ -1254,7 +1254,7 @@ exports[`should render MovieCatalog component 1`] = `
                 >
                   <img
                     class="rounded-lg h-[350px]"
-                    src="images/spider-man-across-the-spider-verse.jpg"
+                    src="/images/spider-man-across-the-spider-verse.jpg"
                   />
                   <p
                     class="text-xl text-white h-[90px] mt-2"
@@ -1299,7 +1299,7 @@ exports[`should render MovieCatalog component 1`] = `
                 >
                   <img
                     class="rounded-lg h-[350px]"
-                    src="images/shooting-stars.png"
+                    src="/images/shooting-stars.png"
                   />
                   <p
                     class="text-xl text-white h-[90px] mt-2"
@@ -1344,7 +1344,7 @@ exports[`should render MovieCatalog component 1`] = `
                 >
                   <img
                     class="rounded-lg h-[350px]"
-                    src="images/sweetwater.jpg"
+                    src="/images/sweetwater.jpg"
                   />
                   <p
                     class="text-xl text-white h-[90px] mt-2"
@@ -1389,7 +1389,7 @@ exports[`should render MovieCatalog component 1`] = `
                 >
                   <img
                     class="rounded-lg h-[350px]"
-                    src="images/a-million-miles-away.png"
+                    src="/images/a-million-miles-away.png"
                   />
                   <p
                     class="text-xl text-white h-[90px] mt-2"
@@ -1434,7 +1434,7 @@ exports[`should render MovieCatalog component 1`] = `
                 >
                   <img
                     class="rounded-lg h-[350px]"
-                    src="images/the-marvels.jpg"
+                    src="/images/the-marvels.jpg"
                   />
                   <p
                     class="text-xl text-white h-[90px] mt-2"

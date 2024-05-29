@@ -19,7 +19,7 @@ exports[`should render Movie component 1`] = `
             >
               <img
                 class="rounded-lg h-[350px]"
-                src="images/poster.jpg"
+                src="/images/poster.jpg"
               />
               <p
                 class="text-xl text-white h-[90px] mt-2"
@@ -63,7 +63,7 @@ exports[`should render Movie component 1`] = `
           >
             <img
               class="rounded-lg h-[350px]"
-              src="images/poster.jpg"
+              src="/images/poster.jpg"
             />
             <p
               class="text-xl text-white h-[90px] mt-2"
