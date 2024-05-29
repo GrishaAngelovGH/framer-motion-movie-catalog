@@ -2,9 +2,7 @@ import { motion } from "framer-motion"
 
 import Movie from "./Movie"
 
-import movies from "./movies.json"
-
-const MovieCatalog = () => {
+const MovieCatalog = ({ movies }) => {
   const values = [
     -100, -200, -300, -400,
     -100, -200, -300, -400,

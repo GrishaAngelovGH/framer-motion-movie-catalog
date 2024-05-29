@@ -1,12 +1,18 @@
 import { BrowserRouter as Router, Routes, Route, useParams } from "react-router-dom"
 
-import Home from "./components/pages/Home"
-import Movie from "./components/pages/Movie"
+import Home from "components/pages/Home"
+import Movie from "components/pages/Movie"
+import MovieProvider from "components/MovieProvider"
 
 function App() {
   const MovieRoute = () => {
     const { id } = useParams()
-    return (<Movie id={id} />)
+
+    return (
+      <MovieProvider>
+        <Movie id={id} />
+      </MovieProvider>
+    )
   }
 
   return (
