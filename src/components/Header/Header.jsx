@@ -4,16 +4,11 @@ import { Link } from "react-router-dom"
 import filmRoll from "/images/film-roll.png"
 
 const Header = () => (
-  <div className="flex justify-between items-center bg-blue-500 h-full">
-    <motion.div
-      initial={{ opacity: 0, scale: 0.5 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 3 }}
-      className="ms-5 w-[200px] flex justify-between items-center"
-    >
+  <div className="flex justify-between items-center bg-blue-500 h-full p-2">
+    <div className="ms-5 w-[200px] flex items-center">
       <img src={filmRoll} className="w-[40px]" />
-      <h1 className="text-4xl font-bold text-white">Cinema</h1>
-    </motion.div>
+      <h1 className="ms-3 text-2xl font-bold text-white">Cinema</h1>
+    </div>
 
     <div className="me-5">
       <Link to="/" className="text-white hover:text-white hover:underline me-5">Home</Link>
