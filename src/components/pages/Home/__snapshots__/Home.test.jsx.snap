@@ -65,22 +65,18 @@ exports[`should render pages/Home component 1`] = `
                     href="/movies/1"
                   >
                     <div
-                      class="text-center"
+                      class="relative text-center m-8 mb-0 w-[220px]"
                     >
-                      <div
-                        class="relative m-8 mb-0 w-[220px]"
+                      <img
+                        class="rounded-lg h-[350px]"
+                        src="/images/the-garfield-movie.jpg"
+                      />
+                      <p
+                        class="text-xl text-white h-[90px] mt-2"
+                        style="opacity: 0;"
                       >
-                        <img
-                          class="rounded-lg h-[350px]"
-                          src="/images/the-garfield-movie.jpg"
-                        />
-                        <p
-                          class="text-xl text-white h-[90px] mt-2"
-                          style="opacity: 0;"
-                        >
-                          The Garfield Movie
-                        </p>
-                      </div>
+                        The Garfield Movie
+                      </p>
                     </div>
                   </a>
                   <svg
@@ -110,22 +106,18 @@ exports[`should render pages/Home component 1`] = `
                     href="/movies/2"
                   >
                     <div
-                      class="text-center"
+                      class="relative text-center m-8 mb-0 w-[220px]"
                     >
-                      <div
-                        class="relative m-8 mb-0 w-[220px]"
+                      <img
+                        class="rounded-lg h-[350px]"
+                        src="/images/fly-me-to-the-moon.jpg"
+                      />
+                      <p
+                        class="text-xl text-white h-[90px] mt-2"
+                        style="opacity: 0;"
                       >
-                        <img
-                          class="rounded-lg h-[350px]"
-                          src="/images/fly-me-to-the-moon.jpg"
-                        />
-                        <p
-                          class="text-xl text-white h-[90px] mt-2"
-                          style="opacity: 0;"
-                        >
-                          Fly Me to the Moon
-                        </p>
-                      </div>
+                        Fly Me to the Moon
+                      </p>
                     </div>
                   </a>
                   <svg
@@ -155,22 +147,18 @@ exports[`should render pages/Home component 1`] = `
                     href="/movies/3"
                   >
                     <div
-                      class="text-center"
+                      class="relative text-center m-8 mb-0 w-[220px]"
                     >
-                      <div
-                        class="relative m-8 mb-0 w-[220px]"
+                      <img
+                        class="rounded-lg h-[350px]"
+                        src="/images/kung-fu-panda-4.jpg"
+                      />
+                      <p
+                        class="text-xl text-white h-[90px] mt-2"
+                        style="opacity: 0;"
                       >
-                        <img
-                          class="rounded-lg h-[350px]"
-                          src="/images/kung-fu-panda-4.jpg"
-                        />
-                        <p
-                          class="text-xl text-white h-[90px] mt-2"
-                          style="opacity: 0;"
-                        >
-                          Kung Fu Panda 4
-                        </p>
-                      </div>
+                        Kung Fu Panda 4
+                      </p>
                     </div>
                   </a>
                   <svg
@@ -200,22 +188,18 @@ exports[`should render pages/Home component 1`] = `
                     href="/movies/4"
                   >
                     <div
-                      class="text-center"
+                      class="relative text-center m-8 mb-0 w-[220px]"
                     >
-                      <div
-                        class="relative m-8 mb-0 w-[220px]"
+                      <img
+                        class="rounded-lg h-[350px]"
+                        src="/images/kingdom-of-the-planet-of-the-apes.jpg"
+                      />
+                      <p
+                        class="text-xl text-white h-[90px] mt-2"
+                        style="opacity: 0;"
                       >
-                        <img
-                          class="rounded-lg h-[350px]"
-                          src="/images/kingdom-of-the-planet-of-the-apes.jpg"
-                        />
-                        <p
-                          class="text-xl text-white h-[90px] mt-2"
-                          style="opacity: 0;"
-                        >
-                          Kingdom of the Planet of the Apes
-                        </p>
-                      </div>
+                        Kingdom of the Planet of the Apes
+                      </p>
                     </div>
                   </a>
                   <svg
@@ -245,22 +229,18 @@ exports[`should render pages/Home component 1`] = `
                     href="/movies/5"
                   >
                     <div
-                      class="text-center"
+                      class="relative text-center m-8 mb-0 w-[220px]"
                     >
-                      <div
-                        class="relative m-8 mb-0 w-[220px]"
+                      <img
+                        class="rounded-lg h-[350px]"
+                        src="/images/transformers-one.jpg"
+                      />
+                      <p
+                        class="text-xl text-white h-[90px] mt-2"
+                        style="opacity: 0;"
                       >
-                        <img
-                          class="rounded-lg h-[350px]"
-                          src="/images/transformers-one.jpg"
-                        />
-                        <p
-                          class="text-xl text-white h-[90px] mt-2"
-                          style="opacity: 0;"
-                        >
-                          Transformers One
-                        </p>
-                      </div>
+                        Transformers One
+                      </p>
                     </div>
                   </a>
                   <svg
@@ -290,22 +270,18 @@ exports[`should render pages/Home component 1`] = `
                     href="/movies/6"
                   >
                     <div
-                      class="text-center"
+                      class="relative text-center m-8 mb-0 w-[220px]"
                     >
-                      <div
-                        class="relative m-8 mb-0 w-[220px]"
+                      <img
+                        class="rounded-lg h-[350px]"
+                        src="/images/mufasa-the-lion-king.jpg"
+                      />
+                      <p
+                        class="text-xl text-white h-[90px] mt-2"
+                        style="opacity: 0;"
                       >
-                        <img
-                          class="rounded-lg h-[350px]"
-                          src="/images/mufasa-the-lion-king.jpg"
-                        />
-                        <p
-                          class="text-xl text-white h-[90px] mt-2"
-                          style="opacity: 0;"
-                        >
-                          Mufasa: The Lion King
-                        </p>
-                      </div>
+                        Mufasa: The Lion King
+                      </p>
                     </div>
                   </a>
                   <svg
@@ -335,22 +311,18 @@ exports[`should render pages/Home component 1`] = `
                     href="/movies/7"
                   >
                     <div
-                      class="text-center"
+                      class="relative text-center m-8 mb-0 w-[220px]"
                     >
-                      <div
-                        class="relative m-8 mb-0 w-[220px]"
+                      <img
+                        class="rounded-lg h-[350px]"
+                        src="/images/beverly-hills-cop-axel-f.jpg"
+                      />
+                      <p
+                        class="text-xl text-white h-[90px] mt-2"
+                        style="opacity: 0;"
                       >
-                        <img
-                          class="rounded-lg h-[350px]"
-                          src="/images/beverly-hills-cop-axel-f.jpg"
-                        />
-                        <p
-                          class="text-xl text-white h-[90px] mt-2"
-                          style="opacity: 0;"
-                        >
-                          Beverly Hills Cop: Axel F
-                        </p>
-                      </div>
+                        Beverly Hills Cop: Axel F
+                      </p>
                     </div>
                   </a>
                   <svg
@@ -380,22 +352,18 @@ exports[`should render pages/Home component 1`] = `
                     href="/movies/8"
                   >
                     <div
-                      class="text-center"
+                      class="relative text-center m-8 mb-0 w-[220px]"
                     >
-                      <div
-                        class="relative m-8 mb-0 w-[220px]"
+                      <img
+                        class="rounded-lg h-[350px]"
+                        src="/images/indiana-jones-and-the-dial-of-destiny.jpg"
+                      />
+                      <p
+                        class="text-xl text-white h-[90px] mt-2"
+                        style="opacity: 0;"
                       >
-                        <img
-                          class="rounded-lg h-[350px]"
-                          src="/images/indiana-jones-and-the-dial-of-destiny.jpg"
-                        />
-                        <p
-                          class="text-xl text-white h-[90px] mt-2"
-                          style="opacity: 0;"
-                        >
-                          Indiana Jones and the Dial of Destiny
-                        </p>
-                      </div>
+                        Indiana Jones and the Dial of Destiny
+                      </p>
                     </div>
                   </a>
                   <svg
@@ -425,22 +393,18 @@ exports[`should render pages/Home component 1`] = `
                     href="/movies/9"
                   >
                     <div
-                      class="text-center"
+                      class="relative text-center m-8 mb-0 w-[220px]"
                     >
-                      <div
-                        class="relative m-8 mb-0 w-[220px]"
+                      <img
+                        class="rounded-lg h-[350px]"
+                        src="/images/gran-turismo.jpg"
+                      />
+                      <p
+                        class="text-xl text-white h-[90px] mt-2"
+                        style="opacity: 0;"
                       >
-                        <img
-                          class="rounded-lg h-[350px]"
-                          src="/images/gran-turismo.jpg"
-                        />
-                        <p
-                          class="text-xl text-white h-[90px] mt-2"
-                          style="opacity: 0;"
-                        >
-                          Gran Turismo
-                        </p>
-                      </div>
+                        Gran Turismo
+                      </p>
                     </div>
                   </a>
                   <svg
@@ -470,22 +434,18 @@ exports[`should render pages/Home component 1`] = `
                     href="/movies/10"
                   >
                     <div
-                      class="text-center"
+                      class="relative text-center m-8 mb-0 w-[220px]"
                     >
-                      <div
-                        class="relative m-8 mb-0 w-[220px]"
+                      <img
+                        class="rounded-lg h-[350px]"
+                        src="/images/aquaman-and-the-lost-kingdom.jpg"
+                      />
+                      <p
+                        class="text-xl text-white h-[90px] mt-2"
+                        style="opacity: 0;"
                       >
-                        <img
-                          class="rounded-lg h-[350px]"
-                          src="/images/aquaman-and-the-lost-kingdom.jpg"
-                        />
-                        <p
-                          class="text-xl text-white h-[90px] mt-2"
-                          style="opacity: 0;"
-                        >
-                          Aquaman and the Lost Kingdom
-                        </p>
-                      </div>
+                        Aquaman and the Lost Kingdom
+                      </p>
                     </div>
                   </a>
                   <svg
@@ -515,22 +475,18 @@ exports[`should render pages/Home component 1`] = `
                     href="/movies/11"
                   >
                     <div
-                      class="text-center"
+                      class="relative text-center m-8 mb-0 w-[220px]"
                     >
-                      <div
-                        class="relative m-8 mb-0 w-[220px]"
+                      <img
+                        class="rounded-lg h-[350px]"
+                        src="/images/the-super-mario-bros-movie.jpg"
+                      />
+                      <p
+                        class="text-xl text-white h-[90px] mt-2"
+                        style="opacity: 0;"
                       >
-                        <img
-                          class="rounded-lg h-[350px]"
-                          src="/images/the-super-mario-bros-movie.jpg"
-                        />
-                        <p
-                          class="text-xl text-white h-[90px] mt-2"
-                          style="opacity: 0;"
-                        >
-                          The Super Mario Bros. Movie
-                        </p>
-                      </div>
+                        The Super Mario Bros. Movie
+                      </p>
                     </div>
                   </a>
                   <svg
@@ -560,22 +516,18 @@ exports[`should render pages/Home component 1`] = `
                     href="/movies/12"
                   >
                     <div
-                      class="text-center"
+                      class="relative text-center m-8 mb-0 w-[220px]"
                     >
-                      <div
-                        class="relative m-8 mb-0 w-[220px]"
+                      <img
+                        class="rounded-lg h-[350px]"
+                        src="/images/spider-man-across-the-spider-verse.jpg"
+                      />
+                      <p
+                        class="text-xl text-white h-[90px] mt-2"
+                        style="opacity: 0;"
                       >
-                        <img
-                          class="rounded-lg h-[350px]"
-                          src="/images/spider-man-across-the-spider-verse.jpg"
-                        />
-                        <p
-                          class="text-xl text-white h-[90px] mt-2"
-                          style="opacity: 0;"
-                        >
-                          Spider-Man: Across the Spider-Verse
-                        </p>
-                      </div>
+                        Spider-Man: Across the Spider-Verse
+                      </p>
                     </div>
                   </a>
                   <svg
@@ -605,22 +557,18 @@ exports[`should render pages/Home component 1`] = `
                     href="/movies/13"
                   >
                     <div
-                      class="text-center"
+                      class="relative text-center m-8 mb-0 w-[220px]"
                     >
-                      <div
-                        class="relative m-8 mb-0 w-[220px]"
+                      <img
+                        class="rounded-lg h-[350px]"
+                        src="/images/shooting-stars.png"
+                      />
+                      <p
+                        class="text-xl text-white h-[90px] mt-2"
+                        style="opacity: 0;"
                       >
-                        <img
-                          class="rounded-lg h-[350px]"
-                          src="/images/shooting-stars.png"
-                        />
-                        <p
-                          class="text-xl text-white h-[90px] mt-2"
-                          style="opacity: 0;"
-                        >
-                          Shooting Stars
-                        </p>
-                      </div>
+                        Shooting Stars
+                      </p>
                     </div>
                   </a>
                   <svg
@@ -650,22 +598,18 @@ exports[`should render pages/Home component 1`] = `
                     href="/movies/14"
                   >
                     <div
-                      class="text-center"
+                      class="relative text-center m-8 mb-0 w-[220px]"
                     >
-                      <div
-                        class="relative m-8 mb-0 w-[220px]"
+                      <img
+                        class="rounded-lg h-[350px]"
+                        src="/images/sweetwater.jpg"
+                      />
+                      <p
+                        class="text-xl text-white h-[90px] mt-2"
+                        style="opacity: 0;"
                       >
-                        <img
-                          class="rounded-lg h-[350px]"
-                          src="/images/sweetwater.jpg"
-                        />
-                        <p
-                          class="text-xl text-white h-[90px] mt-2"
-                          style="opacity: 0;"
-                        >
-                          Sweetwater
-                        </p>
-                      </div>
+                        Sweetwater
+                      </p>
                     </div>
                   </a>
                   <svg
@@ -695,22 +639,18 @@ exports[`should render pages/Home component 1`] = `
                     href="/movies/15"
                   >
                     <div
-                      class="text-center"
+                      class="relative text-center m-8 mb-0 w-[220px]"
                     >
-                      <div
-                        class="relative m-8 mb-0 w-[220px]"
+                      <img
+                        class="rounded-lg h-[350px]"
+                        src="/images/a-million-miles-away.png"
+                      />
+                      <p
+                        class="text-xl text-white h-[90px] mt-2"
+                        style="opacity: 0;"
                       >
-                        <img
-                          class="rounded-lg h-[350px]"
-                          src="/images/a-million-miles-away.png"
-                        />
-                        <p
-                          class="text-xl text-white h-[90px] mt-2"
-                          style="opacity: 0;"
-                        >
-                          A Million Miles Away
-                        </p>
-                      </div>
+                        A Million Miles Away
+                      </p>
                     </div>
                   </a>
                   <svg
@@ -740,22 +680,18 @@ exports[`should render pages/Home component 1`] = `
                     href="/movies/16"
                   >
                     <div
-                      class="text-center"
+                      class="relative text-center m-8 mb-0 w-[220px]"
                     >
-                      <div
-                        class="relative m-8 mb-0 w-[220px]"
+                      <img
+                        class="rounded-lg h-[350px]"
+                        src="/images/the-marvels.jpg"
+                      />
+                      <p
+                        class="text-xl text-white h-[90px] mt-2"
+                        style="opacity: 0;"
                       >
-                        <img
-                          class="rounded-lg h-[350px]"
-                          src="/images/the-marvels.jpg"
-                        />
-                        <p
-                          class="text-xl text-white h-[90px] mt-2"
-                          style="opacity: 0;"
-                        >
-                          The Marvels
-                        </p>
-                      </div>
+                        The Marvels
+                      </p>
                     </div>
                   </a>
                   <svg
@@ -842,22 +778,18 @@ exports[`should render pages/Home component 1`] = `
                   href="/movies/1"
                 >
                   <div
-                    class="text-center"
+                    class="relative text-center m-8 mb-0 w-[220px]"
                   >
-                    <div
-                      class="relative m-8 mb-0 w-[220px]"
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="/images/the-garfield-movie.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
                     >
-                      <img
-                        class="rounded-lg h-[350px]"
-                        src="/images/the-garfield-movie.jpg"
-                      />
-                      <p
-                        class="text-xl text-white h-[90px] mt-2"
-                        style="opacity: 0;"
-                      >
-                        The Garfield Movie
-                      </p>
-                    </div>
+                      The Garfield Movie
+                    </p>
                   </div>
                 </a>
                 <svg
@@ -887,22 +819,18 @@ exports[`should render pages/Home component 1`] = `
                   href="/movies/2"
                 >
                   <div
-                    class="text-center"
+                    class="relative text-center m-8 mb-0 w-[220px]"
                   >
-                    <div
-                      class="relative m-8 mb-0 w-[220px]"
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="/images/fly-me-to-the-moon.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
                     >
-                      <img
-                        class="rounded-lg h-[350px]"
-                        src="/images/fly-me-to-the-moon.jpg"
-                      />
-                      <p
-                        class="text-xl text-white h-[90px] mt-2"
-                        style="opacity: 0;"
-                      >
-                        Fly Me to the Moon
-                      </p>
-                    </div>
+                      Fly Me to the Moon
+                    </p>
                   </div>
                 </a>
                 <svg
@@ -932,22 +860,18 @@ exports[`should render pages/Home component 1`] = `
                   href="/movies/3"
                 >
                   <div
-                    class="text-center"
+                    class="relative text-center m-8 mb-0 w-[220px]"
                   >
-                    <div
-                      class="relative m-8 mb-0 w-[220px]"
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="/images/kung-fu-panda-4.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
                     >
-                      <img
-                        class="rounded-lg h-[350px]"
-                        src="/images/kung-fu-panda-4.jpg"
-                      />
-                      <p
-                        class="text-xl text-white h-[90px] mt-2"
-                        style="opacity: 0;"
-                      >
-                        Kung Fu Panda 4
-                      </p>
-                    </div>
+                      Kung Fu Panda 4
+                    </p>
                   </div>
                 </a>
                 <svg
@@ -977,22 +901,18 @@ exports[`should render pages/Home component 1`] = `
                   href="/movies/4"
                 >
                   <div
-                    class="text-center"
+                    class="relative text-center m-8 mb-0 w-[220px]"
                   >
-                    <div
-                      class="relative m-8 mb-0 w-[220px]"
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="/images/kingdom-of-the-planet-of-the-apes.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
                     >
-                      <img
-                        class="rounded-lg h-[350px]"
-                        src="/images/kingdom-of-the-planet-of-the-apes.jpg"
-                      />
-                      <p
-                        class="text-xl text-white h-[90px] mt-2"
-                        style="opacity: 0;"
-                      >
-                        Kingdom of the Planet of the Apes
-                      </p>
-                    </div>
+                      Kingdom of the Planet of the Apes
+                    </p>
                   </div>
                 </a>
                 <svg
@@ -1022,22 +942,18 @@ exports[`should render pages/Home component 1`] = `
                   href="/movies/5"
                 >
                   <div
-                    class="text-center"
+                    class="relative text-center m-8 mb-0 w-[220px]"
                   >
-                    <div
-                      class="relative m-8 mb-0 w-[220px]"
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="/images/transformers-one.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
                     >
-                      <img
-                        class="rounded-lg h-[350px]"
-                        src="/images/transformers-one.jpg"
-                      />
-                      <p
-                        class="text-xl text-white h-[90px] mt-2"
-                        style="opacity: 0;"
-                      >
-                        Transformers One
-                      </p>
-                    </div>
+                      Transformers One
+                    </p>
                   </div>
                 </a>
                 <svg
@@ -1067,22 +983,18 @@ exports[`should render pages/Home component 1`] = `
                   href="/movies/6"
                 >
                   <div
-                    class="text-center"
+                    class="relative text-center m-8 mb-0 w-[220px]"
                   >
-                    <div
-                      class="relative m-8 mb-0 w-[220px]"
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="/images/mufasa-the-lion-king.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
                     >
-                      <img
-                        class="rounded-lg h-[350px]"
-                        src="/images/mufasa-the-lion-king.jpg"
-                      />
-                      <p
-                        class="text-xl text-white h-[90px] mt-2"
-                        style="opacity: 0;"
-                      >
-                        Mufasa: The Lion King
-                      </p>
-                    </div>
+                      Mufasa: The Lion King
+                    </p>
                   </div>
                 </a>
                 <svg
@@ -1112,22 +1024,18 @@ exports[`should render pages/Home component 1`] = `
                   href="/movies/7"
                 >
                   <div
-                    class="text-center"
+                    class="relative text-center m-8 mb-0 w-[220px]"
                   >
-                    <div
-                      class="relative m-8 mb-0 w-[220px]"
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="/images/beverly-hills-cop-axel-f.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
                     >
-                      <img
-                        class="rounded-lg h-[350px]"
-                        src="/images/beverly-hills-cop-axel-f.jpg"
-                      />
-                      <p
-                        class="text-xl text-white h-[90px] mt-2"
-                        style="opacity: 0;"
-                      >
-                        Beverly Hills Cop: Axel F
-                      </p>
-                    </div>
+                      Beverly Hills Cop: Axel F
+                    </p>
                   </div>
                 </a>
                 <svg
@@ -1157,22 +1065,18 @@ exports[`should render pages/Home component 1`] = `
                   href="/movies/8"
                 >
                   <div
-                    class="text-center"
+                    class="relative text-center m-8 mb-0 w-[220px]"
                   >
-                    <div
-                      class="relative m-8 mb-0 w-[220px]"
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="/images/indiana-jones-and-the-dial-of-destiny.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
                     >
-                      <img
-                        class="rounded-lg h-[350px]"
-                        src="/images/indiana-jones-and-the-dial-of-destiny.jpg"
-                      />
-                      <p
-                        class="text-xl text-white h-[90px] mt-2"
-                        style="opacity: 0;"
-                      >
-                        Indiana Jones and the Dial of Destiny
-                      </p>
-                    </div>
+                      Indiana Jones and the Dial of Destiny
+                    </p>
                   </div>
                 </a>
                 <svg
@@ -1202,22 +1106,18 @@ exports[`should render pages/Home component 1`] = `
                   href="/movies/9"
                 >
                   <div
-                    class="text-center"
+                    class="relative text-center m-8 mb-0 w-[220px]"
                   >
-                    <div
-                      class="relative m-8 mb-0 w-[220px]"
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="/images/gran-turismo.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
                     >
-                      <img
-                        class="rounded-lg h-[350px]"
-                        src="/images/gran-turismo.jpg"
-                      />
-                      <p
-                        class="text-xl text-white h-[90px] mt-2"
-                        style="opacity: 0;"
-                      >
-                        Gran Turismo
-                      </p>
-                    </div>
+                      Gran Turismo
+                    </p>
                   </div>
                 </a>
                 <svg
@@ -1247,22 +1147,18 @@ exports[`should render pages/Home component 1`] = `
                   href="/movies/10"
                 >
                   <div
-                    class="text-center"
+                    class="relative text-center m-8 mb-0 w-[220px]"
                   >
-                    <div
-                      class="relative m-8 mb-0 w-[220px]"
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="/images/aquaman-and-the-lost-kingdom.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
                     >
-                      <img
-                        class="rounded-lg h-[350px]"
-                        src="/images/aquaman-and-the-lost-kingdom.jpg"
-                      />
-                      <p
-                        class="text-xl text-white h-[90px] mt-2"
-                        style="opacity: 0;"
-                      >
-                        Aquaman and the Lost Kingdom
-                      </p>
-                    </div>
+                      Aquaman and the Lost Kingdom
+                    </p>
                   </div>
                 </a>
                 <svg
@@ -1292,22 +1188,18 @@ exports[`should render pages/Home component 1`] = `
                   href="/movies/11"
                 >
                   <div
-                    class="text-center"
+                    class="relative text-center m-8 mb-0 w-[220px]"
                   >
-                    <div
-                      class="relative m-8 mb-0 w-[220px]"
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="/images/the-super-mario-bros-movie.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
                     >
-                      <img
-                        class="rounded-lg h-[350px]"
-                        src="/images/the-super-mario-bros-movie.jpg"
-                      />
-                      <p
-                        class="text-xl text-white h-[90px] mt-2"
-                        style="opacity: 0;"
-                      >
-                        The Super Mario Bros. Movie
-                      </p>
-                    </div>
+                      The Super Mario Bros. Movie
+                    </p>
                   </div>
                 </a>
                 <svg
@@ -1337,22 +1229,18 @@ exports[`should render pages/Home component 1`] = `
                   href="/movies/12"
                 >
                   <div
-                    class="text-center"
+                    class="relative text-center m-8 mb-0 w-[220px]"
                   >
-                    <div
-                      class="relative m-8 mb-0 w-[220px]"
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="/images/spider-man-across-the-spider-verse.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
                     >
-                      <img
-                        class="rounded-lg h-[350px]"
-                        src="/images/spider-man-across-the-spider-verse.jpg"
-                      />
-                      <p
-                        class="text-xl text-white h-[90px] mt-2"
-                        style="opacity: 0;"
-                      >
-                        Spider-Man: Across the Spider-Verse
-                      </p>
-                    </div>
+                      Spider-Man: Across the Spider-Verse
+                    </p>
                   </div>
                 </a>
                 <svg
@@ -1382,22 +1270,18 @@ exports[`should render pages/Home component 1`] = `
                   href="/movies/13"
                 >
                   <div
-                    class="text-center"
+                    class="relative text-center m-8 mb-0 w-[220px]"
                   >
-                    <div
-                      class="relative m-8 mb-0 w-[220px]"
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="/images/shooting-stars.png"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
                     >
-                      <img
-                        class="rounded-lg h-[350px]"
-                        src="/images/shooting-stars.png"
-                      />
-                      <p
-                        class="text-xl text-white h-[90px] mt-2"
-                        style="opacity: 0;"
-                      >
-                        Shooting Stars
-                      </p>
-                    </div>
+                      Shooting Stars
+                    </p>
                   </div>
                 </a>
                 <svg
@@ -1427,22 +1311,18 @@ exports[`should render pages/Home component 1`] = `
                   href="/movies/14"
                 >
                   <div
-                    class="text-center"
+                    class="relative text-center m-8 mb-0 w-[220px]"
                   >
-                    <div
-                      class="relative m-8 mb-0 w-[220px]"
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="/images/sweetwater.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
                     >
-                      <img
-                        class="rounded-lg h-[350px]"
-                        src="/images/sweetwater.jpg"
-                      />
-                      <p
-                        class="text-xl text-white h-[90px] mt-2"
-                        style="opacity: 0;"
-                      >
-                        Sweetwater
-                      </p>
-                    </div>
+                      Sweetwater
+                    </p>
                   </div>
                 </a>
                 <svg
@@ -1472,22 +1352,18 @@ exports[`should render pages/Home component 1`] = `
                   href="/movies/15"
                 >
                   <div
-                    class="text-center"
+                    class="relative text-center m-8 mb-0 w-[220px]"
                   >
-                    <div
-                      class="relative m-8 mb-0 w-[220px]"
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="/images/a-million-miles-away.png"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
                     >
-                      <img
-                        class="rounded-lg h-[350px]"
-                        src="/images/a-million-miles-away.png"
-                      />
-                      <p
-                        class="text-xl text-white h-[90px] mt-2"
-                        style="opacity: 0;"
-                      >
-                        A Million Miles Away
-                      </p>
-                    </div>
+                      A Million Miles Away
+                    </p>
                   </div>
                 </a>
                 <svg
@@ -1517,22 +1393,18 @@ exports[`should render pages/Home component 1`] = `
                   href="/movies/16"
                 >
                   <div
-                    class="text-center"
+                    class="relative text-center m-8 mb-0 w-[220px]"
                   >
-                    <div
-                      class="relative m-8 mb-0 w-[220px]"
+                    <img
+                      class="rounded-lg h-[350px]"
+                      src="/images/the-marvels.jpg"
+                    />
+                    <p
+                      class="text-xl text-white h-[90px] mt-2"
+                      style="opacity: 0;"
                     >
-                      <img
-                        class="rounded-lg h-[350px]"
-                        src="/images/the-marvels.jpg"
-                      />
-                      <p
-                        class="text-xl text-white h-[90px] mt-2"
-                        style="opacity: 0;"
-                      >
-                        The Marvels
-                      </p>
-                    </div>
+                      The Marvels
+                    </p>
                   </div>
                 </a>
                 <svg

@@ -12,22 +12,18 @@ exports[`should render Movie component 1`] = `
           href="/movies/undefined"
         >
           <div
-            class="text-center"
+            class="relative text-center m-8 mb-0 w-[220px]"
           >
-            <div
-              class="relative m-8 mb-0 w-[220px]"
+            <img
+              class="rounded-lg h-[350px]"
+              src="/images/poster.jpg"
+            />
+            <p
+              class="text-xl text-white h-[90px] mt-2"
+              style="opacity: 0;"
             >
-              <img
-                class="rounded-lg h-[350px]"
-                src="/images/poster.jpg"
-              />
-              <p
-                class="text-xl text-white h-[90px] mt-2"
-                style="opacity: 0;"
-              >
-                Movie Title
-              </p>
-            </div>
+              Movie Title
+            </p>
           </div>
         </a>
         <svg
@@ -56,22 +52,18 @@ exports[`should render Movie component 1`] = `
         href="/movies/undefined"
       >
         <div
-          class="text-center"
+          class="relative text-center m-8 mb-0 w-[220px]"
         >
-          <div
-            class="relative m-8 mb-0 w-[220px]"
+          <img
+            class="rounded-lg h-[350px]"
+            src="/images/poster.jpg"
+          />
+          <p
+            class="text-xl text-white h-[90px] mt-2"
+            style="opacity: 0;"
           >
-            <img
-              class="rounded-lg h-[350px]"
-              src="/images/poster.jpg"
-            />
-            <p
-              class="text-xl text-white h-[90px] mt-2"
-              style="opacity: 0;"
-            >
-              Movie Title
-            </p>
-          </div>
+            Movie Title
+          </p>
         </div>
       </a>
       <svg

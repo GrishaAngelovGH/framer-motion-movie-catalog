@@ -24,64 +24,62 @@ const Movie = ({ movie: { id, image, title } }) => {
   return (
     <div className="flex">
       <Link to={`/movies/${id}`}>
-        <div className="text-center">
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            className="relative m-8 mb-0 w-[220px]"
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          className="relative text-center m-8 mb-0 w-[220px]"
+        >
+          {
+            isFavorite && (
+              <motion.div
+                initial={{ opacity: "0%" }}
+                animate={{ opacity: "100%" }}
+                transition={{ duration: 1 }}
+                className="absolute w-full bg-white rounded-lg h-[350px] flex flex-col justify-center items-center text-green-600"
+              >
+                <motion.svg
+                  initial={{ scale: 1 }}
+                  animate={{ scale: 2 }}
+                  transition={{ duration: 3 }}
+                  onAnimationComplete={() => setFavorite(!isFavorite)}
+                  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-14"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </motion.svg>
+                <p className="font-bold mt-5">Added as a Favorite</p>
+              </motion.div>
+            )
+          }
+          {
+            isUnmarkedAsFavorite && (
+              <motion.div
+                initial={{ opacity: "0%" }}
+                animate={{ opacity: "100%" }}
+                transition={{ duration: 1 }}
+                className="absolute w-full bg-white rounded-lg h-[350px] flex flex-col justify-center items-center text-red-600"
+              >
+                <motion.svg
+                  initial={{ scale: 1 }}
+                  animate={{ scale: 2 }}
+                  transition={{ duration: 3 }}
+                  onAnimationComplete={() => setUnmarkedAsFavorite(!isUnmarkedAsFavorite)}
+                  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-14"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </motion.svg>
+                <p className="font-bold mt-5">Removed as a Favorite</p>
+              </motion.div>
+            )
+          }
+          <img src={`/images/${image}`} className="rounded-lg h-[350px]" />
+          <motion.p
+            className="text-xl text-white h-[90px] mt-2"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: "100%" }}
+            transition={{ duration: 1, delay: 4 }}
           >
-            {
-              isFavorite && (
-                <motion.div
-                  initial={{ opacity: "0%" }}
-                  animate={{ opacity: "100%" }}
-                  transition={{ duration: 1 }}
-                  className="absolute w-full bg-white rounded-lg h-[350px] flex flex-col justify-center items-center text-green-600"
-                >
-                  <motion.svg
-                    initial={{ scale: 1 }}
-                    animate={{ scale: 2 }}
-                    transition={{ duration: 3 }}
-                    onAnimationComplete={() => setFavorite(!isFavorite)}
-                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-14"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                  </motion.svg>
-                  <p className="font-bold mt-5">Added as a Favorite</p>
-                </motion.div>
-              )
-            }
-            {
-              isUnmarkedAsFavorite && (
-                <motion.div
-                  initial={{ opacity: "0%" }}
-                  animate={{ opacity: "100%" }}
-                  transition={{ duration: 1 }}
-                  className="absolute w-full bg-white rounded-lg h-[350px] flex flex-col justify-center items-center text-red-600"
-                >
-                  <motion.svg
-                    initial={{ scale: 1 }}
-                    animate={{ scale: 2 }}
-                    transition={{ duration: 3 }}
-                    onAnimationComplete={() => setUnmarkedAsFavorite(!isUnmarkedAsFavorite)}
-                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-14"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                  </motion.svg>
-                  <p className="font-bold mt-5">Removed as a Favorite</p>
-                </motion.div>
-              )
-            }
-            <img src={`/images/${image}`} className="rounded-lg h-[350px]" />
-            <motion.p
-              className="text-xl text-white h-[90px] mt-2"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: "100%" }}
-              transition={{ duration: 1, delay: 4 }}
-            >
-              {title}
-            </motion.p>
-          </motion.div>
-        </div>
+            {title}
+          </motion.p>
+        </motion.div>
       </Link>
 
       {
