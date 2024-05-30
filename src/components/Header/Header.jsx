@@ -1,20 +1,31 @@
-import { motion } from "framer-motion"
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 
 import filmRoll from "/images/film-roll.png"
 
-const Header = () => (
-  <div className="flex justify-between items-center bg-blue-500 h-full p-2">
-    <div className="ms-5 flex items-center">
-      <img src={filmRoll} className="w-[40px]" />
-      <h1 className="ms-3 text-2xl font-bold text-blue-900">Cinema</h1>
-    </div>
+const Header = () => {
+  const { pathname } = useLocation()
 
-    <div className="me-5">
-      <Link to="/" className="text-white hover:text-white hover:underline me-5">Home</Link>
-      <Link to="/favorites" className="text-white hover:text-white hover:underline me-5">Favorites</Link>
+  const links = [
+    { to: "/", label: "Home", active: "/" === pathname },
+    { to: "/favorites", label: "Favorites", active: "/favorites" === pathname }
+  ]
+
+  return (
+    <div className="flex justify-between items-center bg-blue-500 h-full p-2">
+      <Link to="/" className="ms-5 flex items-center">
+        <img src={filmRoll} className="w-[40px]" />
+        <h1 className="ms-3 text-2xl font-bold text-blue-900">Cinema</h1>
+      </Link>
+
+      <div className="me-5">
+        {
+          links.map((v, i) => (
+            <Link key={i} to={v.to} className={`text-white hover:text-white hover:underline me-5 ${v.active ? "bg-blue-800 p-2 rounded-full" : "bg-transparent p-2"}`}>{v.label}</Link>
+          ))
+        }
+      </div>
     </div>
-  </div>
-)
+  )
+}
 
 export default Header

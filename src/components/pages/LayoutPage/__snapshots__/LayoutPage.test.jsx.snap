@@ -14,8 +14,9 @@ exports[`should render pages/LayoutPage component 1`] = `
           <div
             class="flex justify-between items-center bg-blue-500 h-full p-2"
           >
-            <div
+            <a
               class="ms-5 flex items-center"
+              href="/"
             >
               <img
                 class="w-[40px]"
@@ -26,18 +27,18 @@ exports[`should render pages/LayoutPage component 1`] = `
               >
                 Cinema
               </h1>
-            </div>
+            </a>
             <div
               class="me-5"
             >
               <a
-                class="text-white hover:text-white hover:underline me-5"
+                class="text-white hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
                 href="/"
               >
                 Home
               </a>
               <a
-                class="text-white hover:text-white hover:underline me-5"
+                class="text-white hover:text-white hover:underline me-5 bg-transparent p-2"
                 href="/favorites"
               >
                 Favorites
@@ -65,8 +66,9 @@ exports[`should render pages/LayoutPage component 1`] = `
         <div
           class="flex justify-between items-center bg-blue-500 h-full p-2"
         >
-          <div
+          <a
             class="ms-5 flex items-center"
+            href="/"
           >
             <img
               class="w-[40px]"
@@ -77,18 +79,18 @@ exports[`should render pages/LayoutPage component 1`] = `
             >
               Cinema
             </h1>
-          </div>
+          </a>
           <div
             class="me-5"
           >
             <a
-              class="text-white hover:text-white hover:underline me-5"
+              class="text-white hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
               href="/"
             >
               Home
             </a>
             <a
-              class="text-white hover:text-white hover:underline me-5"
+              class="text-white hover:text-white hover:underline me-5 bg-transparent p-2"
               href="/favorites"
             >
               Favorites
