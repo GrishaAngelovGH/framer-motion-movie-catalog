@@ -6,7 +6,7 @@ exports[`should render MovieCatalog component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="bg-blue-800 min-h-full grid place-items-center lg:p-6"
+        class="bg-blue-800 min-h-full grid place-items-center p-6"
       >
         <div
           class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4"
@@ -673,7 +673,7 @@ exports[`should render MovieCatalog component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="bg-blue-800 min-h-full grid place-items-center lg:p-6"
+      class="bg-blue-800 min-h-full grid place-items-center p-6"
     >
       <div
         class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4"

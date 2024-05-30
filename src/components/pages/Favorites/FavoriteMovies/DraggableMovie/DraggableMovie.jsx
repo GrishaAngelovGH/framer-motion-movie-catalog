@@ -1,9 +1,7 @@
 import { useNavigate } from "react-router-dom"
 import { motion, useMotionValue, useTransform } from "framer-motion"
 
-import persistentMovieCatalog from "persistent/persistentMovieCatalog"
-
-const DraggableMovie = ({ movie: { id, image }, updateFavoriteMovies, onBackgroundChange }) => {
+const DraggableMovie = ({ movie: { id, image }, onRemove, onBackgroundChange }) => {
   // The component calculates the current background color 
   // when starting to drag to the right and applies it dynamically.
 
@@ -31,20 +29,18 @@ const DraggableMovie = ({ movie: { id, image }, updateFavoriteMovies, onBackgrou
       // measured in pixels. This will define a distance the named edge of the draggable component.
       dragConstraints={{ left: 0, right: 0 }}
 
-      onDragStart={(e) => {
+      onDragStart={() => {
         onBackgroundChange(background)
       }}
 
-      onDragEnd={(e) => {
-        if (e.clientX < 400) {
+      onDragEnd={({ clientX }) => {
+        if (clientX < 400) {
           navigate(`/movies/${id}`)
           return
         }
 
-        if (e.clientX > 1000) {
-          persistentMovieCatalog.removeAsFavorite(id)
-          onBackgroundChange("linear-gradient(180deg, #1e40af 0%, rgb(30, 64, 175) 100%)")
-          updateFavoriteMovies()
+        if (clientX > 1000) {
+          onRemove(id)
         }
       }}
     >

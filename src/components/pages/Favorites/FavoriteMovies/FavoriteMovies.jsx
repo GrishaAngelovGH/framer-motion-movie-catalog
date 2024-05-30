@@ -28,8 +28,14 @@ const FavoriteMovies = ({ movies }) => {
     "linear-gradient(180deg, #1e40af 0%, rgb(30, 64, 175) 100%)"
   )
 
+  const handleRemoveMovie = id => {
+    persistentMovieCatalog.removeAsFavorite(id)
+    setBackground("linear-gradient(180deg, #1e40af 0%, rgb(30, 64, 175) 100%)")
+    updateFavoriteMovies()
+  }
+
   return (
-    <motion.div className="min-h-screen p-10" style={{ background }}>
+    <motion.div className="min-h-full p-10" style={{ background }}>
       {
         !favoriteMovies.length && (
           <motion.div
@@ -52,7 +58,7 @@ const FavoriteMovies = ({ movies }) => {
                 <DraggableMovie
                   key={v.id}
                   movie={v}
-                  updateFavoriteMovies={updateFavoriteMovies}
+                  onRemove={handleRemoveMovie}
                   onBackgroundChange={setBackground}
                 />
               ))

@@ -11,7 +11,7 @@ const MovieCatalog = ({ movies }) => {
   ]
 
   return (
-    <div className="bg-blue-800 min-h-full grid place-items-center lg:p-6">
+    <div className="bg-blue-800 min-h-full grid place-items-center p-6">
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
         {
           movies.map((v, i) => (
