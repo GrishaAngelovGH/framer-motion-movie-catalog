@@ -6,14 +6,27 @@ import persistentMovieCatalog from "persistent/persistentMovieCatalog"
 
 import DraggableMovie from "./DraggableMovie"
 
+const getFavoriteMovies = movies => {
+  const favoriteMoviesIds = persistentMovieCatalog.getFavoriteMoviesIDs().map(Number)
+  return movies.filter(v => favoriteMoviesIds.includes(v.id))
+}
+
+const useFavoriteMovies = movies => {
+  const [favoriteMovies, setFavoriteMovies] = useState(getFavoriteMovies(movies))
+
+  const updateFavoriteMovies = () => {
+    setFavoriteMovies(getFavoriteMovies(movies))
+  }
+
+  return [favoriteMovies, updateFavoriteMovies]
+}
+
 const FavoriteMovies = ({ movies }) => {
+  const [favoriteMovies, updateFavoriteMovies] = useFavoriteMovies(movies)
+
   const [background, setBackground] = useState(
     "linear-gradient(180deg, #1e40af 0%, rgb(30, 64, 175) 100%)"
   )
-
-  const favoriteMoviesIds = persistentMovieCatalog.getFavoriteMovies().map(Number)
-
-  const favoriteMovies = movies.filter(v => favoriteMoviesIds.includes(v.id))
 
   return (
     <motion.div className="min-h-screen p-10" style={{ background }}>
@@ -34,7 +47,14 @@ const FavoriteMovies = ({ movies }) => {
           <div className="min-h-full">
             <h1 className="text-white text-center">Slide to the right to remove</h1>
             {
-              favoriteMovies.map(v => <DraggableMovie key={v.id} movie={v} onBackgroundChange={setBackground} />)
+              favoriteMovies.map(v => (
+                <DraggableMovie
+                  key={v.id}
+                  movie={v}
+                  updateFavoriteMovies={updateFavoriteMovies}
+                  onBackgroundChange={setBackground}
+                />
+              ))
             }
           </div>
         )

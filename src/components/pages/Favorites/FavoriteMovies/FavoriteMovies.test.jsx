@@ -9,7 +9,7 @@ import MovieProvider from "components/MovieProvider"
 import persistentMovieCatalog from "persistent/persistentMovieCatalog"
 
 test("should render FavoriteMovies component", () => {
-  vi.spyOn(persistentMovieCatalog, 'getFavoriteMovies').mockReturnValue(["1", "2"])
+  vi.spyOn(persistentMovieCatalog, 'getFavoriteMoviesIDs').mockReturnValue(["1", "2"])
 
   const view = render(
     <Router>
@@ -27,7 +27,7 @@ test("should render FavoriteMovies component", () => {
 })
 
 test("should render FavoriteMovies component without favorite movies", () => {
-  vi.spyOn(persistentMovieCatalog, 'getFavoriteMovies').mockReturnValue([])
+  vi.spyOn(persistentMovieCatalog, 'getFavoriteMoviesIDs').mockReturnValue([])
 
   const view = render(
     <Router>

@@ -1,6 +1,8 @@
 import { motion, useMotionValue, useTransform } from "framer-motion"
 
-const DraggableMovie = ({ movie: { image }, onBackgroundChange }) => {
+import persistentMovieCatalog from "persistent/persistentMovieCatalog"
+
+const DraggableMovie = ({ movie: { id, image }, updateFavoriteMovies, onBackgroundChange }) => {
   // The component calculates the current background color 
   // when starting to drag to the right and applies it dynamically.
 
@@ -34,11 +36,12 @@ const DraggableMovie = ({ movie: { image }, onBackgroundChange }) => {
 
       onDragEnd={(e) => {
         if (e.clientX < 400) {
-          console.log("ignored")
           return
         }
 
-        console.log("accepted")
+        persistentMovieCatalog.removeAsFavorite(id)
+        onBackgroundChange("linear-gradient(180deg, #1e40af 0%, rgb(30, 64, 175) 100%)")
+        updateFavoriteMovies()
       }}
     >
     </motion.img>
