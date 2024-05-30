@@ -8,24 +8,26 @@ exports[`should render FavoriteMovies component 1`] = `
       <div
         class="min-h-screen p-10"
       >
-        <h1
-          class="text-white text-center"
-        >
-          Slide to the right to remove
-        </h1>
         <div
-          class="m-8 flex justify-center items-center rounded-md w-[200px] h-[200px] bg-white"
-          draggable="false"
-          style="transform: none; user-select: none;"
+          class="min-h-full"
         >
-          The Garfield Movie
-        </div>
-        <div
-          class="m-8 flex justify-center items-center rounded-md w-[200px] h-[200px] bg-white"
-          draggable="false"
-          style="transform: none; user-select: none;"
-        >
-          Fly Me to the Moon
+          <h1
+            class="text-white text-center"
+          >
+            Slide to the right to remove
+          </h1>
+          <img
+            class="m-8 flex justify-center items-center rounded-md w-[200px] h-[350px] cursor-pointer"
+            draggable="false"
+            src="/images/the-garfield-movie.jpg"
+            style="transform: none; user-select: none;"
+          />
+          <img
+            class="m-8 flex justify-center items-center rounded-md w-[200px] h-[350px] cursor-pointer"
+            draggable="false"
+            src="/images/fly-me-to-the-moon.jpg"
+            style="transform: none; user-select: none;"
+          />
         </div>
       </div>
     </div>
@@ -34,24 +36,26 @@ exports[`should render FavoriteMovies component 1`] = `
     <div
       class="min-h-screen p-10"
     >
-      <h1
-        class="text-white text-center"
-      >
-        Slide to the right to remove
-      </h1>
       <div
-        class="m-8 flex justify-center items-center rounded-md w-[200px] h-[200px] bg-white"
-        draggable="false"
-        style="transform: none; user-select: none;"
+        class="min-h-full"
       >
-        The Garfield Movie
-      </div>
-      <div
-        class="m-8 flex justify-center items-center rounded-md w-[200px] h-[200px] bg-white"
-        draggable="false"
-        style="transform: none; user-select: none;"
-      >
-        Fly Me to the Moon
+        <h1
+          class="text-white text-center"
+        >
+          Slide to the right to remove
+        </h1>
+        <img
+          class="m-8 flex justify-center items-center rounded-md w-[200px] h-[350px] cursor-pointer"
+          draggable="false"
+          src="/images/the-garfield-movie.jpg"
+          style="transform: none; user-select: none;"
+        />
+        <img
+          class="m-8 flex justify-center items-center rounded-md w-[200px] h-[350px] cursor-pointer"
+          draggable="false"
+          src="/images/fly-me-to-the-moon.jpg"
+          style="transform: none; user-select: none;"
+        />
       </div>
     </div>
   </div>,
