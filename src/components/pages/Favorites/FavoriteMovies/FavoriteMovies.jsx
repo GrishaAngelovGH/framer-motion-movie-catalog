@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom"
 
 import { motion, useMotionValue, useTransform } from "framer-motion"
 
@@ -61,7 +62,26 @@ const FavoriteMovies = ({ movies }) => {
   return (
     <motion.div className="min-h-screen p-10" style={{ background }}>
       {
-        favoriteMovies.map(v => <DraggableBox key={v.id} title={v.title} onBackgroundChange={setBackground} />)
+        !favoriteMovies.length && (
+          <motion.div
+            initial={{ y: "0%" }}
+            animate={{ y: "40%" }}
+            transition={{ duration: 2 }}
+            className="flex flex-col justify-center items-center text-white">
+            <h1 className="border rounded-md p-2 shadow-xl">No favorite movies were found</h1>
+            <Link to="/" className="mt-10 text-white text-xl hover:text-white hover:underline">Add some from the Movie Catalog</Link>
+          </motion.div>
+        )
+      }
+      {
+        favoriteMovies.length > 0 && (
+          <>
+            <h1 className="text-white text-center">Slide to the right to remove</h1>
+            {
+              favoriteMovies.map(v => <DraggableBox key={v.id} title={v.title} onBackgroundChange={setBackground} />)
+            }
+          </>
+        )
       }
     </motion.div>
   )

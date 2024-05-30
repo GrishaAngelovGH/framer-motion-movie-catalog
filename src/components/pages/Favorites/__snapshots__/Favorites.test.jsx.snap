@@ -50,7 +50,24 @@ exports[`should render pages/Favorites component 1`] = `
         >
           <div
             class="min-h-screen p-10"
-          />
+          >
+            <div
+              class="flex flex-col justify-center items-center text-white"
+              style="transform: translateY(0%) translateZ(0);"
+            >
+              <h1
+                class="border rounded-md p-2 shadow-xl"
+              >
+                No favorite movies were found
+              </h1>
+              <a
+                class="mt-10 text-white text-xl hover:text-white hover:underline"
+                href="/"
+              >
+                Add some from the Movie Catalog
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -101,7 +118,24 @@ exports[`should render pages/Favorites component 1`] = `
       >
         <div
           class="min-h-screen p-10"
-        />
+        >
+          <div
+            class="flex flex-col justify-center items-center text-white"
+            style="transform: translateY(0%) translateZ(0);"
+          >
+            <h1
+              class="border rounded-md p-2 shadow-xl"
+            >
+              No favorite movies were found
+            </h1>
+            <a
+              class="mt-10 text-white text-xl hover:text-white hover:underline"
+              href="/"
+            >
+              Add some from the Movie Catalog
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>,
