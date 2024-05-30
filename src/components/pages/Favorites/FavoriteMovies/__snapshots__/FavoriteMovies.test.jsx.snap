@@ -9,10 +9,15 @@ exports[`should render FavoriteMovies component 1`] = `
         class="min-h-screen p-10"
       >
         <div
-          class="min-h-full"
+          class="min-h-full flex flex-col justify-center items-center"
         >
           <h1
-            class="text-white text-center"
+            class="text-blue-800 text-center backdrop-blur-xl bg-white/30 p-2"
+          >
+            Slide to the left to view description
+          </h1>
+          <h1
+            class="text-blue-800 text-center backdrop-blur-xl bg-white/30 p-2"
           >
             Slide to the right to remove
           </h1>
@@ -37,10 +42,15 @@ exports[`should render FavoriteMovies component 1`] = `
       class="min-h-screen p-10"
     >
       <div
-        class="min-h-full"
+        class="min-h-full flex flex-col justify-center items-center"
       >
         <h1
-          class="text-white text-center"
+          class="text-blue-800 text-center backdrop-blur-xl bg-white/30 p-2"
+        >
+          Slide to the left to view description
+        </h1>
+        <h1
+          class="text-blue-800 text-center backdrop-blur-xl bg-white/30 p-2"
         >
           Slide to the right to remove
         </h1>

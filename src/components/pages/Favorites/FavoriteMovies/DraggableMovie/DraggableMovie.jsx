@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom"
 import { motion, useMotionValue, useTransform } from "framer-motion"
 
 import persistentMovieCatalog from "persistent/persistentMovieCatalog"
@@ -8,12 +9,15 @@ const DraggableMovie = ({ movie: { id, image }, updateFavoriteMovies, onBackgrou
 
   const x = useMotionValue(0)
 
-  const xInput = [0, 100]
+  const xInput = [-100, 0, 100]
 
   const background = useTransform(x, xInput, [
+    "linear-gradient(180deg, rgb(230, 255, 0) 0%, rgb(3, 209, 0) 100%)",
     "linear-gradient(180deg, #1e40af 0%, rgb(30, 64, 175) 100%)",
     "linear-gradient(180deg, #ff008c 0%, rgb(211, 9, 225) 100%)"
   ])
+
+  const navigate = useNavigate()
 
   return (
     <motion.img
@@ -21,9 +25,6 @@ const DraggableMovie = ({ movie: { id, image }, updateFavoriteMovies, onBackgrou
       drag="x"
       src={`/images/${image}`}
       className="m-8 flex justify-center items-center rounded-md w-[200px] h-[350px] cursor-pointer"
-
-      // Disable drag to left, the right degree of movement is set to default 
-      dragElastic={{ left: 0, right: 0.5 }}
 
       // Applies constraints on the permitted draggable area.
       // It can accept an object of optional top, left, right, and bottom values,
@@ -36,12 +37,15 @@ const DraggableMovie = ({ movie: { id, image }, updateFavoriteMovies, onBackgrou
 
       onDragEnd={(e) => {
         if (e.clientX < 400) {
+          navigate(`/movies/${id}`)
           return
         }
 
-        persistentMovieCatalog.removeAsFavorite(id)
-        onBackgroundChange("linear-gradient(180deg, #1e40af 0%, rgb(30, 64, 175) 100%)")
-        updateFavoriteMovies()
+        if (e.clientX > 1000) {
+          persistentMovieCatalog.removeAsFavorite(id)
+          onBackgroundChange("linear-gradient(180deg, #1e40af 0%, rgb(30, 64, 175) 100%)")
+          updateFavoriteMovies()
+        }
       }}
     >
     </motion.img>
