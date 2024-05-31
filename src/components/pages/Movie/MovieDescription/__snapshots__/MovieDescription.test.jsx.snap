@@ -9,10 +9,10 @@ exports[`should render MovieDescription component 1`] = `
         class="flex flex-col h-screen"
       >
         <div
-          class="h-[60px]"
+          class="lg:h-[60px]"
         >
           <div
-            class="flex justify-between items-center bg-blue-500 h-full p-2"
+            class="flex flex-col md:flex-row justify-between items-center bg-blue-500 h-full p-2"
           >
             <a
               class="ms-5 flex items-center"
@@ -29,16 +29,16 @@ exports[`should render MovieDescription component 1`] = `
               </h1>
             </a>
             <div
-              class="me-5"
+              class="m-5 grid grid-rows-2 grid-cols-2 gap-2 md:grid-flow-col md:grid-rows-1"
             >
               <a
-                class="text-white hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
+                class="text-white text-center hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
                 href="/"
               >
                 Home
               </a>
               <a
-                class="text-white hover:text-white hover:underline me-5 bg-transparent p-2"
+                class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
                 href="/favorites"
               >
                 Favorites
@@ -128,10 +128,10 @@ exports[`should render MovieDescription component 1`] = `
       class="flex flex-col h-screen"
     >
       <div
-        class="h-[60px]"
+        class="lg:h-[60px]"
       >
         <div
-          class="flex justify-between items-center bg-blue-500 h-full p-2"
+          class="flex flex-col md:flex-row justify-between items-center bg-blue-500 h-full p-2"
         >
           <a
             class="ms-5 flex items-center"
@@ -148,16 +148,16 @@ exports[`should render MovieDescription component 1`] = `
             </h1>
           </a>
           <div
-            class="me-5"
+            class="m-5 grid grid-rows-2 grid-cols-2 gap-2 md:grid-flow-col md:grid-rows-1"
           >
             <a
-              class="text-white hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
+              class="text-white text-center hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
               href="/"
             >
               Home
             </a>
             <a
-              class="text-white hover:text-white hover:underline me-5 bg-transparent p-2"
+              class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
               href="/favorites"
             >
               Favorites
