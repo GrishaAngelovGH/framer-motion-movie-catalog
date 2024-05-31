@@ -7,7 +7,8 @@ const Header = () => {
 
   const links = [
     { to: "/", label: "Home", active: "/" === pathname },
-    { to: "/favorites", label: "Favorites", active: "/favorites" === pathname }
+    { to: "/favorites", label: "Favorites", active: "/favorites" === pathname },
+    { to: "/experiences", label: "Experiences", active: "/experiences" === pathname },
   ]
 
   return (

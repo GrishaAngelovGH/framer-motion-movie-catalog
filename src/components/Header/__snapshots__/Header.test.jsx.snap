@@ -37,6 +37,12 @@ exports[`should render Header component 1`] = `
           >
             Favorites
           </a>
+          <a
+            class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+            href="/experiences"
+          >
+            Experiences
+          </a>
         </div>
       </div>
     </div>
@@ -73,6 +79,12 @@ exports[`should render Header component 1`] = `
           href="/favorites"
         >
           Favorites
+        </a>
+        <a
+          class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+          href="/experiences"
+        >
+          Experiences
         </a>
       </div>
     </div>
