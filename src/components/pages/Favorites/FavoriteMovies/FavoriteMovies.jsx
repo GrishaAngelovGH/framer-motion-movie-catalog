@@ -38,14 +38,10 @@ const FavoriteMovies = ({ movies }) => {
     <motion.div className="min-h-full p-10" style={{ background }}>
       {
         !favoriteMovies.length && (
-          <motion.div
-            initial={{ y: "0%" }}
-            animate={{ y: "40%" }}
-            transition={{ duration: 2 }}
-            className="flex flex-col justify-center items-center text-white">
-            <h1 className="border rounded-md p-2 shadow-xl">No favorite movies were found</h1>
+          <div className="flex flex-col justify-center items-center text-white text-center">
+            <h1 className="border rounded-md p-2 shadow-xl text-2xl md:text-5xl">No favorite movies were found</h1>
             <Link to="/" className="mt-10 text-white text-xl hover:text-white hover:underline">Add some from the Movie Catalog</Link>
-          </motion.div>
+          </div>
         )
       }
       {

@@ -132,11 +132,10 @@ exports[`should render FavoriteMovies component without favorite movies 1`] = `
         class="min-h-full p-10"
       >
         <div
-          class="flex flex-col justify-center items-center text-white"
-          style="transform: translateY(0%) translateZ(0);"
+          class="flex flex-col justify-center items-center text-white text-center"
         >
           <h1
-            class="border rounded-md p-2 shadow-xl"
+            class="border rounded-md p-2 shadow-xl text-2xl md:text-5xl"
           >
             No favorite movies were found
           </h1>
@@ -155,11 +154,10 @@ exports[`should render FavoriteMovies component without favorite movies 1`] = `
       class="min-h-full p-10"
     >
       <div
-        class="flex flex-col justify-center items-center text-white"
-        style="transform: translateY(0%) translateZ(0);"
+        class="flex flex-col justify-center items-center text-white text-center"
       >
         <h1
-          class="border rounded-md p-2 shadow-xl"
+          class="border rounded-md p-2 shadow-xl text-2xl md:text-5xl"
         >
           No favorite movies were found
         </h1>
