@@ -31,16 +31,17 @@ const MovieDescription = ({ id, movies }) => {
           initial={{ y: "-100%" }}
           animate={{ y: "0%" }}
           transition={{ duration: 2 }}
-          className="text-center bg-blue-900 w-full mb-5 p-5"
+          className="text-center bg-blue-900 mb-5 p-3"
         >
           {movie.title}
         </motion.h1>
 
-        <div className="flex justify-around pb-6 overflow-hidden">
+        <div className="flex flex-col items-center md:flex-row md:justify-around overflow-hidden pb-6">
           <motion.div
             initial={{ x: "-100%", display: "none" }}
-            animate={{ x: "0%", display: "block" }}
+            animate={{ x: "0%", display: "flex", flexDirection: "column", alignItems: "center" }}
             transition={{ duration: 2, delay: 1 }}
+            className="pb-6 text-xl"
           >
             <img ref={imgRef} src={`/images/${movie.image}`} className="rounded-lg w-[220px] h-[350px]" />
             <p className="m-2">Runtime: {movie.runtime}</p>
@@ -51,7 +52,7 @@ const MovieDescription = ({ id, movies }) => {
             initial={{ x: "100%", display: "none" }}
             animate={{ x: "0%", display: "block" }}
             transition={{ duration: 2, delay: 1 }}
-            className="w-1/2"
+            className="w-3/4 md:w-1/2"
           >
             <p className="text-2xl">Description</p>
             <p className="text-xl mt-5">{movie.description}</p>

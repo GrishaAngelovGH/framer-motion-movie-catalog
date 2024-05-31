@@ -53,15 +53,16 @@ exports[`should render MovieDescription component 1`] = `
             class="text-white min-h-full"
           >
             <h1
-              class="text-center bg-blue-900 w-full mb-5 p-5"
+              class="text-center bg-blue-900 mb-5 p-3"
               style="transform: translateY(-100%) translateZ(0);"
             >
               The Garfield Movie
             </h1>
             <div
-              class="flex justify-around pb-6 overflow-hidden"
+              class="flex flex-col items-center md:flex-row md:justify-around overflow-hidden pb-6"
             >
               <div
+                class="pb-6 text-xl"
                 style="display: none; transform: translateX(-100%) translateZ(0);"
               >
                 <img
@@ -82,7 +83,7 @@ exports[`should render MovieDescription component 1`] = `
                 </p>
               </div>
               <div
-                class="w-1/2"
+                class="w-3/4 md:w-1/2"
                 style="display: none; transform: translateX(100%) translateZ(0);"
               >
                 <p
@@ -171,15 +172,16 @@ exports[`should render MovieDescription component 1`] = `
           class="text-white min-h-full"
         >
           <h1
-            class="text-center bg-blue-900 w-full mb-5 p-5"
+            class="text-center bg-blue-900 mb-5 p-3"
             style="transform: translateY(-100%) translateZ(0);"
           >
             The Garfield Movie
           </h1>
           <div
-            class="flex justify-around pb-6 overflow-hidden"
+            class="flex flex-col items-center md:flex-row md:justify-around overflow-hidden pb-6"
           >
             <div
+              class="pb-6 text-xl"
               style="display: none; transform: translateX(-100%) translateZ(0);"
             >
               <img
@@ -200,7 +202,7 @@ exports[`should render MovieDescription component 1`] = `
               </p>
             </div>
             <div
-              class="w-1/2"
+              class="w-3/4 md:w-1/2"
               style="display: none; transform: translateX(100%) translateZ(0);"
             >
               <p
