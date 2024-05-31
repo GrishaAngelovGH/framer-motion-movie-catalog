@@ -47,8 +47,9 @@ const FavoriteMovies = ({ movies }) => {
       {
         favoriteMovies.length > 0 && (
           <div className="min-h-full flex flex-col justify-center items-center">
-            <h1 className="text-blue-800 text-center backdrop-blur-xl bg-white/30 p-2">Slide to the left to view description</h1>
-            <h1 className="text-blue-800 text-center backdrop-blur-xl bg-white/30 p-2">Slide to the right to remove</h1>
+            <h1 className="text-blue-800 text-2xl md:text-5xl text-center rounded-md backdrop-blur-xl bg-white/30 p-2 lg:w-3/4">
+              Slide to the left to view description or to the right to remove
+            </h1>
             {
               favoriteMovies.map(v => (
                 <DraggableMovie
