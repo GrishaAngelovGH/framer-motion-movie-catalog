@@ -126,7 +126,7 @@ exports[`should render pages/Experiences component 1`] = `
                       >
                         <div>
                           <img
-                            src="images/ice-cream.jpg"
+                            src="/images/ice-cream.jpg"
                           />
                           <div
                             class="legend hidden md:block"
@@ -145,7 +145,7 @@ exports[`should render pages/Experiences component 1`] = `
                       >
                         <div>
                           <img
-                            src="images/hotdog-wedges.jpg"
+                            src="/images/hotdog-wedges.jpg"
                           />
                           <div
                             class="legend hidden md:block"
@@ -164,7 +164,7 @@ exports[`should render pages/Experiences component 1`] = `
                       >
                         <div>
                           <img
-                            src="images/popcorn.jpg"
+                            src="/images/popcorn.jpg"
                           />
                           <div
                             class="legend hidden md:block"
@@ -183,7 +183,7 @@ exports[`should render pages/Experiences component 1`] = `
                       >
                         <div>
                           <img
-                            src="images/ice-cream.jpg"
+                            src="/images/ice-cream.jpg"
                           />
                           <div
                             class="legend hidden md:block"
@@ -202,7 +202,7 @@ exports[`should render pages/Experiences component 1`] = `
                       >
                         <div>
                           <img
-                            src="images/hotdog-wedges.jpg"
+                            src="/images/hotdog-wedges.jpg"
                           />
                           <div
                             class="legend hidden md:block"
@@ -227,6 +227,74 @@ exports[`should render pages/Experiences component 1`] = `
                     class="carousel-status"
                   >
                     1 of 3
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="md:w-3/4 mb-20"
+              style="opacity: 0;"
+            >
+              <h1
+                class="mb-10 text-white text-center uppercase text-sm md:text-5xl"
+              >
+                Your Cinema Favorites
+              </h1>
+              <div
+                class="flex flex-col xl:flex-row items-center gap-8"
+              >
+                <div
+                  class="bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
+                >
+                  <img
+                    class="inline-block w-full rounded-md"
+                    src="/images/kidscombo.jpg"
+                  />
+                  <p
+                    class="m-5 text-xl"
+                  >
+                    Kids Mix
+                  </p>
+                  <p
+                    class="text-gray-500"
+                  >
+                    Get great value on snacks for your little ones with our Kids Mix combo, featuring a small popcorn, two snacks and a delicious drink for just £4.50.
+                  </p>
+                </div>
+                <div
+                  class="bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
+                >
+                  <img
+                    class="inline-block w-full rounded-md"
+                    src="/images/popcorn-and-coke.jpg"
+                  />
+                  <p
+                    class="m-5 text-xl"
+                  >
+                    Popcorn and Coca-Cola
+                  </p>
+                  <p
+                    class="text-gray-500"
+                  >
+                    Going to the cinema wouldn’t be the same without popcorn. We make sure ours is perfectly popped for freshness. To wash it down, nothing beats an ice-cold, refreshing Coca-Cola. Order the dream team of cinema treats.
+                  </p>
+                </div>
+                <div
+                  class="bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
+                >
+                  <img
+                    class="inline-block w-full rounded-md"
+                    src="/images/ice-blast.jpg"
+                  />
+                  <p
+                    class="m-5 text-xl"
+                  >
+                    Tango Ice Blast
+                  </p>
+                  <p
+                    class="text-gray-500"
+                  >
+                    Feel the frozen explosion with sugar-free Tango Ice Blast. It’s the guilt-free way to satisfy your sweet tooth. Order delicious slushy flavours like cherry, raspberry or a mix of both and let the icy zing dance on your tongue.
                   </p>
                 </div>
               </div>
@@ -358,7 +426,7 @@ exports[`should render pages/Experiences component 1`] = `
                     >
                       <div>
                         <img
-                          src="images/ice-cream.jpg"
+                          src="/images/ice-cream.jpg"
                         />
                         <div
                           class="legend hidden md:block"
@@ -377,7 +445,7 @@ exports[`should render pages/Experiences component 1`] = `
                     >
                       <div>
                         <img
-                          src="images/hotdog-wedges.jpg"
+                          src="/images/hotdog-wedges.jpg"
                         />
                         <div
                           class="legend hidden md:block"
@@ -396,7 +464,7 @@ exports[`should render pages/Experiences component 1`] = `
                     >
                       <div>
                         <img
-                          src="images/popcorn.jpg"
+                          src="/images/popcorn.jpg"
                         />
                         <div
                           class="legend hidden md:block"
@@ -415,7 +483,7 @@ exports[`should render pages/Experiences component 1`] = `
                     >
                       <div>
                         <img
-                          src="images/ice-cream.jpg"
+                          src="/images/ice-cream.jpg"
                         />
                         <div
                           class="legend hidden md:block"
@@ -434,7 +502,7 @@ exports[`should render pages/Experiences component 1`] = `
                     >
                       <div>
                         <img
-                          src="images/hotdog-wedges.jpg"
+                          src="/images/hotdog-wedges.jpg"
                         />
                         <div
                           class="legend hidden md:block"
@@ -459,6 +527,74 @@ exports[`should render pages/Experiences component 1`] = `
                   class="carousel-status"
                 >
                   1 of 3
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="md:w-3/4 mb-20"
+            style="opacity: 0;"
+          >
+            <h1
+              class="mb-10 text-white text-center uppercase text-sm md:text-5xl"
+            >
+              Your Cinema Favorites
+            </h1>
+            <div
+              class="flex flex-col xl:flex-row items-center gap-8"
+            >
+              <div
+                class="bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
+              >
+                <img
+                  class="inline-block w-full rounded-md"
+                  src="/images/kidscombo.jpg"
+                />
+                <p
+                  class="m-5 text-xl"
+                >
+                  Kids Mix
+                </p>
+                <p
+                  class="text-gray-500"
+                >
+                  Get great value on snacks for your little ones with our Kids Mix combo, featuring a small popcorn, two snacks and a delicious drink for just £4.50.
+                </p>
+              </div>
+              <div
+                class="bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
+              >
+                <img
+                  class="inline-block w-full rounded-md"
+                  src="/images/popcorn-and-coke.jpg"
+                />
+                <p
+                  class="m-5 text-xl"
+                >
+                  Popcorn and Coca-Cola
+                </p>
+                <p
+                  class="text-gray-500"
+                >
+                  Going to the cinema wouldn’t be the same without popcorn. We make sure ours is perfectly popped for freshness. To wash it down, nothing beats an ice-cold, refreshing Coca-Cola. Order the dream team of cinema treats.
+                </p>
+              </div>
+              <div
+                class="bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
+              >
+                <img
+                  class="inline-block w-full rounded-md"
+                  src="/images/ice-blast.jpg"
+                />
+                <p
+                  class="m-5 text-xl"
+                >
+                  Tango Ice Blast
+                </p>
+                <p
+                  class="text-gray-500"
+                >
+                  Feel the frozen explosion with sugar-free Tango Ice Blast. It’s the guilt-free way to satisfy your sweet tooth. Order delicious slushy flavours like cherry, raspberry or a mix of both and let the icy zing dance on your tongue.
                 </p>
               </div>
             </div>
