@@ -56,12 +56,181 @@ exports[`should render pages/Experiences component 1`] = `
           class="h-full"
         >
           <div
-            class="bg-blue-800 min-h-full"
+            class="bg-blue-800 min-h-full flex flex-col items-center"
           >
             <img
               src="/images/hotdog-banner.png"
               style="transform: translateY(-100%) translateZ(0);"
             />
+            <div
+              class="w-3/4 md:w-1/2"
+              style="opacity: 0; display: none;"
+            >
+              <h1
+                class="mt-10 mb-5 text-white text-center uppercase text-sm md:text-5xl"
+              >
+                Bite-sized adventures
+              </h1>
+              <h1
+                class="m-10 text-white text-justify text-sm md:text-2xl"
+              >
+                Turn your trip to the cinema into a cheerful dining experience with our selection of made-for-cinema bites. Treat yourself to nachos, hot dogs and chicken strips or share popcorn and chocolate-covered treats with your date.
+              </h1>
+              <div
+                class="carousel-root mb-20"
+                tabindex="0"
+              >
+                <div
+                  class="carousel carousel-slider"
+                  style="width: 100%;"
+                >
+                  <ul
+                    class="control-dots"
+                  >
+                    <li
+                      aria-label="slide item 1"
+                      class="dot selected"
+                      role="button"
+                      tabindex="0"
+                      value="0"
+                    />
+                    <li
+                      aria-label="slide item 2"
+                      class="dot"
+                      role="button"
+                      tabindex="0"
+                      value="1"
+                    />
+                    <li
+                      aria-label="slide item 3"
+                      class="dot"
+                      role="button"
+                      tabindex="0"
+                      value="2"
+                    />
+                  </ul>
+                  <button
+                    aria-label="previous slide / item"
+                    class="control-arrow control-prev"
+                    type="button"
+                  />
+                  <div
+                    class="slider-wrapper axis-horizontal"
+                  >
+                    <ul
+                      class="slider animated"
+                      style="transform: translate3d(-100%,0,0); transition-duration: 350ms;"
+                    >
+                      <li
+                        class="slide"
+                      >
+                        <div>
+                          <img
+                            src="images/ice-cream.jpg"
+                          />
+                          <div
+                            class="legend hidden md:block"
+                          >
+                            <p>
+                              Treat yourself
+                            </p>
+                            <p>
+                              Fancy something indulgent? You’re spoiled for choice at the cinema. Order Ben &amp; Jerry’s Chocolate Fudge Brownie, Caramel Chew Chew or a dozen other flavours. Sip a cappuccino from Costa or mix it up with a sugar-free Tango Ice Blast.
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li
+                        class="slide selected previous"
+                      >
+                        <div>
+                          <img
+                            src="images/hotdog-wedges.jpg"
+                          />
+                          <div
+                            class="legend hidden md:block"
+                          >
+                            <p>
+                              Enjoy a film feast
+                            </p>
+                            <p>
+                              Nothing beats watching a great film while tucking into an equally-great meal. Skip the restaurant, head to the cinema and order a delicious feast to take into the cinema. Try our chicken strips, nachos or new mozzarella sticks.
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li
+                        class="slide"
+                      >
+                        <div>
+                          <img
+                            src="images/popcorn.jpg"
+                          />
+                          <div
+                            class="legend hidden md:block"
+                          >
+                            <p>
+                              Get the king of cinema snacks
+                            </p>
+                            <p>
+                              Popcorn and film, they go together like Batman and Robin or Woody and Buzz. That’s why we make sure ours is the best.
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li
+                        class="slide"
+                      >
+                        <div>
+                          <img
+                            src="images/ice-cream.jpg"
+                          />
+                          <div
+                            class="legend hidden md:block"
+                          >
+                            <p>
+                              Treat yourself
+                            </p>
+                            <p>
+                              Fancy something indulgent? You’re spoiled for choice at the cinema. Order Ben &amp; Jerry’s Chocolate Fudge Brownie, Caramel Chew Chew or a dozen other flavours. Sip a cappuccino from Costa or mix it up with a sugar-free Tango Ice Blast.
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li
+                        class="slide selected previous"
+                      >
+                        <div>
+                          <img
+                            src="images/hotdog-wedges.jpg"
+                          />
+                          <div
+                            class="legend hidden md:block"
+                          >
+                            <p>
+                              Enjoy a film feast
+                            </p>
+                            <p>
+                              Nothing beats watching a great film while tucking into an equally-great meal. Skip the restaurant, head to the cinema and order a delicious feast to take into the cinema. Try our chicken strips, nachos or new mozzarella sticks.
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <button
+                    aria-label="next slide / item"
+                    class="control-arrow control-next"
+                    type="button"
+                  />
+                  <p
+                    class="carousel-status"
+                  >
+                    1 of 3
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -119,12 +288,181 @@ exports[`should render pages/Experiences component 1`] = `
         class="h-full"
       >
         <div
-          class="bg-blue-800 min-h-full"
+          class="bg-blue-800 min-h-full flex flex-col items-center"
         >
           <img
             src="/images/hotdog-banner.png"
             style="transform: translateY(-100%) translateZ(0);"
           />
+          <div
+            class="w-3/4 md:w-1/2"
+            style="opacity: 0; display: none;"
+          >
+            <h1
+              class="mt-10 mb-5 text-white text-center uppercase text-sm md:text-5xl"
+            >
+              Bite-sized adventures
+            </h1>
+            <h1
+              class="m-10 text-white text-justify text-sm md:text-2xl"
+            >
+              Turn your trip to the cinema into a cheerful dining experience with our selection of made-for-cinema bites. Treat yourself to nachos, hot dogs and chicken strips or share popcorn and chocolate-covered treats with your date.
+            </h1>
+            <div
+              class="carousel-root mb-20"
+              tabindex="0"
+            >
+              <div
+                class="carousel carousel-slider"
+                style="width: 100%;"
+              >
+                <ul
+                  class="control-dots"
+                >
+                  <li
+                    aria-label="slide item 1"
+                    class="dot selected"
+                    role="button"
+                    tabindex="0"
+                    value="0"
+                  />
+                  <li
+                    aria-label="slide item 2"
+                    class="dot"
+                    role="button"
+                    tabindex="0"
+                    value="1"
+                  />
+                  <li
+                    aria-label="slide item 3"
+                    class="dot"
+                    role="button"
+                    tabindex="0"
+                    value="2"
+                  />
+                </ul>
+                <button
+                  aria-label="previous slide / item"
+                  class="control-arrow control-prev"
+                  type="button"
+                />
+                <div
+                  class="slider-wrapper axis-horizontal"
+                >
+                  <ul
+                    class="slider animated"
+                    style="transform: translate3d(-100%,0,0); transition-duration: 350ms;"
+                  >
+                    <li
+                      class="slide"
+                    >
+                      <div>
+                        <img
+                          src="images/ice-cream.jpg"
+                        />
+                        <div
+                          class="legend hidden md:block"
+                        >
+                          <p>
+                            Treat yourself
+                          </p>
+                          <p>
+                            Fancy something indulgent? You’re spoiled for choice at the cinema. Order Ben &amp; Jerry’s Chocolate Fudge Brownie, Caramel Chew Chew or a dozen other flavours. Sip a cappuccino from Costa or mix it up with a sugar-free Tango Ice Blast.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="slide selected previous"
+                    >
+                      <div>
+                        <img
+                          src="images/hotdog-wedges.jpg"
+                        />
+                        <div
+                          class="legend hidden md:block"
+                        >
+                          <p>
+                            Enjoy a film feast
+                          </p>
+                          <p>
+                            Nothing beats watching a great film while tucking into an equally-great meal. Skip the restaurant, head to the cinema and order a delicious feast to take into the cinema. Try our chicken strips, nachos or new mozzarella sticks.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="slide"
+                    >
+                      <div>
+                        <img
+                          src="images/popcorn.jpg"
+                        />
+                        <div
+                          class="legend hidden md:block"
+                        >
+                          <p>
+                            Get the king of cinema snacks
+                          </p>
+                          <p>
+                            Popcorn and film, they go together like Batman and Robin or Woody and Buzz. That’s why we make sure ours is the best.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="slide"
+                    >
+                      <div>
+                        <img
+                          src="images/ice-cream.jpg"
+                        />
+                        <div
+                          class="legend hidden md:block"
+                        >
+                          <p>
+                            Treat yourself
+                          </p>
+                          <p>
+                            Fancy something indulgent? You’re spoiled for choice at the cinema. Order Ben &amp; Jerry’s Chocolate Fudge Brownie, Caramel Chew Chew or a dozen other flavours. Sip a cappuccino from Costa or mix it up with a sugar-free Tango Ice Blast.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="slide selected previous"
+                    >
+                      <div>
+                        <img
+                          src="images/hotdog-wedges.jpg"
+                        />
+                        <div
+                          class="legend hidden md:block"
+                        >
+                          <p>
+                            Enjoy a film feast
+                          </p>
+                          <p>
+                            Nothing beats watching a great film while tucking into an equally-great meal. Skip the restaurant, head to the cinema and order a delicious feast to take into the cinema. Try our chicken strips, nachos or new mozzarella sticks.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <button
+                  aria-label="next slide / item"
+                  class="control-arrow control-next"
+                  type="button"
+                />
+                <p
+                  class="carousel-status"
+                >
+                  1 of 3
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

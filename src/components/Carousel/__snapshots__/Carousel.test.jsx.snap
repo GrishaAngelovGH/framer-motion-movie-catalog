@@ -44,7 +44,7 @@ exports[`should render Carousel component 1`] = `
                     src="image-1.jpg"
                   />
                   <div
-                    class="legend"
+                    class="legend hidden md:block"
                   >
                     <p>
                       content
@@ -60,7 +60,7 @@ exports[`should render Carousel component 1`] = `
                     src="image-1.jpg"
                   />
                   <div
-                    class="legend"
+                    class="legend hidden md:block"
                   >
                     <p>
                       content
@@ -124,7 +124,7 @@ exports[`should render Carousel component 1`] = `
                   src="image-1.jpg"
                 />
                 <div
-                  class="legend"
+                  class="legend hidden md:block"
                 >
                   <p>
                     content
@@ -140,7 +140,7 @@ exports[`should render Carousel component 1`] = `
                   src="image-1.jpg"
                 />
                 <div
-                  class="legend"
+                  class="legend hidden md:block"
                 >
                   <p>
                     content
