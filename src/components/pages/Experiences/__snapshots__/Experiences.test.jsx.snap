@@ -301,6 +301,7 @@ exports[`should render pages/Experiences component 1`] = `
             </div>
             <div
               class="m-5 mb-10 md:w-1/2"
+              style="opacity: 0;"
             >
               <h1
                 class="text-sm md:text-5xl text-white text-center uppercase"
@@ -829,6 +830,7 @@ exports[`should render pages/Experiences component 1`] = `
           </div>
           <div
             class="m-5 mb-10 md:w-1/2"
+            style="opacity: 0;"
           >
             <h1
               class="text-sm md:text-5xl text-white text-center uppercase"

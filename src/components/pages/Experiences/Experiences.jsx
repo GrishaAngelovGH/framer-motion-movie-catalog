@@ -5,6 +5,8 @@ import Carousel from "components/Carousel"
 import ProductCard from "components/ProductCard"
 import ComboBox from "components/ComboBox"
 
+import persistentShoppingCart from "persistent/persistentShoppingCart"
+
 const Experiences = () => {
   const slides = [
     { image: "/images/hotdog-wedges.jpg", paragraphs: ["Enjoy a film feast", "Nothing beats watching a great film while tucking into an equally-great meal. Skip the restaurant, head to the cinema and order a delicious feast to take into the cinema. Try our chicken strips, nachos or new mozzarella sticks."] },
@@ -19,9 +21,9 @@ const Experiences = () => {
   ]
 
   const comboBoxes = [
-    [{ image: "/images/combo-coca-cola.jpg", title: "Coca-Cola", price: 3 }, { image: "/images/combo-chips.jpg", title: "Chips", price: 7 }, { image: "/images/combo-ice-cream.jpg", title: "Ice-Cream", price: 10 }],
-    [{ image: "/images/combo-fanta.jpg", title: "Fanta", price: 3 }, { image: "/images/combo-pizza.jpg", title: "Pizza", price: 8 }, { image: "/images/combo-doughnut.jpg", title: "Doughnut", price: 4 }],
-    [{ image: "/images/combo-7up.jpg", title: "7Up", price: 3 }, { image: "/images/combo-popcorn.jpg", title: "Popcorn", price: 5 }, { image: "/images/combo-kitkat.jpg", title: "Kit Kat", price: 4 }]
+    { id: "12wer", products: [{ image: "/images/combo-coca-cola.jpg", title: "Coca-Cola", price: 3 }, { image: "/images/combo-chips.jpg", title: "Chips", price: 7 }, { image: "/images/combo-ice-cream.jpg", title: "Ice-Cream", price: 10 }] },
+    { id: "23dfg", products: [{ image: "/images/combo-fanta.jpg", title: "Fanta", price: 3 }, { image: "/images/combo-pizza.jpg", title: "Pizza", price: 8 }, { image: "/images/combo-doughnut.jpg", title: "Doughnut", price: 4 }] },
+    { id: "34sjd", products: [{ image: "/images/combo-7up.jpg", title: "7Up", price: 3 }, { image: "/images/combo-popcorn.jpg", title: "Popcorn", price: 5 }, { image: "/images/combo-kitkat.jpg", title: "Kit Kat", price: 4 }] }
   ]
 
   return (
@@ -62,18 +64,26 @@ const Experiences = () => {
           </div>
         </motion.div>
 
-        <div className="m-5 mb-10 md:w-1/2">
+        <motion.div
+          initial={{ opacity: "0" }}
+          animate={{ opacity: "100%" }}
+          transition={{ duration: 1, delay: 3 }}
+          className="m-5 mb-10 md:w-1/2"
+        >
           <h1 className="text-sm md:text-5xl text-white text-center uppercase">Try Our Combo Boxes</h1>
           {
-            comboBoxes.map((products, i) => (
+            comboBoxes.map((v, i) => (
               <ComboBox
-                key={i}
+                key={v.id}
                 title={`Combo Box #${i + 1}`}
-                products={products}
+                {...v}
+                onAddToCart={id => {
+                  persistentShoppingCart.add(id)
+                }}
               />
             ))
           }
-        </div>
+        </motion.div>
       </div>
     </LayoutPage>
   )

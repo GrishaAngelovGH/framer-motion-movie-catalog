@@ -1,4 +1,4 @@
-const ComboBox = ({ title, products, onAddToCart }) => {
+const ComboBox = ({ id, title, products, onAddToCart }) => {
   const totalPrice = products.reduce((a, b) => a + b.price, 0)
 
   return (
@@ -16,7 +16,7 @@ const ComboBox = ({ title, products, onAddToCart }) => {
       </div>
       <p className="text-xl">Total: {totalPrice}£</p>
       <button
-        onClick={onAddToCart}
+        onClick={() => { onAddToCart(id) }}
         className="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3"
       >
         Add To Cart
