@@ -67,17 +67,17 @@ exports[`should render pages/Experiences component 1`] = `
               style="opacity: 0; display: none;"
             >
               <h1
-                class="mt-10 mb-5 text-white text-center uppercase text-sm md:text-5xl"
+                class="mt-10 text-white text-center uppercase text-sm md:text-5xl"
               >
                 Bite-sized adventures
               </h1>
               <h1
-                class="m-10 text-white text-justify text-sm md:text-2xl"
+                class="m-5 text-white text-justify text-sm md:text-2xl"
               >
                 Turn your trip to the cinema into a cheerful dining experience with our selection of made-for-cinema bites. Treat yourself to nachos, hot dogs and chicken strips or share popcorn and chocolate-covered treats with your date.
               </h1>
               <div
-                class="carousel-root mb-20"
+                class="carousel-root mb-10"
                 tabindex="0"
               >
                 <div
@@ -135,7 +135,7 @@ exports[`should render pages/Experiences component 1`] = `
                               Treat yourself
                             </p>
                             <p>
-                              Fancy something indulgent? You’re spoiled for choice at the cinema. Order Ben &amp; Jerry’s Chocolate Fudge Brownie, Caramel Chew Chew or a dozen other flavours. Sip a cappuccino from Costa or mix it up with a sugar-free Tango Ice Blast.
+                              Fancy something indulgent? You’re spoiled for choice at the cinema. Order Ben & Jerry’s Chocolate Fudge Brownie, Caramel Chew Chew or a dozen other flavours. Sip a cappuccino from Costa or mix it up with a sugar-free Tango Ice Blast.
                             </p>
                           </div>
                         </div>
@@ -192,7 +192,7 @@ exports[`should render pages/Experiences component 1`] = `
                               Treat yourself
                             </p>
                             <p>
-                              Fancy something indulgent? You’re spoiled for choice at the cinema. Order Ben &amp; Jerry’s Chocolate Fudge Brownie, Caramel Chew Chew or a dozen other flavours. Sip a cappuccino from Costa or mix it up with a sugar-free Tango Ice Blast.
+                              Fancy something indulgent? You’re spoiled for choice at the cinema. Order Ben & Jerry’s Chocolate Fudge Brownie, Caramel Chew Chew or a dozen other flavours. Sip a cappuccino from Costa or mix it up with a sugar-free Tango Ice Blast.
                             </p>
                           </div>
                         </div>
@@ -232,7 +232,7 @@ exports[`should render pages/Experiences component 1`] = `
               </div>
             </div>
             <div
-              class="md:w-3/4 mb-20"
+              class="md:w-3/4 mb-5"
               style="opacity: 0;"
             >
               <h1
@@ -244,7 +244,7 @@ exports[`should render pages/Experiences component 1`] = `
                 class="flex flex-col xl:flex-row items-center gap-8"
               >
                 <div
-                  class="bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
+                  class="min-w-[300px] bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
                 >
                   <img
                     class="inline-block w-full rounded-md"
@@ -262,7 +262,7 @@ exports[`should render pages/Experiences component 1`] = `
                   </p>
                 </div>
                 <div
-                  class="bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
+                  class="min-w-[300px] bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
                 >
                   <img
                     class="inline-block w-full rounded-md"
@@ -280,7 +280,7 @@ exports[`should render pages/Experiences component 1`] = `
                   </p>
                 </div>
                 <div
-                  class="bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
+                  class="min-w-[300px] bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
                 >
                   <img
                     class="inline-block w-full rounded-md"
@@ -297,6 +297,234 @@ exports[`should render pages/Experiences component 1`] = `
                     Feel the frozen explosion with sugar-free Tango Ice Blast. It’s the guilt-free way to satisfy your sweet tooth. Order delicious slushy flavours like cherry, raspberry or a mix of both and let the icy zing dance on your tongue.
                   </p>
                 </div>
+              </div>
+            </div>
+            <div
+              class="m-5 mb-10 md:w-1/2"
+            >
+              <h1
+                class="text-sm md:text-5xl text-white text-center uppercase"
+              >
+                Try Our Combo Boxes
+              </h1>
+              <div
+                class="bg-white rounded-md mt-10 text-center min-w-[300px]"
+              >
+                <div
+                  class="text-white  p-1 bg-blue-400 rounded-t"
+                >
+                  Combo Box #1
+                </div>
+                <div
+                  class="flex flex-col md:flex-row justify-evenly p-5"
+                >
+                  <div
+                    class="m-3"
+                  >
+                    <img
+                      class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                      src="/images/combo-coca-cola.jpg"
+                    />
+                    <div
+                      class="mt-2 text-gray-500"
+                    >
+                      Coca-Cola
+                       (
+                      3
+                      £)
+                    </div>
+                  </div>
+                  <div
+                    class="m-3"
+                  >
+                    <img
+                      class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                      src="/images/combo-chips.jpg"
+                    />
+                    <div
+                      class="mt-2 text-gray-500"
+                    >
+                      Chips
+                       (
+                      7
+                      £)
+                    </div>
+                  </div>
+                  <div
+                    class="m-3"
+                  >
+                    <img
+                      class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                      src="/images/combo-ice-cream.jpg"
+                    />
+                    <div
+                      class="mt-2 text-gray-500"
+                    >
+                      Ice-Cream
+                       (
+                      10
+                      £)
+                    </div>
+                  </div>
+                </div>
+                <p
+                  class="text-xl"
+                >
+                  Total: 
+                  20
+                  £
+                </p>
+                <button
+                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3"
+                >
+                  Add To Cart
+                </button>
+              </div>
+              <div
+                class="bg-white rounded-md mt-10 text-center min-w-[300px]"
+              >
+                <div
+                  class="text-white  p-1 bg-blue-400 rounded-t"
+                >
+                  Combo Box #2
+                </div>
+                <div
+                  class="flex flex-col md:flex-row justify-evenly p-5"
+                >
+                  <div
+                    class="m-3"
+                  >
+                    <img
+                      class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                      src="/images/combo-fanta.jpg"
+                    />
+                    <div
+                      class="mt-2 text-gray-500"
+                    >
+                      Fanta
+                       (
+                      3
+                      £)
+                    </div>
+                  </div>
+                  <div
+                    class="m-3"
+                  >
+                    <img
+                      class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                      src="/images/combo-pizza.jpg"
+                    />
+                    <div
+                      class="mt-2 text-gray-500"
+                    >
+                      Pizza
+                       (
+                      8
+                      £)
+                    </div>
+                  </div>
+                  <div
+                    class="m-3"
+                  >
+                    <img
+                      class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                      src="/images/combo-doughnut.jpg"
+                    />
+                    <div
+                      class="mt-2 text-gray-500"
+                    >
+                      Doughnut
+                       (
+                      4
+                      £)
+                    </div>
+                  </div>
+                </div>
+                <p
+                  class="text-xl"
+                >
+                  Total: 
+                  15
+                  £
+                </p>
+                <button
+                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3"
+                >
+                  Add To Cart
+                </button>
+              </div>
+              <div
+                class="bg-white rounded-md mt-10 text-center min-w-[300px]"
+              >
+                <div
+                  class="text-white  p-1 bg-blue-400 rounded-t"
+                >
+                  Combo Box #3
+                </div>
+                <div
+                  class="flex flex-col md:flex-row justify-evenly p-5"
+                >
+                  <div
+                    class="m-3"
+                  >
+                    <img
+                      class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                      src="/images/combo-7up.jpg"
+                    />
+                    <div
+                      class="mt-2 text-gray-500"
+                    >
+                      7Up
+                       (
+                      3
+                      £)
+                    </div>
+                  </div>
+                  <div
+                    class="m-3"
+                  >
+                    <img
+                      class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                      src="/images/combo-popcorn.jpg"
+                    />
+                    <div
+                      class="mt-2 text-gray-500"
+                    >
+                      Popcorn
+                       (
+                      5
+                      £)
+                    </div>
+                  </div>
+                  <div
+                    class="m-3"
+                  >
+                    <img
+                      class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                      src="/images/combo-kitkat.jpg"
+                    />
+                    <div
+                      class="mt-2 text-gray-500"
+                    >
+                      Kit Kat
+                       (
+                      4
+                      £)
+                    </div>
+                  </div>
+                </div>
+                <p
+                  class="text-xl"
+                >
+                  Total: 
+                  12
+                  £
+                </p>
+                <button
+                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3"
+                >
+                  Add To Cart
+                </button>
               </div>
             </div>
           </div>
@@ -367,17 +595,17 @@ exports[`should render pages/Experiences component 1`] = `
             style="opacity: 0; display: none;"
           >
             <h1
-              class="mt-10 mb-5 text-white text-center uppercase text-sm md:text-5xl"
+              class="mt-10 text-white text-center uppercase text-sm md:text-5xl"
             >
               Bite-sized adventures
             </h1>
             <h1
-              class="m-10 text-white text-justify text-sm md:text-2xl"
+              class="m-5 text-white text-justify text-sm md:text-2xl"
             >
               Turn your trip to the cinema into a cheerful dining experience with our selection of made-for-cinema bites. Treat yourself to nachos, hot dogs and chicken strips or share popcorn and chocolate-covered treats with your date.
             </h1>
             <div
-              class="carousel-root mb-20"
+              class="carousel-root mb-10"
               tabindex="0"
             >
               <div
@@ -435,7 +663,7 @@ exports[`should render pages/Experiences component 1`] = `
                             Treat yourself
                           </p>
                           <p>
-                            Fancy something indulgent? You’re spoiled for choice at the cinema. Order Ben &amp; Jerry’s Chocolate Fudge Brownie, Caramel Chew Chew or a dozen other flavours. Sip a cappuccino from Costa or mix it up with a sugar-free Tango Ice Blast.
+                            Fancy something indulgent? You’re spoiled for choice at the cinema. Order Ben & Jerry’s Chocolate Fudge Brownie, Caramel Chew Chew or a dozen other flavours. Sip a cappuccino from Costa or mix it up with a sugar-free Tango Ice Blast.
                           </p>
                         </div>
                       </div>
@@ -492,7 +720,7 @@ exports[`should render pages/Experiences component 1`] = `
                             Treat yourself
                           </p>
                           <p>
-                            Fancy something indulgent? You’re spoiled for choice at the cinema. Order Ben &amp; Jerry’s Chocolate Fudge Brownie, Caramel Chew Chew or a dozen other flavours. Sip a cappuccino from Costa or mix it up with a sugar-free Tango Ice Blast.
+                            Fancy something indulgent? You’re spoiled for choice at the cinema. Order Ben & Jerry’s Chocolate Fudge Brownie, Caramel Chew Chew or a dozen other flavours. Sip a cappuccino from Costa or mix it up with a sugar-free Tango Ice Blast.
                           </p>
                         </div>
                       </div>
@@ -532,7 +760,7 @@ exports[`should render pages/Experiences component 1`] = `
             </div>
           </div>
           <div
-            class="md:w-3/4 mb-20"
+            class="md:w-3/4 mb-5"
             style="opacity: 0;"
           >
             <h1
@@ -544,7 +772,7 @@ exports[`should render pages/Experiences component 1`] = `
               class="flex flex-col xl:flex-row items-center gap-8"
             >
               <div
-                class="bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
+                class="min-w-[300px] bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
               >
                 <img
                   class="inline-block w-full rounded-md"
@@ -562,7 +790,7 @@ exports[`should render pages/Experiences component 1`] = `
                 </p>
               </div>
               <div
-                class="bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
+                class="min-w-[300px] bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
               >
                 <img
                   class="inline-block w-full rounded-md"
@@ -580,7 +808,7 @@ exports[`should render pages/Experiences component 1`] = `
                 </p>
               </div>
               <div
-                class="bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
+                class="min-w-[300px] bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
               >
                 <img
                   class="inline-block w-full rounded-md"
@@ -597,6 +825,234 @@ exports[`should render pages/Experiences component 1`] = `
                   Feel the frozen explosion with sugar-free Tango Ice Blast. It’s the guilt-free way to satisfy your sweet tooth. Order delicious slushy flavours like cherry, raspberry or a mix of both and let the icy zing dance on your tongue.
                 </p>
               </div>
+            </div>
+          </div>
+          <div
+            class="m-5 mb-10 md:w-1/2"
+          >
+            <h1
+              class="text-sm md:text-5xl text-white text-center uppercase"
+            >
+              Try Our Combo Boxes
+            </h1>
+            <div
+              class="bg-white rounded-md mt-10 text-center min-w-[300px]"
+            >
+              <div
+                class="text-white  p-1 bg-blue-400 rounded-t"
+              >
+                Combo Box #1
+              </div>
+              <div
+                class="flex flex-col md:flex-row justify-evenly p-5"
+              >
+                <div
+                  class="m-3"
+                >
+                  <img
+                    class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                    src="/images/combo-coca-cola.jpg"
+                  />
+                  <div
+                    class="mt-2 text-gray-500"
+                  >
+                    Coca-Cola
+                     (
+                    3
+                    £)
+                  </div>
+                </div>
+                <div
+                  class="m-3"
+                >
+                  <img
+                    class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                    src="/images/combo-chips.jpg"
+                  />
+                  <div
+                    class="mt-2 text-gray-500"
+                  >
+                    Chips
+                     (
+                    7
+                    £)
+                  </div>
+                </div>
+                <div
+                  class="m-3"
+                >
+                  <img
+                    class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                    src="/images/combo-ice-cream.jpg"
+                  />
+                  <div
+                    class="mt-2 text-gray-500"
+                  >
+                    Ice-Cream
+                     (
+                    10
+                    £)
+                  </div>
+                </div>
+              </div>
+              <p
+                class="text-xl"
+              >
+                Total: 
+                20
+                £
+              </p>
+              <button
+                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3"
+              >
+                Add To Cart
+              </button>
+            </div>
+            <div
+              class="bg-white rounded-md mt-10 text-center min-w-[300px]"
+            >
+              <div
+                class="text-white  p-1 bg-blue-400 rounded-t"
+              >
+                Combo Box #2
+              </div>
+              <div
+                class="flex flex-col md:flex-row justify-evenly p-5"
+              >
+                <div
+                  class="m-3"
+                >
+                  <img
+                    class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                    src="/images/combo-fanta.jpg"
+                  />
+                  <div
+                    class="mt-2 text-gray-500"
+                  >
+                    Fanta
+                     (
+                    3
+                    £)
+                  </div>
+                </div>
+                <div
+                  class="m-3"
+                >
+                  <img
+                    class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                    src="/images/combo-pizza.jpg"
+                  />
+                  <div
+                    class="mt-2 text-gray-500"
+                  >
+                    Pizza
+                     (
+                    8
+                    £)
+                  </div>
+                </div>
+                <div
+                  class="m-3"
+                >
+                  <img
+                    class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                    src="/images/combo-doughnut.jpg"
+                  />
+                  <div
+                    class="mt-2 text-gray-500"
+                  >
+                    Doughnut
+                     (
+                    4
+                    £)
+                  </div>
+                </div>
+              </div>
+              <p
+                class="text-xl"
+              >
+                Total: 
+                15
+                £
+              </p>
+              <button
+                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3"
+              >
+                Add To Cart
+              </button>
+            </div>
+            <div
+              class="bg-white rounded-md mt-10 text-center min-w-[300px]"
+            >
+              <div
+                class="text-white  p-1 bg-blue-400 rounded-t"
+              >
+                Combo Box #3
+              </div>
+              <div
+                class="flex flex-col md:flex-row justify-evenly p-5"
+              >
+                <div
+                  class="m-3"
+                >
+                  <img
+                    class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                    src="/images/combo-7up.jpg"
+                  />
+                  <div
+                    class="mt-2 text-gray-500"
+                  >
+                    7Up
+                     (
+                    3
+                    £)
+                  </div>
+                </div>
+                <div
+                  class="m-3"
+                >
+                  <img
+                    class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                    src="/images/combo-popcorn.jpg"
+                  />
+                  <div
+                    class="mt-2 text-gray-500"
+                  >
+                    Popcorn
+                     (
+                    5
+                    £)
+                  </div>
+                </div>
+                <div
+                  class="m-3"
+                >
+                  <img
+                    class="inline w-[100px] h-[100px] border border-gray-600 rounded-full p-2"
+                    src="/images/combo-kitkat.jpg"
+                  />
+                  <div
+                    class="mt-2 text-gray-500"
+                  >
+                    Kit Kat
+                     (
+                    4
+                    £)
+                  </div>
+                </div>
+              </div>
+              <p
+                class="text-xl"
+              >
+                Total: 
+                12
+                £
+              </p>
+              <button
+                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3"
+              >
+                Add To Cart
+              </button>
             </div>
           </div>
         </div>

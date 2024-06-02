@@ -6,7 +6,7 @@ exports[`should render ProductCard component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
+        class="min-w-[300px] bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
       >
         <img
           class="inline-block w-full rounded-md"
@@ -27,7 +27,7 @@ exports[`should render ProductCard component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
+      class="min-w-[300px] bg-white p-2 min-h-[400px] rounded-md w-2/3 text-center"
     >
       <img
         class="inline-block w-full rounded-md"
