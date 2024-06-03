@@ -309,7 +309,7 @@ exports[`should render pages/Experiences component 1`] = `
                 Try Our Combo Boxes
               </h1>
               <div
-                class="bg-white rounded-md mt-10 text-center min-w-[300px]"
+                class="bg-white rounded-md mt-10 text-center min-w-[300px] relative"
               >
                 <div
                   class="text-white  p-1 bg-blue-400 rounded-t"
@@ -376,13 +376,14 @@ exports[`should render pages/Experiences component 1`] = `
                   £
                 </p>
                 <button
-                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3"
+                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+                  role="button"
                 >
                   Add To Cart
                 </button>
               </div>
               <div
-                class="bg-white rounded-md mt-10 text-center min-w-[300px]"
+                class="bg-white rounded-md mt-10 text-center min-w-[300px] relative"
               >
                 <div
                   class="text-white  p-1 bg-blue-400 rounded-t"
@@ -449,13 +450,14 @@ exports[`should render pages/Experiences component 1`] = `
                   £
                 </p>
                 <button
-                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3"
+                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+                  role="button"
                 >
                   Add To Cart
                 </button>
               </div>
               <div
-                class="bg-white rounded-md mt-10 text-center min-w-[300px]"
+                class="bg-white rounded-md mt-10 text-center min-w-[300px] relative"
               >
                 <div
                   class="text-white  p-1 bg-blue-400 rounded-t"
@@ -522,7 +524,8 @@ exports[`should render pages/Experiences component 1`] = `
                   £
                 </p>
                 <button
-                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3"
+                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+                  role="button"
                 >
                   Add To Cart
                 </button>
@@ -838,7 +841,7 @@ exports[`should render pages/Experiences component 1`] = `
               Try Our Combo Boxes
             </h1>
             <div
-              class="bg-white rounded-md mt-10 text-center min-w-[300px]"
+              class="bg-white rounded-md mt-10 text-center min-w-[300px] relative"
             >
               <div
                 class="text-white  p-1 bg-blue-400 rounded-t"
@@ -905,13 +908,14 @@ exports[`should render pages/Experiences component 1`] = `
                 £
               </p>
               <button
-                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3"
+                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+                role="button"
               >
                 Add To Cart
               </button>
             </div>
             <div
-              class="bg-white rounded-md mt-10 text-center min-w-[300px]"
+              class="bg-white rounded-md mt-10 text-center min-w-[300px] relative"
             >
               <div
                 class="text-white  p-1 bg-blue-400 rounded-t"
@@ -978,13 +982,14 @@ exports[`should render pages/Experiences component 1`] = `
                 £
               </p>
               <button
-                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3"
+                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+                role="button"
               >
                 Add To Cart
               </button>
             </div>
             <div
-              class="bg-white rounded-md mt-10 text-center min-w-[300px]"
+              class="bg-white rounded-md mt-10 text-center min-w-[300px] relative"
             >
               <div
                 class="text-white  p-1 bg-blue-400 rounded-t"
@@ -1051,7 +1056,8 @@ exports[`should render pages/Experiences component 1`] = `
                 £
               </p>
               <button
-                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3"
+                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+                role="button"
               >
                 Add To Cart
               </button>

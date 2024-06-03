@@ -1,8 +1,18 @@
+import { useState } from "react"
+import { motion } from "framer-motion"
+
 const ComboBox = ({ id, title, products, onAddToCart }) => {
+  const [isAdded, setIsAdded] = useState(false)
+
+  const handleAddToCart = () => {
+    onAddToCart(id)
+    setIsAdded(!isAdded)
+  }
+
   const totalPrice = products.reduce((a, b) => a + b.price, 0)
 
   return (
-    <div className="bg-white rounded-md mt-10 text-center min-w-[300px]">
+    <div className="bg-white rounded-md mt-10 text-center min-w-[300px] relative">
       <div className="text-white  p-1 bg-blue-400 rounded-t">{title}</div>
       <div className="flex flex-col md:flex-row justify-evenly p-5">
         {
@@ -16,11 +26,25 @@ const ComboBox = ({ id, title, products, onAddToCart }) => {
       </div>
       <p className="text-xl">Total: {totalPrice}£</p>
       <button
-        onClick={() => { onAddToCart(id) }}
-        className="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3"
+        role="button"
+        onClick={handleAddToCart}
+        className={`bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 ${isAdded ? "invisible" : "visible"}`}
       >
         Add To Cart
       </button>
+      {
+        isAdded && (
+          <motion.div
+            initial={{ opacity: "0%" }}
+            animate={{ opacity: "100%" }}
+            transition={{ duration: 2 }}
+            onAnimationComplete={() => { setIsAdded(!isAdded) }}
+            className="bg-green-600 text-white rounded-full p-3 absolute bottom-3 left-[20%] md:left-[32%] xl:left-[38%] text-center"
+          >
+            Succesfully added
+          </motion.div>
+        )
+      }
     </div>
   )
 }
