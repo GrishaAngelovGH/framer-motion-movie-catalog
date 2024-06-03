@@ -26,9 +26,9 @@ test("should render ComboBox component with added items to shopping cart", () =>
     />
   )
 
-  const AddToCartbutton = screen.getByRole("button", { name: /Add To Cart/i })
+  const AddToCartButton = screen.getByRole("button", { name: /Add To Cart/i })
 
-  fireEvent.click(AddToCartbutton)
+  fireEvent.click(AddToCartButton)
 
   expect(view).toMatchSnapshot()
   expect(onAddToCart).toBeCalledTimes(1)

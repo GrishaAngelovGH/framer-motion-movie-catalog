@@ -1,3 +1,4 @@
+import { useState } from "react"
 import { motion } from "framer-motion"
 
 import LayoutPage from "components/pages/LayoutPage"
@@ -8,6 +9,8 @@ import ComboBox from "components/ComboBox"
 import persistentShoppingCart from "persistent/persistentShoppingCart"
 
 const Experiences = () => {
+  const [hasItemsinShoppingCart, setHasItemsinShoppingCart] = useState(persistentShoppingCart.hasItems())
+
   const slides = [
     { image: "/images/hotdog-wedges.jpg", paragraphs: ["Enjoy a film feast", "Nothing beats watching a great film while tucking into an equally-great meal. Skip the restaurant, head to the cinema and order a delicious feast to take into the cinema. Try our chicken strips, nachos or new mozzarella sticks."] },
     { image: "/images/popcorn.jpg", paragraphs: ["Get the king of cinema snacks", "Popcorn and film, they go together like Batman and Robin or Woody and Buzz. That’s why we make sure ours is the best."] },
@@ -79,11 +82,22 @@ const Experiences = () => {
                 {...v}
                 onAddToCart={id => {
                   persistentShoppingCart.add(id)
+                  setHasItemsinShoppingCart(persistentShoppingCart.hasItems())
                 }}
               />
             ))
           }
         </motion.div>
+
+        {
+          hasItemsinShoppingCart && (
+            <div data-testid="shopping-cart" className="bg-blue-500 text-white border-4 p-3 fixed bottom-5 right-5 rounded-full">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+              </svg>
+            </div>
+          )
+        }
       </div>
     </LayoutPage>
   )
