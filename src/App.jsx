@@ -5,6 +5,7 @@ import Movie from "components/pages/Movie"
 import Favorites from "components/pages/Favorites"
 import Experiences from "components/pages/Experiences"
 import ShoppingCart from "components/pages/ShoppingCart"
+import ComboBoxProvider from "components/ComboBoxProvider"
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/movies/:id" element={<Movie />} />
         <Route path="/favorites" element={<Favorites />} />
-        <Route path="/experiences" element={<Experiences />} />
+        <Route path="/experiences" element={<ComboBoxProvider><Experiences /></ComboBoxProvider>} />
         <Route path="/shopping-cart" element={<ShoppingCart />} />
       </Routes>
     </Router>

@@ -9,7 +9,7 @@ import ComboBox from "components/ComboBox"
 
 import persistentShoppingCart from "persistent/persistentShoppingCart"
 
-const Experiences = () => {
+const Experiences = ({ comboBoxes }) => {
   const [hasItemsinShoppingCart, setHasItemsinShoppingCart] = useState(persistentShoppingCart.hasItems())
 
   const slides = [
@@ -22,12 +22,6 @@ const Experiences = () => {
     { image: "/images/kidscombo.jpg", title: "Kids Mix", content: "Get great value on snacks for your little ones with our Kids Mix combo, featuring a small popcorn, two snacks and a delicious drink for just £4.50." },
     { image: "/images/popcorn-and-coke.jpg", title: "Popcorn and Coca-Cola", content: "Going to the cinema wouldn’t be the same without popcorn. We make sure ours is perfectly popped for freshness. To wash it down, nothing beats an ice-cold, refreshing Coca-Cola. Order the dream team of cinema treats." },
     { image: "/images/ice-blast.jpg", title: "Tango Ice Blast", content: "Feel the frozen explosion with sugar-free Tango Ice Blast. It’s the guilt-free way to satisfy your sweet tooth. Order delicious slushy flavours like cherry, raspberry or a mix of both and let the icy zing dance on your tongue." }
-  ]
-
-  const comboBoxes = [
-    { id: "12wer", products: [{ image: "/images/combo-coca-cola.jpg", title: "Coca-Cola", price: 3 }, { image: "/images/combo-chips.jpg", title: "Chips", price: 7 }, { image: "/images/combo-ice-cream.jpg", title: "Ice-Cream", price: 10 }] },
-    { id: "23dfg", products: [{ image: "/images/combo-fanta.jpg", title: "Fanta", price: 3 }, { image: "/images/combo-pizza.jpg", title: "Pizza", price: 8 }, { image: "/images/combo-doughnut.jpg", title: "Doughnut", price: 4 }] },
-    { id: "34sjd", products: [{ image: "/images/combo-7up.jpg", title: "7Up", price: 3 }, { image: "/images/combo-popcorn.jpg", title: "Popcorn", price: 5 }, { image: "/images/combo-kitkat.jpg", title: "Kit Kat", price: 4 }] }
   ]
 
   return (
@@ -76,9 +70,9 @@ const Experiences = () => {
         >
           <h1 className="text-sm md:text-5xl text-white text-center uppercase">Try Our Combo Boxes</h1>
           {
-            comboBoxes.map((v, i) => (
+            Object.entries(comboBoxes).map(([id, v], i) => (
               <ComboBox
-                key={v.id}
+                key={id}
                 title={`Combo Box #${i + 1}`}
                 {...v}
                 onAddToCart={id => {
