@@ -15,7 +15,7 @@ function App() {
         <Route path="/movies/:id" element={<Movie />} />
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/experiences" element={<ComboBoxProvider><Experiences /></ComboBoxProvider>} />
-        <Route path="/shopping-cart" element={<ShoppingCart />} />
+        <Route path="/shopping-cart" element={<ComboBoxProvider><ShoppingCart /></ComboBoxProvider>} />
       </Routes>
     </Router>
   )

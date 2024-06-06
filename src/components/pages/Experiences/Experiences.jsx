@@ -70,10 +70,9 @@ const Experiences = ({ comboBoxes }) => {
         >
           <h1 className="text-sm md:text-5xl text-white text-center uppercase">Try Our Combo Boxes</h1>
           {
-            Object.entries(comboBoxes).map(([id, v], i) => (
+            Object.entries(comboBoxes).map(([id, v]) => (
               <ComboBox
                 key={id}
-                title={`Combo Box #${i + 1}`}
                 {...v}
                 onAddToCart={id => {
                   persistentShoppingCart.add(id)
