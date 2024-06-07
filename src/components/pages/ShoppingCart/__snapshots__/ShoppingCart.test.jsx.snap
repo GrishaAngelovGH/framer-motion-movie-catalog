@@ -8,11 +8,34 @@ exports[`should render pages/ShoppingCart component 1`] = `
       <div
         class="h-screen bg-gray-100"
       >
-        <h1
-          class="bg-blue-400 text-center text-white p-1"
+        <div
+          class="bg-blue-400 text-center text-white p-2 flex justify-center items-center"
         >
-          Shopping Cart
-        </h1>
+          <a
+            class="text-white hover:text-white absolute left-3"
+            href="/experiences"
+          >
+            <svg
+              class="size-6"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9 15 3 9m0 0 6-6M3 9h12a6 6 0 0 1 0 12h-3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+          <div
+            class="text-4xl"
+          >
+            Shopping Cart
+          </div>
+        </div>
         <div
           class="mt-20 flex flex-col md:flex-row justify-center gap-5"
         />
@@ -23,11 +46,34 @@ exports[`should render pages/ShoppingCart component 1`] = `
     <div
       class="h-screen bg-gray-100"
     >
-      <h1
-        class="bg-blue-400 text-center text-white p-1"
+      <div
+        class="bg-blue-400 text-center text-white p-2 flex justify-center items-center"
       >
-        Shopping Cart
-      </h1>
+        <a
+          class="text-white hover:text-white absolute left-3"
+          href="/experiences"
+        >
+          <svg
+            class="size-6"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 15 3 9m0 0 6-6M3 9h12a6 6 0 0 1 0 12h-3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+        <div
+          class="text-4xl"
+        >
+          Shopping Cart
+        </div>
+      </div>
       <div
         class="mt-20 flex flex-col md:flex-row justify-center gap-5"
       />
