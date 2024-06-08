@@ -12,6 +12,11 @@ const persistentShoppingCart = {
   },
   getShoppingCart: function () {
     return JSON.parse(window.localStorage.getItem("shoppingCart") || "{}")
+  },
+  remove: function (id) {
+    const shoppingCart = this.getShoppingCart()
+    const { [id]: value, ...newShoppingCart } = shoppingCart
+    window.localStorage.setItem("shoppingCart", JSON.stringify(newShoppingCart))
   }
 }
 

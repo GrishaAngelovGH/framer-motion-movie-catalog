@@ -1,10 +1,11 @@
+import { useState } from "react"
 import { Link } from "react-router-dom"
 
 import persistentShoppingCart from "persistent/persistentShoppingCart"
 
 import ShoppingCartItem from "./ShoppingCartItem"
 
-const ShoppingCart = ({ comboBoxes }) => {
+const getShoppingCartItems = comboBoxes => {
   const shoppingCart = persistentShoppingCart.getShoppingCart()
 
   const shoppingCartItems = Object.entries(shoppingCart).map(([id, { qty }]) => {
@@ -19,6 +20,17 @@ const ShoppingCart = ({ comboBoxes }) => {
     })
   })
 
+  return shoppingCartItems
+}
+
+const ShoppingCart = ({ comboBoxes }) => {
+  const [shoppingCartItems, setShoppingCartItems] = useState(getShoppingCartItems(comboBoxes))
+
+  const handleRemoveShoppintCartItem = id => {
+    persistentShoppingCart.remove(id)
+    setShoppingCartItems(getShoppingCartItems(comboBoxes))
+  }
+
   return (
     <div className="h-screen bg-gray-100">
       <div className="bg-blue-400 text-center text-white p-2 flex justify-center items-center">
@@ -32,7 +44,13 @@ const ShoppingCart = ({ comboBoxes }) => {
       </div>
       <div className="mt-20 flex flex-col md:flex-row justify-center gap-5">
         {
-          shoppingCartItems.map(v => (<ShoppingCartItem key={v.id} {...v} />))
+          shoppingCartItems.map(v => (
+            <ShoppingCartItem
+              key={v.id}
+              {...v}
+              onRemove={handleRemoveShoppintCartItem}
+            />
+          ))
         }
       </div>
     </div>
