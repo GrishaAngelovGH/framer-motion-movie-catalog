@@ -7,6 +7,7 @@ exports[`should render ShoppingCartItem component 1`] = `
     <div>
       <div
         class="bg-gray-200 shadow-lg p-5 rounded-md text-xl"
+        style="transform: scale(100%) translateZ(0);"
       >
         <div
           class="text-center"
@@ -14,7 +15,7 @@ exports[`should render ShoppingCartItem component 1`] = `
           Shopping Cart Item
         </div>
         <div
-          class="mt-5 flex justify-evenly gap-5"
+          class="mt-5 flex flex-col xl:flex-row justify-evenly gap-5"
         >
           <div
             class="text-center"
@@ -89,6 +90,7 @@ exports[`should render ShoppingCartItem component 1`] = `
   "container": <div>
     <div
       class="bg-gray-200 shadow-lg p-5 rounded-md text-xl"
+      style="transform: scale(100%) translateZ(0);"
     >
       <div
         class="text-center"
@@ -96,7 +98,7 @@ exports[`should render ShoppingCartItem component 1`] = `
         Shopping Cart Item
       </div>
       <div
-        class="mt-5 flex justify-evenly gap-5"
+        class="mt-5 flex flex-col xl:flex-row justify-evenly gap-5"
       >
         <div
           class="text-center"

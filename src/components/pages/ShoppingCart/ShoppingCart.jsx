@@ -42,7 +42,7 @@ const ShoppingCart = ({ comboBoxes }) => {
 
         <div className="text-4xl">Shopping Cart</div>
       </div>
-      <div className="mt-20 flex flex-col md:flex-row justify-center gap-5">
+      <div className="p-10 flex flex-col md:flex-row justify-center gap-5">
         {
           shoppingCartItems.map(v => (
             <ShoppingCartItem

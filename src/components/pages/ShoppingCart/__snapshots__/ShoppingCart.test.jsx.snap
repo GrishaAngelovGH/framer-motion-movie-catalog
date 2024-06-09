@@ -37,7 +37,7 @@ exports[`should render pages/ShoppingCart component 1`] = `
           </div>
         </div>
         <div
-          class="mt-20 flex flex-col md:flex-row justify-center gap-5"
+          class="p-10 flex flex-col md:flex-row justify-center gap-5"
         />
       </div>
     </div>
@@ -75,7 +75,7 @@ exports[`should render pages/ShoppingCart component 1`] = `
         </div>
       </div>
       <div
-        class="mt-20 flex flex-col md:flex-row justify-center gap-5"
+        class="p-10 flex flex-col md:flex-row justify-center gap-5"
       />
     </div>
   </div>,
