@@ -26,7 +26,12 @@ const getShoppingCartItems = comboBoxes => {
 const ShoppingCart = ({ comboBoxes }) => {
   const [shoppingCartItems, setShoppingCartItems] = useState(getShoppingCartItems(comboBoxes))
 
-  const handleRemoveShoppintCartItem = id => {
+  const handleUpdateQuantity = (id, isIncremented) => {
+    persistentShoppingCart.updateQuantity(id, isIncremented)
+    setShoppingCartItems(getShoppingCartItems(comboBoxes))
+  }
+
+  const handleRemove = id => {
     persistentShoppingCart.remove(id)
     setShoppingCartItems(getShoppingCartItems(comboBoxes))
   }
@@ -48,7 +53,8 @@ const ShoppingCart = ({ comboBoxes }) => {
             <ShoppingCartItem
               key={v.id}
               {...v}
-              onRemove={handleRemoveShoppintCartItem}
+              onRemove={handleRemove}
+              onUpdateQuantity={handleUpdateQuantity}
             />
           ))
         }

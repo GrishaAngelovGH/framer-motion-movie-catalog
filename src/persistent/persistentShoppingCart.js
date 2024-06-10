@@ -13,6 +13,11 @@ const persistentShoppingCart = {
   getShoppingCart: function () {
     return JSON.parse(window.localStorage.getItem("shoppingCart") || "{}")
   },
+  updateQuantity: function (id, isIncremented) {
+    const shoppingCart = this.getShoppingCart()
+    isIncremented ? shoppingCart[id].qty++ : shoppingCart[id].qty > 1 && shoppingCart[id].qty--
+    window.localStorage.setItem("shoppingCart", JSON.stringify(shoppingCart))
+  },
   remove: function (id) {
     const shoppingCart = this.getShoppingCart()
     const { [id]: value, ...newShoppingCart } = shoppingCart

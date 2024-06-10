@@ -1,7 +1,18 @@
 import { motion, useAnimationControls } from "framer-motion"
 
-const ShoppingCartItem = ({ id, title, products, qty, comboPrice, totalPrice, onRemove }) => {
+const ShoppingCartItem = ({
+  id, title, products, qty, comboPrice, totalPrice,
+  onUpdateQuantity, onRemove
+}) => {
   const controls = useAnimationControls()
+
+  const handleIncrement = () => {
+    onUpdateQuantity(id, true)
+  }
+
+  const handleDecrement = () => {
+    onUpdateQuantity(id, false)
+  }
 
   return (
     <motion.div
@@ -29,8 +40,20 @@ const ShoppingCartItem = ({ id, title, products, qty, comboPrice, totalPrice, on
           ))
         }
       </div>
-      <div className="mt-2 bg-gray-100 rounded-md p-2">
-        <div>Quantity: {qty}</div>
+      <div className="mt-2 bg-gray-100 rounded-md p-2 flex flex-col items-center">
+        <div className="flex items-center">
+          <button onClick={handleIncrement} className="bg-blue-500 text-white p-1 rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+              <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+            </svg>
+          </button>
+          <span className="mx-3">Quantity: {qty}</span>
+          <button onClick={handleDecrement} className="bg-blue-500 text-white p-1 rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+              <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+            </svg>
+          </button>
+        </div>
         <div className="mt-2">Combo Price: {comboPrice}£</div>
         <div className="mt-2">Total Price: {totalPrice}£</div>
       </div>
