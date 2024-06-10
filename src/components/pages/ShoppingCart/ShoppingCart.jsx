@@ -36,6 +36,8 @@ const ShoppingCart = ({ comboBoxes }) => {
     setShoppingCartItems(getShoppingCartItems(comboBoxes))
   }
 
+  const totalPrice = getShoppingCartItems(comboBoxes).reduce((a, b) => a + b.totalPrice, 0)
+
   return (
     <div className="h-screen bg-gray-100">
       <div className="bg-blue-400 text-center text-white p-2 flex justify-center items-center">
@@ -58,6 +60,9 @@ const ShoppingCart = ({ comboBoxes }) => {
             />
           ))
         }
+      </div>
+      <div className="text-4xl text-center">
+        Total Price: {totalPrice}£
       </div>
     </div>
   )
