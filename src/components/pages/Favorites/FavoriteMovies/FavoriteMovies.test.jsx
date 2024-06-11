@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 import FavoriteMovies from "./FavoriteMovies"
 
-import MovieProvider from "components/MovieProvider"
+import MovieProvider from "components/providers/MovieProvider"
 
 import persistentMovieCatalog from "persistent/persistentMovieCatalog"
 

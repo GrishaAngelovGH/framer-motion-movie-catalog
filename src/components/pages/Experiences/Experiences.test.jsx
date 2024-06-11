@@ -2,7 +2,7 @@ import { render, screen, fireEvent } from "@testing-library/react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 import Experiences from "./Experiences"
-import ComboBoxProvider from "components/ComboBoxProvider"
+import ComboBoxProvider from "components/providers/ComboBoxProvider"
 
 test("should render pages/Experiences component", () => {
   const view = render(

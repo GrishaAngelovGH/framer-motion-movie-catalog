@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import { vi } from "vitest"
 
 import ShoppingCart from "./ShoppingCart"
-import ComboBoxProvider from "components/ComboBoxProvider"
+import ComboBoxProvider from "components/providers/ComboBoxProvider"
 
 import persistentShoppingCart from "persistent/persistentShoppingCart"
 

@@ -2,7 +2,7 @@ import { render } from "@testing-library/react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 import MovieCatalog from "./MovieCatalog"
-import MovieProvider from "components/MovieProvider"
+import MovieProvider from "components/providers/MovieProvider"
 
 test("should render MovieCatalog component", () => {
   const view = render(

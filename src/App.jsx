@@ -5,7 +5,7 @@ import Movie from "components/pages/Movie"
 import Favorites from "components/pages/Favorites"
 import Experiences from "components/pages/Experiences"
 import ShoppingCart from "components/pages/ShoppingCart"
-import ComboBoxProvider from "components/ComboBoxProvider"
+import ComboBoxProvider from "components/providers/ComboBoxProvider"
 
 function App() {
   return (
