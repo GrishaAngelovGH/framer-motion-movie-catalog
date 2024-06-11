@@ -49,21 +49,37 @@ const ShoppingCart = ({ comboBoxes }) => {
 
         <div className="text-4xl">Shopping Cart</div>
       </div>
-      <div className="p-10 flex flex-col md:flex-row justify-center gap-5">
-        {
-          shoppingCartItems.map(v => (
-            <ShoppingCartItem
-              key={v.id}
-              {...v}
-              onRemove={handleRemove}
-              onUpdateQuantity={handleUpdateQuantity}
-            />
-          ))
-        }
-      </div>
-      <div className="text-4xl text-center">
-        Total Price: {totalPrice}£
-      </div>
+      {
+        !persistentShoppingCart.hasItems() && (
+          <div className="mt-10 text-center">
+            <h1>Empty Shopping Cart!</h1>
+            <Link to="/experiences" className="mt-5 text-xl inline-block">
+              Visit our experiences page to see the combo boxes
+            </Link>
+          </div>
+        )
+      }
+      {
+        persistentShoppingCart.hasItems() && (
+          <>
+            <div className="p-10 flex flex-col md:flex-row justify-center gap-5">
+              {
+                shoppingCartItems.map(v => (
+                  <ShoppingCartItem
+                    key={v.id}
+                    {...v}
+                    onRemove={handleRemove}
+                    onUpdateQuantity={handleUpdateQuantity}
+                  />
+                ))
+              }
+            </div>
+            <div className="text-4xl text-center">
+              Total Price: {totalPrice}£
+            </div>
+          </>
+        )
+      }
     </div>
   )
 }

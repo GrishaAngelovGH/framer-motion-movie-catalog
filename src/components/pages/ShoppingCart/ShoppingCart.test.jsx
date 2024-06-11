@@ -24,3 +24,21 @@ test("should render pages/ShoppingCart component", () => {
 
   expect(view).toMatchSnapshot()
 })
+
+test("should render pages/ShoppingCart component without added items", () => {
+  vi.spyOn(persistentShoppingCart, "getShoppingCart").mockReturnValue({})
+
+  const view = render(
+    <Router>
+      <Routes>
+        <Route path="/" element={
+          <ComboBoxProvider>
+            <ShoppingCart />
+          </ComboBoxProvider>
+        } />
+      </Routes>
+    </Router>
+  )
+
+  expect(view).toMatchSnapshot()
+})
