@@ -83,6 +83,17 @@ const Experiences = ({ comboBoxes }) => {
           }
         </motion.div>
 
+        <motion.div
+          initial={{ opacity: "0" }}
+          animate={{ opacity: "100%" }}
+          transition={{ duration: 1, delay: 3 }}
+          className="m-5 mb-10 md:w-1/2 text-center"
+        >
+          <Link to="/showtimes" className="bg-blue-900 hover:bg-blue-700 hover:text-white text-white text-2xl p-4 rounded-full block">
+            Visit Showtimes
+          </Link>
+        </motion.div>
+
         {
           hasItemsinShoppingCart && (
             <Link to="/shopping-cart">

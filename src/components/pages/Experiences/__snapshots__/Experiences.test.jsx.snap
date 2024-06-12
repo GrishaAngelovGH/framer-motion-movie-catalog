@@ -531,6 +531,17 @@ exports[`should render pages/Experiences component 1`] = `
                 </button>
               </div>
             </div>
+            <div
+              class="m-5 mb-10 md:w-1/2 text-center"
+              style="opacity: 0;"
+            >
+              <a
+                class="bg-blue-900 hover:bg-blue-700 hover:text-white text-white text-2xl p-4 rounded-full block"
+                href="/showtimes"
+              >
+                Visit Showtimes
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -1062,6 +1073,17 @@ exports[`should render pages/Experiences component 1`] = `
                 Add To Cart
               </button>
             </div>
+          </div>
+          <div
+            class="m-5 mb-10 md:w-1/2 text-center"
+            style="opacity: 0;"
+          >
+            <a
+              class="bg-blue-900 hover:bg-blue-700 hover:text-white text-white text-2xl p-4 rounded-full block"
+              href="/showtimes"
+            >
+              Visit Showtimes
+            </a>
           </div>
         </div>
       </div>
@@ -1657,6 +1679,17 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
                 </button>
               </div>
             </div>
+            <div
+              class="m-5 mb-10 md:w-1/2 text-center"
+              style="opacity: 0;"
+            >
+              <a
+                class="bg-blue-900 hover:bg-blue-700 hover:text-white text-white text-2xl p-4 rounded-full block"
+                href="/showtimes"
+              >
+                Visit Showtimes
+              </a>
+            </div>
             <a
               href="/shopping-cart"
             >
@@ -2216,6 +2249,17 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
                 Add To Cart
               </button>
             </div>
+          </div>
+          <div
+            class="m-5 mb-10 md:w-1/2 text-center"
+            style="opacity: 0;"
+          >
+            <a
+              class="bg-blue-900 hover:bg-blue-700 hover:text-white text-white text-2xl p-4 rounded-full block"
+              href="/showtimes"
+            >
+              Visit Showtimes
+            </a>
           </div>
           <a
             href="/shopping-cart"
