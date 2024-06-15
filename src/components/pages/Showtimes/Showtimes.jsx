@@ -1,12 +1,21 @@
 import { useState } from "react"
+
 import LayoutPage from "components/pages/LayoutPage"
+import CinemaModal from "components/CinemaModal"
 
 const Showtimes = () => {
   const [cinemas, setCinemas] = useState([])
+  const [showModal, setShowModal] = useState(false)
+
+  const toggleModal = () => {
+    !setShowModal(!showModal)
+  }
 
   return (
     <LayoutPage>
       <div className="bg-blue-800 min-h-full flex flex-col items-center">
+        {showModal && (<CinemaModal onClose={toggleModal} />)}
+
         <div className="m-10 md:w-1/2">
           <div className="bg-blue-900 text-white rounded-t-md p-3">
             Show me times for Cinemas
@@ -19,7 +28,12 @@ const Showtimes = () => {
                 </svg>
                 <h3 className="m-1">Please choose a cinema</h3>
                 <h3 className="m-1">Where would you like to see the film?</h3>
-                <button className="mt-10 bg-slate-400 hover:bg-slate-300 text-gray-600">Add Cinemas</button>
+                <button
+                  onClick={toggleModal}
+                  className="mt-10 bg-slate-400 hover:bg-slate-300 text-gray-600"
+                >
+                  Add Cinemas
+                </button>
               </div>
             )
           }
