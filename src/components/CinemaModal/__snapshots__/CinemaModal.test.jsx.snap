@@ -36,7 +36,239 @@ exports[`should render CinemaModal component 1`] = `
           </div>
           <div
             class="max-h-[300px] overflow-auto"
-          />
+          >
+            <div
+              class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+            >
+              <svg
+                class="size-10"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <div
+                class="ms-2"
+              >
+                <div>
+                  Acton
+                </div>
+                <div>
+                  Royale Leisure Park, Kendal Avenue, London
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+            >
+              <svg
+                class="size-10"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <div
+                class="ms-2"
+              >
+                <div>
+                  London Haymarket
+                </div>
+                <div>
+                  11/18 Panton Street, London
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+            >
+              <svg
+                class="size-10"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <div
+                class="ms-2"
+              >
+                <div>
+                  London Leicester Square
+                </div>
+                <div>
+                  22-24 Leicester Square, London
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+            >
+              <svg
+                class="size-10"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <div
+                class="ms-2"
+              >
+                <div>
+                  London West End
+                </div>
+                <div>
+                  38A Leicester Square , London
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+            >
+              <svg
+                class="size-10"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <div
+                class="ms-2"
+              >
+                <div>
+                  Leicester
+                </div>
+                <div>
+                  Freemens Park, 90 Aylestone Road, Leicester
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+            >
+              <svg
+                class="size-10"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <div
+                class="ms-2"
+              >
+                <div>
+                  Liverpool Switch Island
+                </div>
+                <div>
+                  Dunningsbridge Road, Bootle, Liverpool
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+            >
+              <svg
+                class="size-10"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <div
+                class="ms-2"
+              >
+                <div>
+                  Sheffield
+                </div>
+                <div>
+                  Arundel Gate, Sheffield
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -73,7 +305,239 @@ exports[`should render CinemaModal component 1`] = `
         </div>
         <div
           class="max-h-[300px] overflow-auto"
-        />
+        >
+          <div
+            class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+          >
+            <svg
+              class="size-10"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <div
+              class="ms-2"
+            >
+              <div>
+                Acton
+              </div>
+              <div>
+                Royale Leisure Park, Kendal Avenue, London
+              </div>
+            </div>
+          </div>
+          <div
+            class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+          >
+            <svg
+              class="size-10"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <div
+              class="ms-2"
+            >
+              <div>
+                London Haymarket
+              </div>
+              <div>
+                11/18 Panton Street, London
+              </div>
+            </div>
+          </div>
+          <div
+            class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+          >
+            <svg
+              class="size-10"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <div
+              class="ms-2"
+            >
+              <div>
+                London Leicester Square
+              </div>
+              <div>
+                22-24 Leicester Square, London
+              </div>
+            </div>
+          </div>
+          <div
+            class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+          >
+            <svg
+              class="size-10"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <div
+              class="ms-2"
+            >
+              <div>
+                London West End
+              </div>
+              <div>
+                38A Leicester Square , London
+              </div>
+            </div>
+          </div>
+          <div
+            class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+          >
+            <svg
+              class="size-10"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <div
+              class="ms-2"
+            >
+              <div>
+                Leicester
+              </div>
+              <div>
+                Freemens Park, 90 Aylestone Road, Leicester
+              </div>
+            </div>
+          </div>
+          <div
+            class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+          >
+            <svg
+              class="size-10"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <div
+              class="ms-2"
+            >
+              <div>
+                Liverpool Switch Island
+              </div>
+              <div>
+                Dunningsbridge Road, Bootle, Liverpool
+              </div>
+            </div>
+          </div>
+          <div
+            class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+          >
+            <svg
+              class="size-10"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <div
+              class="ms-2"
+            >
+              <div>
+                Sheffield
+              </div>
+              <div>
+                Arundel Gate, Sheffield
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>,
