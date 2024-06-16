@@ -7,6 +7,7 @@ exports[`should render Cinema component 1`] = `
     <div>
       <div
         class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+        data-testid="cinema"
       >
         <svg
           class="size-10"
@@ -43,6 +44,7 @@ exports[`should render Cinema component 1`] = `
   "container": <div>
     <div
       class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+      data-testid="cinema"
     >
       <svg
         class="size-10"

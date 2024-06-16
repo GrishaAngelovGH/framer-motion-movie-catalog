@@ -268,3 +268,314 @@ exports[`should render pages/Showtimes component 1`] = `
   "unmount": [Function],
 }
 `;
+
+exports[`should render pages/Showtimes component with selected cinemas 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col h-screen"
+      >
+        <div
+          class="lg:h-[60px]"
+        >
+          <div
+            class="flex flex-col md:flex-row justify-between items-center bg-blue-500 h-full p-2"
+          >
+            <a
+              class="ms-5 flex items-center"
+              href="/"
+            >
+              <img
+                class="w-[40px]"
+                src="/images/film-roll.png"
+              />
+              <h1
+                class="ms-3 text-2xl font-bold text-blue-900"
+              >
+                Cinema
+              </h1>
+            </a>
+            <div
+              class="m-5 grid grid-rows-2 grid-cols-2 gap-2 md:grid-flow-col md:grid-rows-1"
+            >
+              <a
+                class="text-white text-center hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
+                href="/"
+              >
+                Home
+              </a>
+              <a
+                class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+                href="/favorites"
+              >
+                Favorites
+              </a>
+              <a
+                class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+                href="/experiences"
+              >
+                Experiences
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="h-full"
+        >
+          <div
+            class="bg-blue-800 min-h-full flex flex-col items-center"
+          >
+            <div
+              class="m-10 md:w-1/2"
+            >
+              <div
+                class="bg-blue-900 text-white rounded-t-md p-3"
+              >
+                Show me times for 
+                <span
+                  class="text-blue-500 hover:text-blue-400 hover:cursor-pointer"
+                >
+                  Cinemas
+                </span>
+              </div>
+              <div
+                class="text-white border rounded-md m-2 p-2"
+              >
+                <div>
+                  Acton
+                </div>
+                <div
+                  class="mb-2"
+                >
+                  Royale Leisure Park, Kendal Avenue, London
+                </div>
+                <div
+                  class="m-2"
+                >
+                  <span
+                    class="mb-2 bg-blue-500 p-2 rounded-md inline-block"
+                  >
+                    The Garfield Movie
+                  </span>
+                  <div
+                    class="ms-2"
+                  >
+                    Start Time: 
+                    09:15
+                  </div>
+                  <div
+                    class="ms-2"
+                  >
+                    Screen Name: 
+                    Screen 1
+                  </div>
+                </div>
+                <div
+                  class="m-2"
+                >
+                  <span
+                    class="mb-2 bg-blue-500 p-2 rounded-md inline-block"
+                  >
+                    Fly Me to the Moon
+                  </span>
+                  <div
+                    class="ms-2"
+                  >
+                    Start Time: 
+                    10:15
+                  </div>
+                  <div
+                    class="ms-2"
+                  >
+                    Screen Name: 
+                    Screen 2
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col h-screen"
+    >
+      <div
+        class="lg:h-[60px]"
+      >
+        <div
+          class="flex flex-col md:flex-row justify-between items-center bg-blue-500 h-full p-2"
+        >
+          <a
+            class="ms-5 flex items-center"
+            href="/"
+          >
+            <img
+              class="w-[40px]"
+              src="/images/film-roll.png"
+            />
+            <h1
+              class="ms-3 text-2xl font-bold text-blue-900"
+            >
+              Cinema
+            </h1>
+          </a>
+          <div
+            class="m-5 grid grid-rows-2 grid-cols-2 gap-2 md:grid-flow-col md:grid-rows-1"
+          >
+            <a
+              class="text-white text-center hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
+              href="/"
+            >
+              Home
+            </a>
+            <a
+              class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+              href="/favorites"
+            >
+              Favorites
+            </a>
+            <a
+              class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+              href="/experiences"
+            >
+              Experiences
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="h-full"
+      >
+        <div
+          class="bg-blue-800 min-h-full flex flex-col items-center"
+        >
+          <div
+            class="m-10 md:w-1/2"
+          >
+            <div
+              class="bg-blue-900 text-white rounded-t-md p-3"
+            >
+              Show me times for 
+              <span
+                class="text-blue-500 hover:text-blue-400 hover:cursor-pointer"
+              >
+                Cinemas
+              </span>
+            </div>
+            <div
+              class="text-white border rounded-md m-2 p-2"
+            >
+              <div>
+                Acton
+              </div>
+              <div
+                class="mb-2"
+              >
+                Royale Leisure Park, Kendal Avenue, London
+              </div>
+              <div
+                class="m-2"
+              >
+                <span
+                  class="mb-2 bg-blue-500 p-2 rounded-md inline-block"
+                >
+                  The Garfield Movie
+                </span>
+                <div
+                  class="ms-2"
+                >
+                  Start Time: 
+                  09:15
+                </div>
+                <div
+                  class="ms-2"
+                >
+                  Screen Name: 
+                  Screen 1
+                </div>
+              </div>
+              <div
+                class="m-2"
+              >
+                <span
+                  class="mb-2 bg-blue-500 p-2 rounded-md inline-block"
+                >
+                  Fly Me to the Moon
+                </span>
+                <div
+                  class="ms-2"
+                >
+                  Start Time: 
+                  10:15
+                </div>
+                <div
+                  class="ms-2"
+                >
+                  Screen Name: 
+                  Screen 2
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

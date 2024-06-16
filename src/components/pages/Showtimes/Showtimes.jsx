@@ -3,7 +3,14 @@ import { useState } from "react"
 import LayoutPage from "components/pages/LayoutPage"
 import CinemaModal from "components/CinemaModal"
 
-const Showtimes = () => {
+const allShowtimes = {
+  "2120314137789540": [{ movieId: 1, startTime: "09:15", screenName: "Screen 1" }, { movieId: 2, startTime: "10:15", screenName: "Screen 2" }],
+  "9604801004817922": [{ movieId: 3, startTime: "11:15", screenName: "Screen 3" }, { movieId: 4, startTime: "12:15", screenName: "Screen 4" }],
+  "8498625877351675": [{ movieId: 5, startTime: "13:15", screenName: "Screen 5" }, { movieId: 6, startTime: "14:15", screenName: "Screen 6" }],
+  "6127704012543322": [{ movieId: 7, startTime: "15:15", screenName: "Screen 7" }, { movieId: 8, startTime: "16:15", screenName: "Screen 8" }]
+}
+
+const Showtimes = ({ movies }) => {
   const [selectedCinemas, setSelectedCinemas] = useState({})
   const [showModal, setShowModal] = useState(false)
 
@@ -52,9 +59,34 @@ const Showtimes = () => {
             )
           }
           {
-            cinemas.map(v => (
-              <div key={v.id} className="text-white">{v.name}</div>
-            ))
+            cinemas.map(v => {
+              const showtimes = allShowtimes[v.id] ?? []
+
+              return (
+                <div key={v.id} className="text-white border rounded-md m-2 p-2">
+                  <div>{v.name}</div>
+                  <div className="mb-2">{v.address}</div>
+                  {
+                    !showtimes.length && (
+                      <div>No movies were found</div>
+                    )
+                  }
+                  {
+                    showtimes.map(({ movieId, startTime, screenName }) => {
+                      const movie = movies.find(v => v.id === movieId)
+
+                      return (
+                        <div key={movieId} className="m-2">
+                          <span className="mb-2 bg-blue-500 p-2 rounded-md inline-block">{movie.title}</span>
+                          <div className="ms-2">Start Time: {startTime}</div>
+                          <div className="ms-2">Screen Name: {screenName}</div>
+                        </div>
+                      )
+                    })
+                  }
+                </div>
+              )
+            })
           }
         </div>
       </div>

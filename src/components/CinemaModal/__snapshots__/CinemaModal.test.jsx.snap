@@ -21,6 +21,7 @@ exports[`should render CinemaModal component 1`] = `
             </h1>
             <svg
               class="size-6 hover:bg-gray-400 hover:text-white hover:rounded-full hover:p-1 hover:cursor-pointer"
+              data-testid="close"
               fill="none"
               stroke="currentColor"
               stroke-width="1.5"
@@ -85,6 +86,7 @@ exports[`should render CinemaModal component 1`] = `
           >
             <div
               class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+              data-testid="cinema"
             >
               <svg
                 class="size-10"
@@ -118,6 +120,7 @@ exports[`should render CinemaModal component 1`] = `
             </div>
             <div
               class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+              data-testid="cinema"
             >
               <svg
                 class="size-10"
@@ -151,6 +154,7 @@ exports[`should render CinemaModal component 1`] = `
             </div>
             <div
               class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+              data-testid="cinema"
             >
               <svg
                 class="size-10"
@@ -184,6 +188,7 @@ exports[`should render CinemaModal component 1`] = `
             </div>
             <div
               class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+              data-testid="cinema"
             >
               <svg
                 class="size-10"
@@ -217,6 +222,7 @@ exports[`should render CinemaModal component 1`] = `
             </div>
             <div
               class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+              data-testid="cinema"
             >
               <svg
                 class="size-10"
@@ -250,6 +256,7 @@ exports[`should render CinemaModal component 1`] = `
             </div>
             <div
               class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+              data-testid="cinema"
             >
               <svg
                 class="size-10"
@@ -283,6 +290,7 @@ exports[`should render CinemaModal component 1`] = `
             </div>
             <div
               class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+              data-testid="cinema"
             >
               <svg
                 class="size-10"
@@ -336,6 +344,7 @@ exports[`should render CinemaModal component 1`] = `
           </h1>
           <svg
             class="size-6 hover:bg-gray-400 hover:text-white hover:rounded-full hover:p-1 hover:cursor-pointer"
+            data-testid="close"
             fill="none"
             stroke="currentColor"
             stroke-width="1.5"
@@ -400,6 +409,7 @@ exports[`should render CinemaModal component 1`] = `
         >
           <div
             class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+            data-testid="cinema"
           >
             <svg
               class="size-10"
@@ -433,6 +443,7 @@ exports[`should render CinemaModal component 1`] = `
           </div>
           <div
             class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+            data-testid="cinema"
           >
             <svg
               class="size-10"
@@ -466,6 +477,7 @@ exports[`should render CinemaModal component 1`] = `
           </div>
           <div
             class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+            data-testid="cinema"
           >
             <svg
               class="size-10"
@@ -499,6 +511,7 @@ exports[`should render CinemaModal component 1`] = `
           </div>
           <div
             class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+            data-testid="cinema"
           >
             <svg
               class="size-10"
@@ -532,6 +545,7 @@ exports[`should render CinemaModal component 1`] = `
           </div>
           <div
             class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+            data-testid="cinema"
           >
             <svg
               class="size-10"
@@ -565,6 +579,7 @@ exports[`should render CinemaModal component 1`] = `
           </div>
           <div
             class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+            data-testid="cinema"
           >
             <svg
               class="size-10"
@@ -598,6 +613,7 @@ exports[`should render CinemaModal component 1`] = `
           </div>
           <div
             class="text-sm md:text-xl flex items-center p-2 border-b-2 hover:cursor-pointer hover:bg-gray-200"
+            data-testid="cinema"
           >
             <svg
               class="size-10"

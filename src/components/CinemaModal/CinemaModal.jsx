@@ -22,7 +22,7 @@ const CinemaModal = ({ cinemas, onClose, onClick, onRemove }) => {
         <div className="flex justify-between items-center bg-gray-100 shadow-lg p-3">
           <h1 className="text-2xl text-center">Available Cinemas</h1>
 
-          <svg onClick={onClose} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 hover:bg-gray-400 hover:text-white hover:rounded-full hover:p-1 hover:cursor-pointer">
+          <svg data-testid="close" onClick={onClose} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 hover:bg-gray-400 hover:text-white hover:rounded-full hover:p-1 hover:cursor-pointer">
             <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
           </svg>
         </div>
