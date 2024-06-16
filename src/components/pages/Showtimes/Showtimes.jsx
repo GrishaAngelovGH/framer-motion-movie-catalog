@@ -4,21 +4,35 @@ import LayoutPage from "components/pages/LayoutPage"
 import CinemaModal from "components/CinemaModal"
 
 const Showtimes = () => {
-  const [cinemas, setCinemas] = useState([])
+  const [selectedCinemas, setSelectedCinemas] = useState({})
   const [showModal, setShowModal] = useState(false)
 
   const toggleModal = () => {
     !setShowModal(!showModal)
   }
 
+  const handleCinemaClick = cinema => {
+    setSelectedCinemas({
+      ...selectedCinemas,
+      [cinema.id]: cinema
+    })
+  }
+
+  const handleRemoveCinema = id => {
+    const { [id]: value, ...restCinemas } = selectedCinemas
+    setSelectedCinemas(restCinemas)
+  }
+
+  const cinemas = Object.values(selectedCinemas)
+
   return (
     <LayoutPage>
       <div className="bg-blue-800 min-h-full flex flex-col items-center">
-        {showModal && (<CinemaModal onClose={toggleModal} />)}
+        {showModal && (<CinemaModal cinemas={cinemas} onClose={toggleModal} onClick={handleCinemaClick} onRemove={handleRemoveCinema} />)}
 
         <div className="m-10 md:w-1/2">
           <div className="bg-blue-900 text-white rounded-t-md p-3">
-            Show me times for Cinemas
+            Show me times for <span onClick={toggleModal} className="text-blue-500 hover:text-blue-400 hover:cursor-pointer">Cinemas</span>
           </div>
           {
             !cinemas.length && (
@@ -36,6 +50,11 @@ const Showtimes = () => {
                 </button>
               </div>
             )
+          }
+          {
+            cinemas.map(v => (
+              <div key={v.id} className="text-white">{v.name}</div>
+            ))
           }
         </div>
       </div>
