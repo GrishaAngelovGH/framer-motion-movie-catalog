@@ -354,11 +354,12 @@ exports[`should render pages/Showtimes component with selected cinemas 1`] = `
                 <div
                   class="m-2"
                 >
-                  <span
-                    class="mb-2 bg-blue-500 p-2 rounded-md inline-block"
+                  <a
+                    class="mb-2 bg-blue-500 text-white hover:text-white p-2 rounded-md inline-block"
+                    href="/movies/1"
                   >
                     The Garfield Movie
-                  </span>
+                  </a>
                   <div
                     class="ms-2"
                   >
@@ -375,11 +376,12 @@ exports[`should render pages/Showtimes component with selected cinemas 1`] = `
                 <div
                   class="m-2"
                 >
-                  <span
-                    class="mb-2 bg-blue-500 p-2 rounded-md inline-block"
+                  <a
+                    class="mb-2 bg-blue-500 text-white hover:text-white p-2 rounded-md inline-block"
+                    href="/movies/2"
                   >
                     Fly Me to the Moon
-                  </span>
+                  </a>
                   <div
                     class="ms-2"
                   >
@@ -481,11 +483,12 @@ exports[`should render pages/Showtimes component with selected cinemas 1`] = `
               <div
                 class="m-2"
               >
-                <span
-                  class="mb-2 bg-blue-500 p-2 rounded-md inline-block"
+                <a
+                  class="mb-2 bg-blue-500 text-white hover:text-white p-2 rounded-md inline-block"
+                  href="/movies/1"
                 >
                   The Garfield Movie
-                </span>
+                </a>
                 <div
                   class="ms-2"
                 >
@@ -502,11 +505,12 @@ exports[`should render pages/Showtimes component with selected cinemas 1`] = `
               <div
                 class="m-2"
               >
-                <span
-                  class="mb-2 bg-blue-500 p-2 rounded-md inline-block"
+                <a
+                  class="mb-2 bg-blue-500 text-white hover:text-white p-2 rounded-md inline-block"
+                  href="/movies/2"
                 >
                   Fly Me to the Moon
-                </span>
+                </a>
                 <div
                   class="ms-2"
                 >

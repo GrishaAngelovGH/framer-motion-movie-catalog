@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom"
 
 import LayoutPage from "components/pages/LayoutPage"
 import CinemaModal from "components/CinemaModal"
@@ -77,7 +78,7 @@ const Showtimes = ({ movies }) => {
 
                       return (
                         <div key={movieId} className="m-2">
-                          <span className="mb-2 bg-blue-500 p-2 rounded-md inline-block">{movie.title}</span>
+                          <Link to={`/movies/${movieId}`} className="mb-2 bg-blue-500 text-white hover:text-white p-2 rounded-md inline-block">{movie.title}</Link>
                           <div className="ms-2">Start Time: {startTime}</div>
                           <div className="ms-2">Screen Name: {screenName}</div>
                         </div>
