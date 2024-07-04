@@ -24,6 +24,12 @@ const Experiences = ({ comboBoxes }) => {
     { image: "/images/ice-blast.jpg", title: "Tango Ice Blast", content: "Feel the frozen explosion with sugar-free Tango Ice Blast. It’s the guilt-free way to satisfy your sweet tooth. Order delicious slushy flavours like cherry, raspberry or a mix of both and let the icy zing dance on your tongue." }
   ]
 
+  const animateOpacity = {
+    initial: { opacity: "0" },
+    animate: { opacity: "100%" },
+    transition: { duration: 1, delay: 3 }
+  }
+
   return (
     <LayoutPage>
       <div className="bg-blue-800 min-h-full flex flex-col items-center">
@@ -46,9 +52,7 @@ const Experiences = ({ comboBoxes }) => {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: "0" }}
-          animate={{ opacity: "100%" }}
-          transition={{ duration: 1, delay: 3 }}
+          {...animateOpacity}
           className="md:w-3/4 mb-5"
         >
           <h1 className="mb-10 text-white text-center uppercase text-sm md:text-5xl">Your Cinema Favorites</h1>
@@ -63,9 +67,7 @@ const Experiences = ({ comboBoxes }) => {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: "0" }}
-          animate={{ opacity: "100%" }}
-          transition={{ duration: 1, delay: 3 }}
+          {...animateOpacity}
           className="m-5 mb-10 md:w-1/2"
         >
           <h1 className="text-sm md:text-5xl text-white text-center uppercase">Try Our Combo Boxes</h1>
@@ -84,9 +86,7 @@ const Experiences = ({ comboBoxes }) => {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: "0" }}
-          animate={{ opacity: "100%" }}
-          transition={{ duration: 1, delay: 3 }}
+          {...animateOpacity}
           className="m-5 mb-10 md:w-1/2 text-center"
         >
           <Link to="/showtimes" className="bg-blue-900 hover:bg-blue-700 hover:text-white text-white text-2xl p-4 rounded-full block">
