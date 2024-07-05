@@ -64,12 +64,12 @@ const Showtimes = ({ movies }) => {
               const showtimes = allShowtimes[v.id] ?? []
 
               return (
-                <div key={v.id} className="text-white border rounded-md m-2 p-2">
-                  <div>{v.name}</div>
-                  <div className="mb-2">{v.address}</div>
+                <div key={v.id} className="bg-white border rounded-md m-2 p-2">
+                  <div className="text-2xl ps-2">{v.name}</div>
+                  <div className="text-xl text-gray-500 ps-2 mb-2">{v.address}</div>
                   {
                     !showtimes.length && (
-                      <div>No movies were found</div>
+                      <div className="text-2xl ps-2 text-red-500">No movies were found</div>
                     )
                   }
                   {
@@ -77,7 +77,7 @@ const Showtimes = ({ movies }) => {
                       const movie = movies.find(v => v.id === movieId)
 
                       return (
-                        <div key={movieId} className="m-2">
+                        <div key={movieId} className="m-2 border border-gray-400 rounded-md p-2">
                           <Link to={`/movies/${movieId}`} className="mb-2 bg-blue-500 text-white hover:text-white p-2 rounded-md inline-block">{movie.title}</Link>
                           <div className="ms-2">Start Time: {startTime}</div>
                           <div className="ms-2">Screen Name: {screenName}</div>
