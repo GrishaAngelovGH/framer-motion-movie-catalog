@@ -1,8 +1,7 @@
-# React + Vite
+# Framer Motion Movie Catalog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is hands-on experience with **Framer Motion** library
 
-Currently, two official plugins are available:
+## The project is using the following technologies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="https://img.shields.io/badge/vite-%23563D7C.svg?style=flat&logo=vite&color=white" height="30"> <img src="https://img.shields.io/badge/React.JS-%23563D7C.svg?style=flat&logo=react&color=white" height="30"> <img src="https://img.shields.io/badge/Tailwind%20CSS-%23563D7C.svg?style=flat&logo=tailwindcss&color=white" height="30"> <img src="https://img.shields.io/badge/Framer%20Motion-%23563D7C.svg?style=flat&color=white" height="30"> <img src="https://img.shields.io/badge/React%20Responsive%20Carousel-%23563D7C.svg?style=flat&color=white" height="30"> <img src="https://img.shields.io/badge/Fast%20Average%20Color-%23563D7C.svg?style=flat&color=white" height="30">
