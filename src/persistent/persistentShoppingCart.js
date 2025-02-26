@@ -20,6 +20,7 @@ const persistentShoppingCart = {
   },
   remove: function (id) {
     const shoppingCart = this.getShoppingCart()
+    // eslint-disable-next-line no-unused-vars
     const { [id]: value, ...newShoppingCart } = shoppingCart
     window.localStorage.setItem("shoppingCart", JSON.stringify(newShoppingCart))
   }

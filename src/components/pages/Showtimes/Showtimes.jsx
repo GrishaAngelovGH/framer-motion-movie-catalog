@@ -27,6 +27,7 @@ const Showtimes = ({ movies }) => {
   }
 
   const handleRemoveCinema = id => {
+    // eslint-disable-next-line no-unused-vars
     const { [id]: value, ...restCinemas } = selectedCinemas
     setSelectedCinemas(restCinemas)
   }
