@@ -53,7 +53,7 @@ const Showtimes = ({ movies }) => {
                 <h3 className="m-1">Where would you like to see the film?</h3>
                 <button
                   onClick={toggleModal}
-                  className="mt-10 bg-slate-400 hover:bg-slate-300 text-gray-600"
+                  className="mt-10 bg-slate-400 hover:bg-slate-300 text-gray-600 p-2 rounded-md cursor-pointer"
                 >
                   Add Cinemas
                 </button>

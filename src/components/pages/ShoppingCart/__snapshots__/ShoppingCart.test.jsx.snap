@@ -99,7 +99,7 @@ exports[`should render pages/ShoppingCart component 1`] = `
                 class="flex items-center"
               >
                 <button
-                  class="bg-blue-500 text-white p-1 rounded-full"
+                  class="bg-blue-500 text-white p-1 rounded-full cursor-pointer"
                 >
                   <svg
                     class="size-6"
@@ -123,7 +123,7 @@ exports[`should render pages/ShoppingCart component 1`] = `
                   2
                 </span>
                 <button
-                  class="bg-blue-500 text-white p-1 rounded-full"
+                  class="bg-blue-500 text-white p-1 rounded-full cursor-pointer"
                 >
                   <svg
                     class="size-6"
@@ -157,7 +157,7 @@ exports[`should render pages/ShoppingCart component 1`] = `
               </div>
             </div>
             <button
-              class="bg-red-500 hover:bg-red-600 text-white mt-5 p-1 w-full flex justify-center"
+              class="bg-red-500 hover:bg-red-600 text-white mt-5 p-1 w-full flex justify-center cursor-pointer"
             >
               <svg
                 class="size-6"
@@ -281,7 +281,7 @@ exports[`should render pages/ShoppingCart component 1`] = `
               class="flex items-center"
             >
               <button
-                class="bg-blue-500 text-white p-1 rounded-full"
+                class="bg-blue-500 text-white p-1 rounded-full cursor-pointer"
               >
                 <svg
                   class="size-6"
@@ -305,7 +305,7 @@ exports[`should render pages/ShoppingCart component 1`] = `
                 2
               </span>
               <button
-                class="bg-blue-500 text-white p-1 rounded-full"
+                class="bg-blue-500 text-white p-1 rounded-full cursor-pointer"
               >
                 <svg
                   class="size-6"
@@ -339,7 +339,7 @@ exports[`should render pages/ShoppingCart component 1`] = `
             </div>
           </div>
           <button
-            class="bg-red-500 hover:bg-red-600 text-white mt-5 p-1 w-full flex justify-center"
+            class="bg-red-500 hover:bg-red-600 text-white mt-5 p-1 w-full flex justify-center cursor-pointer"
           >
             <svg
               class="size-6"
