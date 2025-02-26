@@ -41,7 +41,7 @@ exports[`should render ComboBox component 1`] = `
           £
         </p>
         <button
-          class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+          class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 p-2 cursor-pointer visible"
           role="button"
         >
           Add To Cart
@@ -86,7 +86,7 @@ exports[`should render ComboBox component 1`] = `
         £
       </p>
       <button
-        class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+        class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 p-2 cursor-pointer visible"
         role="button"
       >
         Add To Cart
@@ -188,7 +188,7 @@ exports[`should render ComboBox component with added items to shopping cart 1`] 
           £
         </p>
         <button
-          class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 invisible"
+          class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 p-2 cursor-pointer invisible"
           role="button"
         >
           Add To Cart
@@ -238,7 +238,7 @@ exports[`should render ComboBox component with added items to shopping cart 1`] 
         £
       </p>
       <button
-        class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 invisible"
+        class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 p-2 cursor-pointer invisible"
         role="button"
       >
         Add To Cart

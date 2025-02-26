@@ -12,12 +12,13 @@ exports[`should render MovieCatalog component 1`] = `
           class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4"
         >
           <div
-            style="transform: translateX(-100%) translateZ(0);"
+            style="transform: translateX(-100%);"
           >
             <div
               class="flex"
             >
               <a
+                data-discover="true"
                 href="/movies/1"
               >
                 <div
@@ -53,12 +54,13 @@ exports[`should render MovieCatalog component 1`] = `
             </div>
           </div>
           <div
-            style="transform: translateX(-200%) translateZ(0);"
+            style="transform: translateX(-200%);"
           >
             <div
               class="flex"
             >
               <a
+                data-discover="true"
                 href="/movies/2"
               >
                 <div
@@ -94,12 +96,13 @@ exports[`should render MovieCatalog component 1`] = `
             </div>
           </div>
           <div
-            style="transform: translateX(-300%) translateZ(0);"
+            style="transform: translateX(-300%);"
           >
             <div
               class="flex"
             >
               <a
+                data-discover="true"
                 href="/movies/3"
               >
                 <div
@@ -135,12 +138,13 @@ exports[`should render MovieCatalog component 1`] = `
             </div>
           </div>
           <div
-            style="transform: translateX(-400%) translateZ(0);"
+            style="transform: translateX(-400%);"
           >
             <div
               class="flex"
             >
               <a
+                data-discover="true"
                 href="/movies/4"
               >
                 <div
@@ -176,12 +180,13 @@ exports[`should render MovieCatalog component 1`] = `
             </div>
           </div>
           <div
-            style="transform: translateX(-100%) translateZ(0);"
+            style="transform: translateX(-100%);"
           >
             <div
               class="flex"
             >
               <a
+                data-discover="true"
                 href="/movies/5"
               >
                 <div
@@ -217,12 +222,13 @@ exports[`should render MovieCatalog component 1`] = `
             </div>
           </div>
           <div
-            style="transform: translateX(-200%) translateZ(0);"
+            style="transform: translateX(-200%);"
           >
             <div
               class="flex"
             >
               <a
+                data-discover="true"
                 href="/movies/6"
               >
                 <div
@@ -258,12 +264,13 @@ exports[`should render MovieCatalog component 1`] = `
             </div>
           </div>
           <div
-            style="transform: translateX(-300%) translateZ(0);"
+            style="transform: translateX(-300%);"
           >
             <div
               class="flex"
             >
               <a
+                data-discover="true"
                 href="/movies/7"
               >
                 <div
@@ -299,12 +306,13 @@ exports[`should render MovieCatalog component 1`] = `
             </div>
           </div>
           <div
-            style="transform: translateX(-400%) translateZ(0);"
+            style="transform: translateX(-400%);"
           >
             <div
               class="flex"
             >
               <a
+                data-discover="true"
                 href="/movies/8"
               >
                 <div
@@ -340,12 +348,13 @@ exports[`should render MovieCatalog component 1`] = `
             </div>
           </div>
           <div
-            style="transform: translateX(-100%) translateZ(0);"
+            style="transform: translateX(-100%);"
           >
             <div
               class="flex"
             >
               <a
+                data-discover="true"
                 href="/movies/9"
               >
                 <div
@@ -381,12 +390,13 @@ exports[`should render MovieCatalog component 1`] = `
             </div>
           </div>
           <div
-            style="transform: translateX(-200%) translateZ(0);"
+            style="transform: translateX(-200%);"
           >
             <div
               class="flex"
             >
               <a
+                data-discover="true"
                 href="/movies/10"
               >
                 <div
@@ -422,12 +432,13 @@ exports[`should render MovieCatalog component 1`] = `
             </div>
           </div>
           <div
-            style="transform: translateX(-300%) translateZ(0);"
+            style="transform: translateX(-300%);"
           >
             <div
               class="flex"
             >
               <a
+                data-discover="true"
                 href="/movies/11"
               >
                 <div
@@ -463,12 +474,13 @@ exports[`should render MovieCatalog component 1`] = `
             </div>
           </div>
           <div
-            style="transform: translateX(-400%) translateZ(0);"
+            style="transform: translateX(-400%);"
           >
             <div
               class="flex"
             >
               <a
+                data-discover="true"
                 href="/movies/12"
               >
                 <div
@@ -504,12 +516,13 @@ exports[`should render MovieCatalog component 1`] = `
             </div>
           </div>
           <div
-            style="transform: translateX(-100%) translateZ(0);"
+            style="transform: translateX(-100%);"
           >
             <div
               class="flex"
             >
               <a
+                data-discover="true"
                 href="/movies/13"
               >
                 <div
@@ -545,12 +558,13 @@ exports[`should render MovieCatalog component 1`] = `
             </div>
           </div>
           <div
-            style="transform: translateX(-200%) translateZ(0);"
+            style="transform: translateX(-200%);"
           >
             <div
               class="flex"
             >
               <a
+                data-discover="true"
                 href="/movies/14"
               >
                 <div
@@ -586,12 +600,13 @@ exports[`should render MovieCatalog component 1`] = `
             </div>
           </div>
           <div
-            style="transform: translateX(-300%) translateZ(0);"
+            style="transform: translateX(-300%);"
           >
             <div
               class="flex"
             >
               <a
+                data-discover="true"
                 href="/movies/15"
               >
                 <div
@@ -627,12 +642,13 @@ exports[`should render MovieCatalog component 1`] = `
             </div>
           </div>
           <div
-            style="transform: translateX(-400%) translateZ(0);"
+            style="transform: translateX(-400%);"
           >
             <div
               class="flex"
             >
               <a
+                data-discover="true"
                 href="/movies/16"
               >
                 <div
@@ -679,12 +695,13 @@ exports[`should render MovieCatalog component 1`] = `
         class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4"
       >
         <div
-          style="transform: translateX(-100%) translateZ(0);"
+          style="transform: translateX(-100%);"
         >
           <div
             class="flex"
           >
             <a
+              data-discover="true"
               href="/movies/1"
             >
               <div
@@ -720,12 +737,13 @@ exports[`should render MovieCatalog component 1`] = `
           </div>
         </div>
         <div
-          style="transform: translateX(-200%) translateZ(0);"
+          style="transform: translateX(-200%);"
         >
           <div
             class="flex"
           >
             <a
+              data-discover="true"
               href="/movies/2"
             >
               <div
@@ -761,12 +779,13 @@ exports[`should render MovieCatalog component 1`] = `
           </div>
         </div>
         <div
-          style="transform: translateX(-300%) translateZ(0);"
+          style="transform: translateX(-300%);"
         >
           <div
             class="flex"
           >
             <a
+              data-discover="true"
               href="/movies/3"
             >
               <div
@@ -802,12 +821,13 @@ exports[`should render MovieCatalog component 1`] = `
           </div>
         </div>
         <div
-          style="transform: translateX(-400%) translateZ(0);"
+          style="transform: translateX(-400%);"
         >
           <div
             class="flex"
           >
             <a
+              data-discover="true"
               href="/movies/4"
             >
               <div
@@ -843,12 +863,13 @@ exports[`should render MovieCatalog component 1`] = `
           </div>
         </div>
         <div
-          style="transform: translateX(-100%) translateZ(0);"
+          style="transform: translateX(-100%);"
         >
           <div
             class="flex"
           >
             <a
+              data-discover="true"
               href="/movies/5"
             >
               <div
@@ -884,12 +905,13 @@ exports[`should render MovieCatalog component 1`] = `
           </div>
         </div>
         <div
-          style="transform: translateX(-200%) translateZ(0);"
+          style="transform: translateX(-200%);"
         >
           <div
             class="flex"
           >
             <a
+              data-discover="true"
               href="/movies/6"
             >
               <div
@@ -925,12 +947,13 @@ exports[`should render MovieCatalog component 1`] = `
           </div>
         </div>
         <div
-          style="transform: translateX(-300%) translateZ(0);"
+          style="transform: translateX(-300%);"
         >
           <div
             class="flex"
           >
             <a
+              data-discover="true"
               href="/movies/7"
             >
               <div
@@ -966,12 +989,13 @@ exports[`should render MovieCatalog component 1`] = `
           </div>
         </div>
         <div
-          style="transform: translateX(-400%) translateZ(0);"
+          style="transform: translateX(-400%);"
         >
           <div
             class="flex"
           >
             <a
+              data-discover="true"
               href="/movies/8"
             >
               <div
@@ -1007,12 +1031,13 @@ exports[`should render MovieCatalog component 1`] = `
           </div>
         </div>
         <div
-          style="transform: translateX(-100%) translateZ(0);"
+          style="transform: translateX(-100%);"
         >
           <div
             class="flex"
           >
             <a
+              data-discover="true"
               href="/movies/9"
             >
               <div
@@ -1048,12 +1073,13 @@ exports[`should render MovieCatalog component 1`] = `
           </div>
         </div>
         <div
-          style="transform: translateX(-200%) translateZ(0);"
+          style="transform: translateX(-200%);"
         >
           <div
             class="flex"
           >
             <a
+              data-discover="true"
               href="/movies/10"
             >
               <div
@@ -1089,12 +1115,13 @@ exports[`should render MovieCatalog component 1`] = `
           </div>
         </div>
         <div
-          style="transform: translateX(-300%) translateZ(0);"
+          style="transform: translateX(-300%);"
         >
           <div
             class="flex"
           >
             <a
+              data-discover="true"
               href="/movies/11"
             >
               <div
@@ -1130,12 +1157,13 @@ exports[`should render MovieCatalog component 1`] = `
           </div>
         </div>
         <div
-          style="transform: translateX(-400%) translateZ(0);"
+          style="transform: translateX(-400%);"
         >
           <div
             class="flex"
           >
             <a
+              data-discover="true"
               href="/movies/12"
             >
               <div
@@ -1171,12 +1199,13 @@ exports[`should render MovieCatalog component 1`] = `
           </div>
         </div>
         <div
-          style="transform: translateX(-100%) translateZ(0);"
+          style="transform: translateX(-100%);"
         >
           <div
             class="flex"
           >
             <a
+              data-discover="true"
               href="/movies/13"
             >
               <div
@@ -1212,12 +1241,13 @@ exports[`should render MovieCatalog component 1`] = `
           </div>
         </div>
         <div
-          style="transform: translateX(-200%) translateZ(0);"
+          style="transform: translateX(-200%);"
         >
           <div
             class="flex"
           >
             <a
+              data-discover="true"
               href="/movies/14"
             >
               <div
@@ -1253,12 +1283,13 @@ exports[`should render MovieCatalog component 1`] = `
           </div>
         </div>
         <div
-          style="transform: translateX(-300%) translateZ(0);"
+          style="transform: translateX(-300%);"
         >
           <div
             class="flex"
           >
             <a
+              data-discover="true"
               href="/movies/15"
             >
               <div
@@ -1294,12 +1325,13 @@ exports[`should render MovieCatalog component 1`] = `
           </div>
         </div>
         <div
-          style="transform: translateX(-400%) translateZ(0);"
+          style="transform: translateX(-400%);"
         >
           <div
             class="flex"
           >
             <a
+              data-discover="true"
               href="/movies/16"
             >
               <div

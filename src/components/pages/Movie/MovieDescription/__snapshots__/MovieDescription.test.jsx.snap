@@ -16,6 +16,7 @@ exports[`should render MovieDescription component 1`] = `
           >
             <a
               class="ms-5 flex items-center"
+              data-discover="true"
               href="/"
             >
               <img
@@ -33,18 +34,21 @@ exports[`should render MovieDescription component 1`] = `
             >
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
+                data-discover="true"
                 href="/"
               >
                 Home
               </a>
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+                data-discover="true"
                 href="/favorites"
               >
                 Favorites
               </a>
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+                data-discover="true"
                 href="/experiences"
               >
                 Experiences
@@ -60,7 +64,7 @@ exports[`should render MovieDescription component 1`] = `
           >
             <h1
               class="text-center bg-blue-900 mb-5 p-3"
-              style="transform: translateY(-100%) translateZ(0);"
+              style="transform: translateY(-100%);"
             >
               The Garfield Movie
             </h1>
@@ -69,7 +73,7 @@ exports[`should render MovieDescription component 1`] = `
             >
               <div
                 class="pb-6 text-xl"
-                style="display: none; transform: translateX(-100%) translateZ(0);"
+                style="display: none; transform: translateX(-100%);"
               >
                 <img
                   class="rounded-lg w-[220px] h-[350px]"
@@ -90,7 +94,7 @@ exports[`should render MovieDescription component 1`] = `
               </div>
               <div
                 class="w-3/4 md:w-1/2"
-                style="display: none; transform: translateX(100%) translateZ(0);"
+                style="display: none; transform: translateX(100%);"
               >
                 <p
                   class="text-2xl"
@@ -141,6 +145,7 @@ exports[`should render MovieDescription component 1`] = `
         >
           <a
             class="ms-5 flex items-center"
+            data-discover="true"
             href="/"
           >
             <img
@@ -158,18 +163,21 @@ exports[`should render MovieDescription component 1`] = `
           >
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
+              data-discover="true"
               href="/"
             >
               Home
             </a>
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+              data-discover="true"
               href="/favorites"
             >
               Favorites
             </a>
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+              data-discover="true"
               href="/experiences"
             >
               Experiences
@@ -185,7 +193,7 @@ exports[`should render MovieDescription component 1`] = `
         >
           <h1
             class="text-center bg-blue-900 mb-5 p-3"
-            style="transform: translateY(-100%) translateZ(0);"
+            style="transform: translateY(-100%);"
           >
             The Garfield Movie
           </h1>
@@ -194,7 +202,7 @@ exports[`should render MovieDescription component 1`] = `
           >
             <div
               class="pb-6 text-xl"
-              style="display: none; transform: translateX(-100%) translateZ(0);"
+              style="display: none; transform: translateX(-100%);"
             >
               <img
                 class="rounded-lg w-[220px] h-[350px]"
@@ -215,7 +223,7 @@ exports[`should render MovieDescription component 1`] = `
             </div>
             <div
               class="w-3/4 md:w-1/2"
-              style="display: none; transform: translateX(100%) translateZ(0);"
+              style="display: none; transform: translateX(100%);"
             >
               <p
                 class="text-2xl"

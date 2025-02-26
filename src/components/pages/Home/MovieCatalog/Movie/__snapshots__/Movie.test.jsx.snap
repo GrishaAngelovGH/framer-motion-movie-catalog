@@ -9,6 +9,7 @@ exports[`should render Movie component 1`] = `
         class="flex"
       >
         <a
+          data-discover="true"
           href="/movies/undefined"
         >
           <div
@@ -49,6 +50,7 @@ exports[`should render Movie component 1`] = `
       class="flex"
     >
       <a
+        data-discover="true"
         href="/movies/undefined"
       >
         <div

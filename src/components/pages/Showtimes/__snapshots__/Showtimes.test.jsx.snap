@@ -16,6 +16,7 @@ exports[`should render pages/Showtimes component 1`] = `
           >
             <a
               class="ms-5 flex items-center"
+              data-discover="true"
               href="/"
             >
               <img
@@ -33,18 +34,21 @@ exports[`should render pages/Showtimes component 1`] = `
             >
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
+                data-discover="true"
                 href="/"
               >
                 Home
               </a>
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+                data-discover="true"
                 href="/favorites"
               >
                 Favorites
               </a>
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+                data-discover="true"
                 href="/experiences"
               >
                 Experiences
@@ -122,6 +126,7 @@ exports[`should render pages/Showtimes component 1`] = `
         >
           <a
             class="ms-5 flex items-center"
+            data-discover="true"
             href="/"
           >
             <img
@@ -139,18 +144,21 @@ exports[`should render pages/Showtimes component 1`] = `
           >
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
+              data-discover="true"
               href="/"
             >
               Home
             </a>
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+              data-discover="true"
               href="/favorites"
             >
               Favorites
             </a>
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+              data-discover="true"
               href="/experiences"
             >
               Experiences
@@ -285,6 +293,7 @@ exports[`should render pages/Showtimes component with selected cinemas 1`] = `
           >
             <a
               class="ms-5 flex items-center"
+              data-discover="true"
               href="/"
             >
               <img
@@ -302,18 +311,21 @@ exports[`should render pages/Showtimes component with selected cinemas 1`] = `
             >
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
+                data-discover="true"
                 href="/"
               >
                 Home
               </a>
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+                data-discover="true"
                 href="/favorites"
               >
                 Favorites
               </a>
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+                data-discover="true"
                 href="/experiences"
               >
                 Experiences
@@ -358,6 +370,7 @@ exports[`should render pages/Showtimes component with selected cinemas 1`] = `
                 >
                   <a
                     class="mb-2 bg-blue-500 text-white hover:text-white p-2 rounded-md inline-block"
+                    data-discover="true"
                     href="/movies/1"
                   >
                     The Garfield Movie
@@ -380,6 +393,7 @@ exports[`should render pages/Showtimes component with selected cinemas 1`] = `
                 >
                   <a
                     class="mb-2 bg-blue-500 text-white hover:text-white p-2 rounded-md inline-block"
+                    data-discover="true"
                     href="/movies/2"
                   >
                     Fly Me to the Moon
@@ -416,6 +430,7 @@ exports[`should render pages/Showtimes component with selected cinemas 1`] = `
         >
           <a
             class="ms-5 flex items-center"
+            data-discover="true"
             href="/"
           >
             <img
@@ -433,18 +448,21 @@ exports[`should render pages/Showtimes component with selected cinemas 1`] = `
           >
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
+              data-discover="true"
               href="/"
             >
               Home
             </a>
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+              data-discover="true"
               href="/favorites"
             >
               Favorites
             </a>
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+              data-discover="true"
               href="/experiences"
             >
               Experiences
@@ -489,6 +507,7 @@ exports[`should render pages/Showtimes component with selected cinemas 1`] = `
               >
                 <a
                   class="mb-2 bg-blue-500 text-white hover:text-white p-2 rounded-md inline-block"
+                  data-discover="true"
                   href="/movies/1"
                 >
                   The Garfield Movie
@@ -511,6 +530,7 @@ exports[`should render pages/Showtimes component with selected cinemas 1`] = `
               >
                 <a
                   class="mb-2 bg-blue-500 text-white hover:text-white p-2 rounded-md inline-block"
+                  data-discover="true"
                   href="/movies/2"
                 >
                   Fly Me to the Moon

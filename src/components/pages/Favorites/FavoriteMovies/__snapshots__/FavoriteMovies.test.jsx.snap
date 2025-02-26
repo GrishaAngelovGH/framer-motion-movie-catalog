@@ -131,6 +131,7 @@ exports[`should render FavoriteMovies component without favorite movies 1`] = `
           </h1>
           <a
             class="mt-10 text-white text-xl hover:text-white hover:underline"
+            data-discover="true"
             href="/"
           >
             Add some from the Movie Catalog
@@ -153,6 +154,7 @@ exports[`should render FavoriteMovies component without favorite movies 1`] = `
         </h1>
         <a
           class="mt-10 text-white text-xl hover:text-white hover:underline"
+          data-discover="true"
           href="/"
         >
           Add some from the Movie Catalog

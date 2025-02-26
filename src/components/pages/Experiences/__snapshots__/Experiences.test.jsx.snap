@@ -16,6 +16,7 @@ exports[`should render pages/Experiences component 1`] = `
           >
             <a
               class="ms-5 flex items-center"
+              data-discover="true"
               href="/"
             >
               <img
@@ -33,18 +34,21 @@ exports[`should render pages/Experiences component 1`] = `
             >
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
+                data-discover="true"
                 href="/"
               >
                 Home
               </a>
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+                data-discover="true"
                 href="/favorites"
               >
                 Favorites
               </a>
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+                data-discover="true"
                 href="/experiences"
               >
                 Experiences
@@ -60,7 +64,7 @@ exports[`should render pages/Experiences component 1`] = `
           >
             <img
               src="/images/hotdog-banner.png"
-              style="transform: translateY(-100%) translateZ(0);"
+              style="transform: translateY(-100%);"
             />
             <div
               class="w-3/4 md:w-1/2"
@@ -376,7 +380,7 @@ exports[`should render pages/Experiences component 1`] = `
                   £
                 </p>
                 <button
-                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 p-2 cursor-pointer visible"
                   role="button"
                 >
                   Add To Cart
@@ -450,7 +454,7 @@ exports[`should render pages/Experiences component 1`] = `
                   £
                 </p>
                 <button
-                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 p-2 cursor-pointer visible"
                   role="button"
                 >
                   Add To Cart
@@ -524,7 +528,7 @@ exports[`should render pages/Experiences component 1`] = `
                   £
                 </p>
                 <button
-                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 p-2 cursor-pointer visible"
                   role="button"
                 >
                   Add To Cart
@@ -537,6 +541,7 @@ exports[`should render pages/Experiences component 1`] = `
             >
               <a
                 class="bg-blue-900 hover:bg-blue-700 hover:text-white text-white text-2xl p-4 rounded-full block"
+                data-discover="true"
                 href="/showtimes"
               >
                 Visit Showtimes
@@ -559,6 +564,7 @@ exports[`should render pages/Experiences component 1`] = `
         >
           <a
             class="ms-5 flex items-center"
+            data-discover="true"
             href="/"
           >
             <img
@@ -576,18 +582,21 @@ exports[`should render pages/Experiences component 1`] = `
           >
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
+              data-discover="true"
               href="/"
             >
               Home
             </a>
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+              data-discover="true"
               href="/favorites"
             >
               Favorites
             </a>
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+              data-discover="true"
               href="/experiences"
             >
               Experiences
@@ -603,7 +612,7 @@ exports[`should render pages/Experiences component 1`] = `
         >
           <img
             src="/images/hotdog-banner.png"
-            style="transform: translateY(-100%) translateZ(0);"
+            style="transform: translateY(-100%);"
           />
           <div
             class="w-3/4 md:w-1/2"
@@ -919,7 +928,7 @@ exports[`should render pages/Experiences component 1`] = `
                 £
               </p>
               <button
-                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 p-2 cursor-pointer visible"
                 role="button"
               >
                 Add To Cart
@@ -993,7 +1002,7 @@ exports[`should render pages/Experiences component 1`] = `
                 £
               </p>
               <button
-                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 p-2 cursor-pointer visible"
                 role="button"
               >
                 Add To Cart
@@ -1067,7 +1076,7 @@ exports[`should render pages/Experiences component 1`] = `
                 £
               </p>
               <button
-                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 p-2 cursor-pointer visible"
                 role="button"
               >
                 Add To Cart
@@ -1080,6 +1089,7 @@ exports[`should render pages/Experiences component 1`] = `
           >
             <a
               class="bg-blue-900 hover:bg-blue-700 hover:text-white text-white text-2xl p-4 rounded-full block"
+              data-discover="true"
               href="/showtimes"
             >
               Visit Showtimes
@@ -1159,6 +1169,7 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
           >
             <a
               class="ms-5 flex items-center"
+              data-discover="true"
               href="/"
             >
               <img
@@ -1176,18 +1187,21 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
             >
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
+                data-discover="true"
                 href="/"
               >
                 Home
               </a>
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+                data-discover="true"
                 href="/favorites"
               >
                 Favorites
               </a>
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+                data-discover="true"
                 href="/experiences"
               >
                 Experiences
@@ -1203,7 +1217,7 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
           >
             <img
               src="/images/hotdog-banner.png"
-              style="transform: translateY(-100%) translateZ(0);"
+              style="transform: translateY(-100%);"
             />
             <div
               class="w-3/4 md:w-1/2"
@@ -1519,7 +1533,7 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
                   £
                 </p>
                 <button
-                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 invisible"
+                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 p-2 cursor-pointer invisible"
                   role="button"
                 >
                   Add To Cart
@@ -1598,7 +1612,7 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
                   £
                 </p>
                 <button
-                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 p-2 cursor-pointer visible"
                   role="button"
                 >
                   Add To Cart
@@ -1672,7 +1686,7 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
                   £
                 </p>
                 <button
-                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+                  class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 p-2 cursor-pointer visible"
                   role="button"
                 >
                   Add To Cart
@@ -1685,12 +1699,14 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
             >
               <a
                 class="bg-blue-900 hover:bg-blue-700 hover:text-white text-white text-2xl p-4 rounded-full block"
+                data-discover="true"
                 href="/showtimes"
               >
                 Visit Showtimes
               </a>
             </div>
             <a
+              data-discover="true"
               href="/shopping-cart"
             >
               <div
@@ -1730,6 +1746,7 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
         >
           <a
             class="ms-5 flex items-center"
+            data-discover="true"
             href="/"
           >
             <img
@@ -1747,18 +1764,21 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
           >
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
+              data-discover="true"
               href="/"
             >
               Home
             </a>
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+              data-discover="true"
               href="/favorites"
             >
               Favorites
             </a>
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+              data-discover="true"
               href="/experiences"
             >
               Experiences
@@ -1774,7 +1794,7 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
         >
           <img
             src="/images/hotdog-banner.png"
-            style="transform: translateY(-100%) translateZ(0);"
+            style="transform: translateY(-100%);"
           />
           <div
             class="w-3/4 md:w-1/2"
@@ -2090,7 +2110,7 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
                 £
               </p>
               <button
-                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 invisible"
+                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 p-2 cursor-pointer invisible"
                 role="button"
               >
                 Add To Cart
@@ -2169,7 +2189,7 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
                 £
               </p>
               <button
-                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 p-2 cursor-pointer visible"
                 role="button"
               >
                 Add To Cart
@@ -2243,7 +2263,7 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
                 £
               </p>
               <button
-                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 visible"
+                class="bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 p-2 cursor-pointer visible"
                 role="button"
               >
                 Add To Cart
@@ -2256,12 +2276,14 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
           >
             <a
               class="bg-blue-900 hover:bg-blue-700 hover:text-white text-white text-2xl p-4 rounded-full block"
+              data-discover="true"
               href="/showtimes"
             >
               Visit Showtimes
             </a>
           </div>
           <a
+            data-discover="true"
             href="/shopping-cart"
           >
             <div

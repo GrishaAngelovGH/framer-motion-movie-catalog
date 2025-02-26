@@ -13,6 +13,7 @@ exports[`should render pages/ShoppingCart component 1`] = `
         >
           <a
             class="text-white hover:text-white absolute left-3"
+            data-discover="true"
             href="/experiences"
           >
             <svg
@@ -41,7 +42,7 @@ exports[`should render pages/ShoppingCart component 1`] = `
         >
           <div
             class="bg-gray-200 shadow-lg p-5 rounded-md text-xl"
-            style="transform: scale(100%) translateZ(0);"
+            style="transform: scale(100%);"
           >
             <div
               class="text-center"
@@ -194,6 +195,7 @@ exports[`should render pages/ShoppingCart component 1`] = `
       >
         <a
           class="text-white hover:text-white absolute left-3"
+          data-discover="true"
           href="/experiences"
         >
           <svg
@@ -222,7 +224,7 @@ exports[`should render pages/ShoppingCart component 1`] = `
       >
         <div
           class="bg-gray-200 shadow-lg p-5 rounded-md text-xl"
-          style="transform: scale(100%) translateZ(0);"
+          style="transform: scale(100%);"
         >
           <div
             class="text-center"
@@ -432,6 +434,7 @@ exports[`should render pages/ShoppingCart component without added items 1`] = `
         >
           <a
             class="text-white hover:text-white absolute left-3"
+            data-discover="true"
             href="/experiences"
           >
             <svg
@@ -463,6 +466,7 @@ exports[`should render pages/ShoppingCart component without added items 1`] = `
           </h1>
           <a
             class="mt-5 text-xl inline-block"
+            data-discover="true"
             href="/experiences"
           >
             Visit our experiences page to see the combo boxes
@@ -480,6 +484,7 @@ exports[`should render pages/ShoppingCart component without added items 1`] = `
       >
         <a
           class="text-white hover:text-white absolute left-3"
+          data-discover="true"
           href="/experiences"
         >
           <svg
@@ -511,6 +516,7 @@ exports[`should render pages/ShoppingCart component without added items 1`] = `
         </h1>
         <a
           class="mt-5 text-xl inline-block"
+          data-discover="true"
           href="/experiences"
         >
           Visit our experiences page to see the combo boxes

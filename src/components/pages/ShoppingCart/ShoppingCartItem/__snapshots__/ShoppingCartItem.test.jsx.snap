@@ -7,7 +7,7 @@ exports[`should render ShoppingCartItem component 1`] = `
     <div>
       <div
         class="bg-gray-200 shadow-lg p-5 rounded-md text-xl"
-        style="transform: scale(100%) translateZ(0);"
+        style="transform: scale(100%);"
       >
         <div
           class="text-center"
@@ -132,7 +132,7 @@ exports[`should render ShoppingCartItem component 1`] = `
   "container": <div>
     <div
       class="bg-gray-200 shadow-lg p-5 rounded-md text-xl"
-      style="transform: scale(100%) translateZ(0);"
+      style="transform: scale(100%);"
     >
       <div
         class="text-center"

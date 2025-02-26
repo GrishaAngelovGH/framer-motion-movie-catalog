@@ -16,6 +16,7 @@ exports[`should render pages/Favorites component 1`] = `
           >
             <a
               class="ms-5 flex items-center"
+              data-discover="true"
               href="/"
             >
               <img
@@ -33,18 +34,21 @@ exports[`should render pages/Favorites component 1`] = `
             >
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
+                data-discover="true"
                 href="/"
               >
                 Home
               </a>
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+                data-discover="true"
                 href="/favorites"
               >
                 Favorites
               </a>
               <a
                 class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+                data-discover="true"
                 href="/experiences"
               >
                 Experiences
@@ -68,6 +72,7 @@ exports[`should render pages/Favorites component 1`] = `
               </h1>
               <a
                 class="mt-10 text-white text-xl hover:text-white hover:underline"
+                data-discover="true"
                 href="/"
               >
                 Add some from the Movie Catalog
@@ -90,6 +95,7 @@ exports[`should render pages/Favorites component 1`] = `
         >
           <a
             class="ms-5 flex items-center"
+            data-discover="true"
             href="/"
           >
             <img
@@ -107,18 +113,21 @@ exports[`should render pages/Favorites component 1`] = `
           >
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-blue-800 p-2 rounded-full"
+              data-discover="true"
               href="/"
             >
               Home
             </a>
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+              data-discover="true"
               href="/favorites"
             >
               Favorites
             </a>
             <a
               class="text-white text-center hover:text-white hover:underline me-5 bg-transparent p-2"
+              data-discover="true"
               href="/experiences"
             >
               Experiences
@@ -142,6 +151,7 @@ exports[`should render pages/Favorites component 1`] = `
             </h1>
             <a
               class="mt-10 text-white text-xl hover:text-white hover:underline"
+              data-discover="true"
               href="/"
             >
               Add some from the Movie Catalog

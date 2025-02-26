@@ -28,7 +28,7 @@ const ComboBox = ({ id, title, products, onAddToCart }) => {
       <button
         role="button"
         onClick={handleAddToCart}
-        className={`bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 ${isAdded ? "invisible" : "visible"}`}
+        className={`bg-blue-500 hover:bg-blue-700 text-white rounded-full m-3 p-2 cursor-pointer ${isAdded ? "invisible" : "visible"}`}
       >
         Add To Cart
       </button>
