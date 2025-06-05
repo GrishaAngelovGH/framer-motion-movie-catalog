@@ -34,7 +34,7 @@ exports[`should render Carousel component 1`] = `
           >
             <ul
               class="slider animated"
-              style="transform: translate3d(-100%,0,0); transition-duration: 350ms;"
+              style="-webkit-transform: translate3d(-100%,0,0); transform: translate3d(-100%,0,0); transition-duration: 350ms;"
             >
               <li
                 class="slide selected previous"
@@ -114,7 +114,7 @@ exports[`should render Carousel component 1`] = `
         >
           <ul
             class="slider animated"
-            style="transform: translate3d(-100%,0,0); transition-duration: 350ms;"
+            style="-webkit-transform: translate3d(-100%,0,0); transform: translate3d(-100%,0,0); transition-duration: 350ms;"
           >
             <li
               class="slide selected previous"

@@ -123,7 +123,7 @@ exports[`should render pages/Experiences component 1`] = `
                   >
                     <ul
                       class="slider animated"
-                      style="transform: translate3d(-100%,0,0); transition-duration: 350ms;"
+                      style="-webkit-transform: translate3d(-100%,0,0); transform: translate3d(-100%,0,0); transition-duration: 350ms;"
                     >
                       <li
                         class="slide"
@@ -671,7 +671,7 @@ exports[`should render pages/Experiences component 1`] = `
                 >
                   <ul
                     class="slider animated"
-                    style="transform: translate3d(-100%,0,0); transition-duration: 350ms;"
+                    style="-webkit-transform: translate3d(-100%,0,0); transform: translate3d(-100%,0,0); transition-duration: 350ms;"
                   >
                     <li
                       class="slide"
@@ -1276,7 +1276,7 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
                   >
                     <ul
                       class="slider animated"
-                      style="transform: translate3d(-100%,0,0); transition-duration: 350ms;"
+                      style="-webkit-transform: translate3d(-100%,0,0); transform: translate3d(-100%,0,0); transition-duration: 350ms;"
                     >
                       <li
                         class="slide"
@@ -1540,6 +1540,7 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
                 </button>
                 <div
                   class="bg-green-600 text-white rounded-full p-3 absolute bottom-3 left-[20%] md:left-[32%] xl:left-[38%] text-center"
+                  style="opacity: 0%;"
                 >
                   Succesfully added
                 </div>
@@ -1853,7 +1854,7 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
                 >
                   <ul
                     class="slider animated"
-                    style="transform: translate3d(-100%,0,0); transition-duration: 350ms;"
+                    style="-webkit-transform: translate3d(-100%,0,0); transform: translate3d(-100%,0,0); transition-duration: 350ms;"
                   >
                     <li
                       class="slide"
@@ -2117,6 +2118,7 @@ exports[`should render pages/Experiences component with shopping cart button 1`]
               </button>
               <div
                 class="bg-green-600 text-white rounded-full p-3 absolute bottom-3 left-[20%] md:left-[32%] xl:left-[38%] text-center"
+                style="opacity: 0%;"
               >
                 Succesfully added
               </div>

@@ -195,6 +195,7 @@ exports[`should render ComboBox component with added items to shopping cart 1`] 
         </button>
         <div
           class="bg-green-600 text-white rounded-full p-3 absolute bottom-3 left-[20%] md:left-[32%] xl:left-[38%] text-center"
+          style="opacity: 0%;"
         >
           Succesfully added
         </div>
@@ -245,6 +246,7 @@ exports[`should render ComboBox component with added items to shopping cart 1`] 
       </button>
       <div
         class="bg-green-600 text-white rounded-full p-3 absolute bottom-3 left-[20%] md:left-[32%] xl:left-[38%] text-center"
+        style="opacity: 0%;"
       >
         Succesfully added
       </div>

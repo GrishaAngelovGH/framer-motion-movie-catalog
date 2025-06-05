@@ -61,6 +61,7 @@ exports[`should render pages/Favorites component 1`] = `
         >
           <div
             class="min-h-full p-10"
+            style="background: linear-gradient(180deg, rgb(30, 64, 175) 0%, rgb(30, 64, 175) 100%);"
           >
             <div
               class="flex flex-col justify-center items-center text-white text-center"
@@ -140,6 +141,7 @@ exports[`should render pages/Favorites component 1`] = `
       >
         <div
           class="min-h-full p-10"
+          style="background: linear-gradient(180deg, rgb(30, 64, 175) 0%, rgb(30, 64, 175) 100%);"
         >
           <div
             class="flex flex-col justify-center items-center text-white text-center"
